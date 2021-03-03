@@ -10,8 +10,8 @@ public class Program
         string password = Console.ReadLine();
 
         // generate a 128-bit salt using a secure PRNG
-        byte[] salt = new byte[128 / 8];
-        using (var rng = RandomNumberGenerator.Create())
+        byte[] salt = new byte[128 / 8]; // genera una variable de 128 bits
+        using (var rng = RandomNumberGenerator.Create()) // le asigna un valor aleatrio de 128 bits a la variable para usarlo de frase para el hash
         {
             rng.GetBytes(salt);
         }
@@ -23,7 +23,7 @@ public class Program
             salt: salt,
             prf: KeyDerivationPrf.HMACSHA1,
             iterationCount: 10000,
-            numBytesRequested: 256 / 8));
+            numBytesRequested: 256 / 8));   // genera el pass hasheado
         Console.WriteLine($"Hashed: {hashed}");
         Console.ReadLine();
     }
