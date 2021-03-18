@@ -1,0 +1,134 @@
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\Viajar360.dll.config
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\Viajar360.dll
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\Viajar360.pdb
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\csc.exe
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\csc.exe.config
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\csc.rsp
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\csi.exe
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\csi.exe.config
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\csi.rsp
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\System.Buffers.dll
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\System.Memory.dll
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\vbc.exe
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\vbc.exe.config
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\vbc.rsp
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\VBCSCompiler.exe
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\Antlr3.Runtime.dll
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\Newtonsoft.Json.dll
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\System.Web.Helpers.dll
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\System.Web.Mvc.dll
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\System.Web.Optimization.dll
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\System.Web.Razor.dll
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\System.Web.WebPages.dll
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\System.Web.WebPages.Razor.dll
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\WebGrease.dll
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\Newtonsoft.Json.xml
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\System.Web.Helpers.xml
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\System.Web.Mvc.xml
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\System.Web.Optimization.xml
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\System.Web.Razor.xml
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\System.Web.WebPages.xml
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\System.Web.WebPages.Razor.xml
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\Antlr3.Runtime.pdb
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\es\System.Web.Razor.resources.dll
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\obj\Debug\Viajar360.csprojAssemblyReference.cache
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\obj\Debug\Viajar360.csproj.CoreCompileInputs.cache
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\obj\Debug\Viajar360.csproj.CopyComplete
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\obj\Debug\Viajar360.dll
+C:\Users\Gui Salinas\Documents\Develop\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\obj\Debug\Viajar360.pdb
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\Viajar360.dll.config
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\Viajar360.dll
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\Viajar360.pdb
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\csc.exe
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\csc.exe.config
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\csc.rsp
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\csi.exe
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\csi.exe.config
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\csi.rsp
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\System.Buffers.dll
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\System.Memory.dll
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\vbc.exe
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\vbc.exe.config
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\vbc.rsp
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\VBCSCompiler.exe
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\Antlr3.Runtime.dll
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\Newtonsoft.Json.dll
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\System.Web.Helpers.dll
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\System.Web.Mvc.dll
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\System.Web.Optimization.dll
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\System.Web.Razor.dll
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\System.Web.WebPages.dll
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\System.Web.WebPages.Razor.dll
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\WebGrease.dll
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\Newtonsoft.Json.xml
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\System.Web.Helpers.xml
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\System.Web.Mvc.xml
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\System.Web.Optimization.xml
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\System.Web.Razor.xml
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\System.Web.WebPages.xml
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\System.Web.WebPages.Razor.xml
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\Antlr3.Runtime.pdb
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\es\System.Web.Razor.resources.dll
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\obj\Debug\Viajar360.csprojAssemblyReference.cache
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\obj\Debug\Viajar360.csproj.CoreCompileInputs.cache
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\obj\Debug\Viajar360.csproj.CopyComplete
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\obj\Debug\Viajar360.dll
+C:\Users\Veronica\Source\Repos\proyecto-g2d-proyecto-g2d\viajar360\SourceER\Viajar360\Viajar360\obj\Debug\Viajar360.pdb
