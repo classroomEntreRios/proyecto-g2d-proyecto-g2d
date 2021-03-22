@@ -197,6 +197,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Bundles\favicon.ico" />
+    <Content Include="Bundles\index.html" />
+    <Content Include="Bundles\main.js" />
+    <Content Include="Bundles\polyfills.js" />
+    <Content Include="Bundles\runtime.js" />
+    <Content Include="Bundles\styles.css" />
+    <Content Include="Bundles\vendor.js" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -241,6 +248,11 @@
     <Content Include="Models\TokenDB.edmx.diagram">
       <DependentUpon>TokenDB.edmx</DependentUpon>
     </Content>
+    <Content Include="Bundles\main.js.map" />
+    <Content Include="Bundles\polyfills.js.map" />
+    <Content Include="Bundles\runtime.js.map" />
+    <Content Include="Bundles\styles.css.map" />
+    <Content Include="Bundles\vendor.js.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />

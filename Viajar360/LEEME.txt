@@ -1,0 +1,3 @@
+#El backend va a bajar todos los paquetes la primera vez que compile(sino hay que subir 200Mb)
+#El front end es solo lo que se necesita modificar, necesita los paquetes de node(crea una nueva app o usa una vieja y remplaza la carpeta src y angular.json con los de este proyecto)
+#IMPORTANTE SACA LAS COSAS DE LA CARPETA DEL GIT Y CORRELAS AFUERA PORQUE POR ALGUN MOTIVO SINO VISUAL STUDIO NO ANDA BIEN
