@@ -61,11 +61,14 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+<<<<<<< HEAD
     <Reference Include="System.Linq, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Linq.4.3.0\lib\net463\System.Linq.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
+=======
+>>>>>>> 62734f8b2c9c9c05bf8d1f531ed11794c4f7f787
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
     <Reference Include="System.Web.DynamicData" />
@@ -197,6 +200,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Content Include="Bundles\favicon.ico" />
     <Content Include="Bundles\index.html" />
     <Content Include="Bundles\main.js" />
@@ -204,6 +208,8 @@
     <Content Include="Bundles\runtime.js" />
     <Content Include="Bundles\styles.css" />
     <Content Include="Bundles\vendor.js" />
+=======
+>>>>>>> 62734f8b2c9c9c05bf8d1f531ed11794c4f7f787
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -248,11 +254,14 @@
     <Content Include="Models\TokenDB.edmx.diagram">
       <DependentUpon>TokenDB.edmx</DependentUpon>
     </Content>
+<<<<<<< HEAD
     <Content Include="Bundles\main.js.map" />
     <Content Include="Bundles\polyfills.js.map" />
     <Content Include="Bundles\runtime.js.map" />
     <Content Include="Bundles\styles.css.map" />
     <Content Include="Bundles\vendor.js.map" />
+=======
+>>>>>>> 62734f8b2c9c9c05bf8d1f531ed11794c4f7f787
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />

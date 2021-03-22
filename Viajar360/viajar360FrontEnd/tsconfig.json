@@ -4,6 +4,13 @@
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
+<<<<<<< HEAD
+=======
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+>>>>>>> 62734f8b2c9c9c05bf8d1f531ed11794c4f7f787
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
@@ -18,6 +25,13 @@
     ]
   },
   "angularCompilerOptions": {
+<<<<<<< HEAD
     "enableI18nLegacyMessageIdFormat": false
+=======
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": true
+>>>>>>> 62734f8b2c9c9c05bf8d1f531ed11794c4f7f787
   }
 }

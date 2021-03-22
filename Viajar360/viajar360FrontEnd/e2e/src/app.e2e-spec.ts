@@ -10,7 +10,11 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', async () => {
     await page.navigateTo();
+<<<<<<< HEAD
     expect(await page.getTitleText()).toEqual('Viajar360FrontEnd app is running!');
+=======
+    expect(await page.getTitleText()).toEqual('viajar360FrontEnd app is running!');
+>>>>>>> 62734f8b2c9c9c05bf8d1f531ed11794c4f7f787
   });
 
   afterEach(async () => {

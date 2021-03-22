@@ -1,6 +1,10 @@
 # Viajar360FrontEnd
 
+<<<<<<< HEAD
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.3.
+=======
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.1.
+>>>>>>> 62734f8b2c9c9c05bf8d1f531ed11794c4f7f787
 
 ## Development server
 

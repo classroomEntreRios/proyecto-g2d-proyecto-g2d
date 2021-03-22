@@ -3,9 +3,19 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+<<<<<<< HEAD
     "Viajar360FrontEnd": {
       "projectType": "application",
       "schematics": {},
+=======
+    "viajar360FrontEnd": {
+      "projectType": "application",
+      "schematics": {
+        "@schematics/angular:application": {
+          "strict": true
+        }
+      },
+>>>>>>> 62734f8b2c9c9c05bf8d1f531ed11794c4f7f787
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -13,7 +23,11 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+<<<<<<< HEAD
             "outputPath": "dist/Viajar360FrontEnd",
+=======
+            "outputPath": "dist/viajar360FrontEnd",
+>>>>>>> 62734f8b2c9c9c05bf8d1f531ed11794c4f7f787
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -24,7 +38,10 @@
               "src/assets"
             ],
             "styles": [
+<<<<<<< HEAD
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
+=======
+>>>>>>> 62734f8b2c9c9c05bf8d1f531ed11794c4f7f787
               "src/styles.css"
             ],
             "scripts": []
@@ -47,6 +64,7 @@
               "budgets": [
                 {
                   "type": "initial",
+<<<<<<< HEAD
                   "maximumWarning": "2mb",
                   "maximumError": "5mb"
                 },
@@ -54,6 +72,15 @@
                   "type": "anyComponentStyle",
                   "maximumWarning": "6kb",
                   "maximumError": "10kb"
+=======
+                  "maximumWarning": "500kb",
+                  "maximumError": "1mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "2kb",
+                  "maximumError": "4kb"
+>>>>>>> 62734f8b2c9c9c05bf8d1f531ed11794c4f7f787
                 }
               ]
             }
@@ -62,18 +89,30 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
+<<<<<<< HEAD
             "browserTarget": "Viajar360FrontEnd:build"
           },
           "configurations": {
             "production": {
               "browserTarget": "Viajar360FrontEnd:build:production"
+=======
+            "browserTarget": "viajar360FrontEnd:build"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "viajar360FrontEnd:build:production"
+>>>>>>> 62734f8b2c9c9c05bf8d1f531ed11794c4f7f787
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
+<<<<<<< HEAD
             "browserTarget": "Viajar360FrontEnd:build"
+=======
+            "browserTarget": "viajar360FrontEnd:build"
+>>>>>>> 62734f8b2c9c9c05bf8d1f531ed11794c4f7f787
           }
         },
         "test": {
@@ -110,16 +149,28 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
+<<<<<<< HEAD
             "devServerTarget": "Viajar360FrontEnd:serve"
           },
           "configurations": {
             "production": {
               "devServerTarget": "Viajar360FrontEnd:serve:production"
+=======
+            "devServerTarget": "viajar360FrontEnd:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "viajar360FrontEnd:serve:production"
+>>>>>>> 62734f8b2c9c9c05bf8d1f531ed11794c4f7f787
             }
           }
         }
       }
     }
   },
+<<<<<<< HEAD
   "defaultProject": "Viajar360FrontEnd"
+=======
+  "defaultProject": "viajar360FrontEnd"
+>>>>>>> 62734f8b2c9c9c05bf8d1f531ed11794c4f7f787
 }

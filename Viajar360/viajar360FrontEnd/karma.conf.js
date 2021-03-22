@@ -25,7 +25,11 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
+<<<<<<< HEAD
       dir: require('path').join(__dirname, './coverage/Viajar360FrontEnd'),
+=======
+      dir: require('path').join(__dirname, './coverage/viajar360FrontEnd'),
+>>>>>>> 62734f8b2c9c9c05bf8d1f531ed11794c4f7f787
       subdir: '.',
       reporters: [
         { type: 'html' },

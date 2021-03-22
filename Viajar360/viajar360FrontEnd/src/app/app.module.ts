@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+<<<<<<< HEAD
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
@@ -31,6 +32,18 @@ import { UserNavComponent } from './user-nav/user-nav.component';
     BrowserModule,
     AppRoutingModule,
     NgbModule
+=======
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
+
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule
+>>>>>>> 62734f8b2c9c9c05bf8d1f531ed11794c4f7f787
   ],
   providers: [],
   bootstrap: [AppComponent]
