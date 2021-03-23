@@ -1,16 +1,35 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AppRoutingModule } from './app-routing.module';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { CarouselHomeComponent } from './components/carousel-home/carousel-home.component';
+import { FooterHomeComponent } from './components/footer-home/footer-home.component';
+import { GeneralNavComponent } from './components/general-nav/general-nav.component';
+import { InfoHomeComponent } from './components/info-home/info-home.component';
+import { InicioComponent } from './components/inicio/inicio.component';
+import { UserDashboardComponent } from './components/user-dashboard/user-dashboard.component';
+import { UserFavsComponent } from './components/user-favs/user-favs.component';
+import { UserInfoComponent } from './components/user-info/user-info.component';
+import { UserNavComponent } from './components/user-nav/user-nav.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CarouselHomeComponent,
+    FooterHomeComponent,
+    GeneralNavComponent,
+    InfoHomeComponent,
+    InicioComponent,
+    UserDashboardComponent,
+    UserFavsComponent,
+    UserInfoComponent,
+    UserNavComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
