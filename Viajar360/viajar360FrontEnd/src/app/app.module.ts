@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarouselHomeComponent } from './carousel-home/carousel-home.component';
 import { FooterHomeComponent } from './footer-home/footer-home.component';
 import { GeneralNavComponent } from './general-nav/general-nav.component';
@@ -31,7 +32,7 @@ import { RegistroComponent } from './registro/registro.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
