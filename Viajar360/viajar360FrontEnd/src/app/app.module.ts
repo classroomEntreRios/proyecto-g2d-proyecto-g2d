@@ -13,6 +13,9 @@ import { UserFavsComponent } from './user-favs/user-favs.component';
 import { UserInfoComponent } from './user-info/user-info.component';
 import { UserNavComponent } from './user-nav/user-nav.component';
 import { RegistroComponent } from './registro/registro.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { RouterModule } from '@angular/router';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -28,11 +31,14 @@ import { RegistroComponent } from './registro/registro.component';
     UserInfoComponent,
     UserNavComponent,
     RegistroComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    ReactiveFormsModule,
+         
   ],
   providers: [],
   bootstrap: [AppComponent]

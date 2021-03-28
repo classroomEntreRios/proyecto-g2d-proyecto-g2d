@@ -1,1 +1,33 @@
-<p>registro works!</p>
+
+
+<div class="container">
+  <form novalidate [formGroup]="user">
+    <label>
+      <span>Usuario</span>
+      <input type="text" placeholder="Nombre de usuario" formControlName="username">
+      <div class="error" *ngIf="user.get('username').hasError('required') && user.get('username').touched">
+        Usuario requerido
+      </div>
+    </label>
+    <label>
+      <span>Contraseña</span>
+      <input type="password" placeholder="Ingrese contraseña" formControlName="password">
+      <div *ngIf="f.password.touched && f.password.invalid" class="alert alert-danger">
+        <div *ngIf="f.password.errors.required">Contraseña es requerida.</div>
+      </div>
+    </label>
+    <label>
+      <span>Confirme contraseña</span>
+      <input type="password" placeholder="Confirme su contraseña" formControlName="repitepassword">
+      <div *ngIf="f.confirmpassword.touched && f.confirmpassword.invalid" class="alert alert-danger">
+        <div *ngIf="f.confirmpassword.errors.required">Contraseña es requerida.</div>
+        <div *ngIf="f.confirmpassword.errors.confirmedValidator">Contraseña y confirmación deben coincidir.</div>
+      </div>
+    </label>
+    <label>
+      <span>Correo electrónico</span>
+      <input type="text" placeholder="Ingrese su mail" formControlName="mail">
+    </label>
+
+    <button class="btn btn-primary" type="submit" [disabled]="!user.valid">Registrarse</button>
+  </form>
