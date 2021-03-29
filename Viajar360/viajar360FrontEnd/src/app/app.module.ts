@@ -1,7 +1,10 @@
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule, ComponentesRouting } from './app-routing.module';
+import { HttpClientModule } from '@angular/common/http';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarouselHomeComponent } from './components/carousel-home/carousel-home.component';
 import { FooterHomeComponent } from './components/footer-home/footer-home.component';
@@ -12,6 +15,7 @@ import { UserDashboardComponent } from './components/user-dashboard/user-dashboa
 import { UserFavsComponent } from './components/user-favs/user-favs.component';
 import { UserInfoComponent } from './components/user-info/user-info.component';
 import { UserNavComponent } from './components/user-nav/user-nav.component';
+import { CookieService } from 'ngx-cookie-service';
 
 @NgModule({
   declarations: [
@@ -24,14 +28,18 @@ import { UserNavComponent } from './components/user-nav/user-nav.component';
     UserDashboardComponent,
     UserFavsComponent,
     UserInfoComponent,
-    UserNavComponent
+    UserNavComponent,
+    ComponentesRouting,
   ],
   imports: [
+    FormsModule,
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    HttpClientModule,
+    ReactiveFormsModule,
   ],
-  providers: [],
+  providers: [CookieService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

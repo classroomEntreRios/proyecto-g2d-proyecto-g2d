@@ -1,5 +1,9 @@
-<app-general-nav></app-general-nav>
-
+<div *ngIf="ingreso == false">
+  <app-general-nav></app-general-nav>
+</div>
+<div *ngIf="ingreso == true">
+  <app-user-nav></app-user-nav>
+</div>
 <div id="page-container">
    <div id="content-wrap">
     <div class="container"> 
