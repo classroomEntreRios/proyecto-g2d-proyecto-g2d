@@ -16,6 +16,7 @@ import { RegistroComponent } from './registro/registro.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { LoginComponent } from './login/login.component';
+import { HttpClientModule} from '@angular/common/http';
 
 
 @NgModule({
@@ -32,12 +33,14 @@ import { LoginComponent } from './login/login.component';
     UserNavComponent,
     RegistroComponent,
     LoginComponent,
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
     ReactiveFormsModule,
+    HttpClientModule
          
   ],
   providers: [],

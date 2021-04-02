@@ -25,7 +25,6 @@ namespace viajar360BackEnd
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
-<<<<<<< HEAD
 
             bundles.Add(new Bundle("~/Script/Bundles").Include(
                       "~/bundles/inline.*",
@@ -37,8 +36,6 @@ namespace viajar360BackEnd
                       "~/bundles/main.*"));
 
             bundles.Add(new StyleBundle("~/Content/Styles").Include("~/bundles/styles.*"));
-=======
->>>>>>> 62734f8b2c9c9c05bf8d1f531ed11794c4f7f787
         }
     }
 }

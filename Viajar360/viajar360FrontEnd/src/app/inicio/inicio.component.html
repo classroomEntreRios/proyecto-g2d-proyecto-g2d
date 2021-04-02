@@ -1,9 +1,28 @@
 <app-general-nav></app-general-nav>
 
-<br>
-<br>
-<br>
-<br>
+<div class="container p-4">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card card-baby">
+        <form (submit)="submitciudad(ciudad,codigo)">
+          <input type="text" class="form-control" placeholder="Ciudad" #ciudad>
+          <input type="text" class="form-control" placeholder="Código ciudad" #codigo>
+          <button class="btn btn-primary btn-block mt-2"> Buscar clima</button>
+        </form>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div *ngIf="clima" class="card card-baby">
+        <p> Temperatura: {{clima.main.temp}} °C</p>
+        <p> Longitud: {{clima.coord.lon}} </p>
+        <p> Latitud: {{clima.coord.lat}} </p>
+        <p> Humedad: {{clima.main.humidity}} </p>
+        <p> Presión: {{clima.main.pressure}} </p>
+        
+      </div>
+    </div>
+  </div>
+</div>
 
 <div class="container">
   <div class="row">
@@ -14,11 +33,6 @@
       <app-carousel-home></app-carousel-home>
     </div>
   </div>
-
-  <br>
-  <br>
-  <br>
-  <br>
 
   <div class="row">
     <app-footer-home></app-footer-home>
