@@ -16,6 +16,7 @@ import { UserFavsComponent } from './components/user-favs/user-favs.component';
 import { UserInfoComponent } from './components/user-info/user-info.component';
 import { UserNavComponent } from './components/user-nav/user-nav.component';
 import { CookieService } from 'ngx-cookie-service';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { CookieService } from 'ngx-cookie-service';
     NgbModule,
     HttpClientModule,
     ReactiveFormsModule,
+    FontAwesomeModule,
   ],
   providers: [CookieService],
   bootstrap: [AppComponent]

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { WheaterService } from '../services/wheater.service';
+import { WheaterService } from 'src/app/services/wheater.service';
 
 @Component({
   selector: 'app-inicio',
