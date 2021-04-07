@@ -1,23 +1,25 @@
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule, ComponentesRouting } from './app-routing.module';
+import { HttpClientModule } from '@angular/common/http';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { CarouselHomeComponent } from './carousel-home/carousel-home.component';
-import { FooterHomeComponent } from './footer-home/footer-home.component';
-import { GeneralNavComponent } from './general-nav/general-nav.component';
-import { InfoHomeComponent } from './info-home/info-home.component';
-import { InicioComponent } from './inicio/inicio.component';
-import { UserDashboardComponent } from './user-dashboard/user-dashboard.component';
-import { UserFavsComponent } from './user-favs/user-favs.component';
-import { UserInfoComponent } from './user-info/user-info.component';
-import { UserNavComponent } from './user-nav/user-nav.component';
+import { CarouselHomeComponent } from './components/carousel-home/carousel-home.component';
+import { FooterHomeComponent } from './components/footer-home/footer-home.component';
+import { GeneralNavComponent } from './components/general-nav/general-nav.component';
+import { InfoHomeComponent } from './components/info-home/info-home.component';
+import { InicioComponent } from './components/inicio/inicio.component';
+import { UserDashboardComponent } from './components/user-dashboard/user-dashboard.component';
+import { UserFavsComponent } from './components/user-favs/user-favs.component';
+import { UserInfoComponent } from './components/user-info/user-info.component';
+import { UserNavComponent } from './components/user-nav/user-nav.component';
+import { CookieService } from 'ngx-cookie-service';
 import { RegistroComponent } from './registro/registro.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { LoginComponent } from './login/login.component';
-import { HttpClientModule} from '@angular/common/http';
-
 
 @NgModule({
   declarations: [
@@ -33,17 +35,20 @@ import { HttpClientModule} from '@angular/common/http';
     UserNavComponent,
     RegistroComponent,
     LoginComponent,
+    ComponentesRouting,
 
   ],
   imports: [
+    FormsModule,
     BrowserModule,
     AppRoutingModule,
     NgbModule,
     ReactiveFormsModule,
     HttpClientModule
-         
+        
+
   ],
-  providers: [],
+  providers: [CookieService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

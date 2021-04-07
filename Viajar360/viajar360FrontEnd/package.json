@@ -1,5 +1,5 @@
 {
-  "name": "viajar360-front-end",
+  "name": "angular",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -11,26 +11,27 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "~11.2.4",
-    "@angular/common": "~11.2.4",
-    "@angular/compiler": "~11.2.4",
-    "@angular/core": "~11.2.4",
-    "@angular/forms": "~11.2.4",
-    "@angular/localize": "~11.2.4",
-    "@angular/platform-browser": "~11.2.4",
-    "@angular/platform-browser-dynamic": "~11.2.4",
-    "@angular/router": "~11.2.4",
-    "@fortawesome/fontawesome-free": "^5.15.3",
-    "@ng-bootstrap/ng-bootstrap": "^9.1.0",
-    "bootstrap": "^4.5.0",
+
+    "@angular/animations": "~11.2.1",
+    "@angular/common": "~11.2.1",
+    "@angular/compiler": "~11.2.1",
+    "@angular/core": "~11.2.1",
+    "@angular/forms": "~11.2.1",
+    "@angular/localize": "~11.2.1",
+    "@angular/platform-browser": "~11.2.1",
+    "@angular/platform-browser-dynamic": "~11.2.1",
+    "@angular/router": "~11.2.1",
+    "@ng-bootstrap/ng-bootstrap": "^9.0.2",
+    "bootstrap": "^4.6.0",
+    "ngx-cookie-service": "^11.0.2",
+
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.3"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.1102.3",
-    "@angular/cli": "~11.2.3",
-    "@angular/compiler-cli": "~11.2.4",
+
+
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.11.1",
     "codelyzer": "^6.0.0",

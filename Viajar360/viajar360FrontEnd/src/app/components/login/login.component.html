@@ -1,0 +1,36 @@
+
+<div class="login">
+    <form class="custom-form" method="post" [formGroup]="Forumulario" (ngSubmit)="login()">
+      <h1>Login</h1>
+      <div>
+        <input
+        type="text"
+        formControlName="Usuario"
+        placeholder="Usuario"
+        required="required"
+        />
+      </div>
+      <div *ngIf="f.Usuario.touched && f.Usuario.invalid" class="alert alert-danger">
+          <div *ngIf="f.Usuario.errors.required">Ingrese un Usuario</div>
+          <div *ngIf="f.Usuario.errors.minlength">El usuario debe tener 8 caracteres como minimo</div>
+      </div>
+      <div>
+        <input
+          type="password"
+          formControlName="Pass"
+          placeholder="Password"
+          required="required"
+        />
+      </div>
+      <div *ngIf="f.Pass.touched && f.Pass.invalid" class="alert alert-danger">
+        <div *ngIf="f.Pass.errors.required">Ingrese la contraseña</div>
+        <div *ngIf="f.Pass.errors.minlength">La contraseña tiene que tener 8 caracteres como minimo</div>
+        <div *ngIf="f.Pass.errors.maxlength">La contraña tiene un maximo de 50 caracteres</div>
+        <div *ngIf="f.Pass.errors.pattern">La contraseña requiere por lo menos una mayuscula, una minuscula y un numero</div>
+      </div>
+      <div>
+        <button type="submit" [disabled]="!Forumulario.valid">Log in</button>
+      </div>
+      <div *ngIf="resp.error == true" class="alert alert-danger">{{resp.reporte}}</div>
+    </form>
+  </div>
