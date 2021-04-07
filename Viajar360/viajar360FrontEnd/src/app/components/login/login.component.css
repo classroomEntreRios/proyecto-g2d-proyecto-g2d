@@ -1,0 +1,61 @@
+form {
+    display: grid;
+    background: #fceabb;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f8b500, #fceabb);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f8b500, #fceabb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    border: 1px solid #c1c1c1;
+    margin: 2rem auto 0 auto;
+    width: 500px;
+    padding: 0.5em;
+   
+  }
+  form input {
+    background: #fff;
+    border: 1px solid #9c9c9c;
+    width: 300pxs;
+
+  }
+  form button {
+    background: lightgrey;
+    padding: 0.7em;
+    width: 50%;
+    border: 1;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  form button:hover {
+    background: gold;
+  }
+  
+  label {
+    padding: 0.5em 0.5em 0.5em 0;
+    width: 300px;
+    
+    font-family: fantasy;
+ 
+  }
+  
+  input {
+    padding: 0.5em;
+    height: 40px;
+    width: 400px;
+    background-color: powderblue;
+
+  }
+  input:focus {
+    outline: 3px solid gold;
+  }
+
+  .container {
+  
+    height: 600px;
+    width: 800px;
+    background-image: url('../../assets/images/nog-registro.jpg');
+
+
+  }
+
+  
