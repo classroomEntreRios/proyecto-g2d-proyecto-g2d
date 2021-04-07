@@ -1,4 +1,4 @@
-
+<div class="container">
 <div class="login">
     <form class="custom-form" method="post" [formGroup]="Forumulario" (ngSubmit)="login()">
       <h1>Login</h1>
@@ -34,3 +34,4 @@
       <div *ngIf="resp.error == true" class="alert alert-danger">{{resp.reporte}}</div>
     </form>
   </div>
+</div>

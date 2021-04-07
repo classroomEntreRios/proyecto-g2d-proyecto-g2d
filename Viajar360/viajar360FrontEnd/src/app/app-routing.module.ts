@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { UserDashboardComponent } from './components/user-dashboard/user-dashboard.component';
 import { LoginComponent } from './components/login/login.component';
 import { LogoffComponent } from './components/logoff/logoff.component';
+import { RegistroComponent } from './components/registro/registro.component';
 
 
 const routes: Routes = [
@@ -11,6 +12,8 @@ const routes: Routes = [
   { path: 'user', component: UserDashboardComponent},
   { path: 'login', component: LoginComponent},
   { path: 'salida', component: LogoffComponent},
+  { path: 'registro', component: RegistroComponent},
+  
   { path: '', redirectTo: 'home',pathMatch: 'full'}
 ];
 
@@ -20,4 +23,4 @@ const routes: Routes = [
 })
   
 export class AppRoutingModule { }
-export const ComponentesRouting = [LoginComponent,LogoffComponent];
+export const ComponentesRouting = [LoginComponent,LogoffComponent,RegistroComponent];
