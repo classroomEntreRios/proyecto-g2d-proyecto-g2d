@@ -90,7 +90,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": ["src/fontawesome/all.js"]
           }
         },
         "lint": {
