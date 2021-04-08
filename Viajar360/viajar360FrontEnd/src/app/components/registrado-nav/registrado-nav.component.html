@@ -1,0 +1,43 @@
+<div class="container">
+    <div class="row">
+      <div class="col-lg">
+  
+        <nav nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffb347;">
+  
+          <a class="navbar-brand" routerLink="/home" routerLinkActive="active"><img src="..\assets\Logo.gif"></a>
+  
+          <button class="navbar-toggler" type="button" (click)="isMenuCollapsed = !isMenuCollapsed">
+              &#9776;
+         </button>
+  
+          <div class="container">
+  
+  
+            <div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse">
+              <ul class="navbar-nav ml-md-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><button type="button" class="btn btn-primary">Ciudades</button></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><button type="button" class="btn btn-primary">Lugares
+                      de interes</button></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" routerLink="/perfil-usuario" routerLinkActive="active" ><button type="button" class="btn btn-primary">Perfil</button></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" ><button type="button" class="btn btn-primary">Foro</button></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" ><button type="button" class="btn btn-primary">Chat</button></a>
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+  
+  
+    </div>
+  </div>
+  

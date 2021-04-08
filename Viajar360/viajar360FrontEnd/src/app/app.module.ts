@@ -17,6 +17,9 @@ import { UserInfoComponent } from './components/user-info/user-info.component';
 import { UserNavComponent } from './components/user-nav/user-nav.component';
 import { CookieService } from 'ngx-cookie-service';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { RegistradoNavComponent } from './components/registrado-nav/registrado-nav.component';
+import { PerfilUsuarioComponent } from './components/perfil-usuario/perfil-usuario.component';
+import { LogueadoComponent } from './components/logueado/logueado.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +34,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     UserInfoComponent,
     UserNavComponent,
     ComponentesRouting,
+    RegistradoNavComponent,
+    PerfilUsuarioComponent,
+    LogueadoComponent,
   ],
   imports: [
     FormsModule,

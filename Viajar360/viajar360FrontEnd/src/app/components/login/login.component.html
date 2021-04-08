@@ -29,8 +29,8 @@
         <div *ngIf="f.Pass.errors.pattern">La contraseña requiere por lo menos una mayuscula, una minuscula y un numero</div>
       </div>
       <div>
-        <button type="submit" [disabled]="!Forumulario.valid">Log in</button>
-      </div>
+        <button type="submit" [disabled]="!Forumulario.valid" routerLink="/logueado" routerLinkActive="active" >Log in</button>
+       </div>
       <div *ngIf="resp.error == true" class="alert alert-danger">{{resp.reporte}}</div>
     </form>
   </div>

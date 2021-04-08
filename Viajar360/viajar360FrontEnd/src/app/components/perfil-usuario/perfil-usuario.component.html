@@ -1,0 +1,41 @@
+<app-registrado-nav></app-registrado-nav>
+
+<div class="container">
+    <form novalidate [formGroup]="user">
+        <label>
+            <span>Apellido</span>
+            <input type="text" placeholder="Apellido" formControlName="apellido">
+
+        </label>
+        <label>
+            <span>Nombre</span>
+            <input type="text" placeholder="Nombre" formControlName="nombre">
+        </label>
+        <label>
+            <span>Dirección</span>
+            <input type="text" placeholder="Dirección" formControlName="direccion">
+
+        </label>
+        <label>
+            <span>Teléfono</span>
+            <input type="text" placeholder="Teléfono" formControlName="telefono">
+        </label>
+        <label>
+            <span>Localidad</span>
+            <input type="text" placeholder="Localidad" formControlName="localidad">
+
+        </label>
+        <label>
+            <span>Provincia</span>
+            <input type="text" placeholder="Provincia" formControlName="provincia">
+        </label>
+        <label>
+            <span>Foto de perfil</span>
+        <!-- Falta la imagen de perfil -->
+
+
+        </label>
+       
+
+        <button class="btn btn-primary" type="submit" [disabled]="!user.valid">Guardar</button>
+    </form>
