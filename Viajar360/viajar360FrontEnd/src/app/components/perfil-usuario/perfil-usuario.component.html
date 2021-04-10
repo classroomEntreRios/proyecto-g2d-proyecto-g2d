@@ -1,7 +1,7 @@
 <app-registrado-nav></app-registrado-nav>
 
 <div class="container">
-    <form novalidate [formGroup]="user">
+    <form>
         <label>
             <span>Apellido</span>
             <input type="text" placeholder="Apellido" formControlName="apellido">
@@ -37,5 +37,6 @@
         </label>
        
 
-        <button class="btn btn-primary" type="submit" [disabled]="!user.valid">Guardar</button>
+        <button class="btn btn-primary" type="submit" >Guardar</button>
     </form>
+</div>

@@ -13,7 +13,6 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent},
   { path: 'salida', component: LogoffComponent},
   { path: 'registro', component: RegistroComponent},
-  
   { path: '', redirectTo: 'home',pathMatch: 'full'}
 ];
 

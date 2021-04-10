@@ -1,0 +1,18 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\viajar360BackEnd",
+    "\\viajar360BackEnd\\viajar360BackEnd",
+    "\\viajar360BackEnd\\viajar360BackEnd\\App_Start",
+    "\\viajar360BackEnd\\viajar360BackEnd\\Bundles\\assets",
+    "\\viajar360BackEnd\\viajar360BackEnd\\Controllers",
+    "\\viajar360BackEnd\\viajar360BackEnd\\Models",
+    "\\viajar360FrontEnd",
+    "\\viajar360FrontEnd\\src",
+    "\\viajar360FrontEnd\\src\\app",
+    "\\viajar360FrontEnd\\src\\app\\components",
+    "\\viajar360FrontEnd\\src\\app\\components\\perfil-usuario"
+  ],
+  "SelectedNode": "\\viajar360BackEnd\\viajar360BackEnd\\Controllers\\UsuariosController.cs",
+  "PreviewInSolutionExplorer": false
+}
