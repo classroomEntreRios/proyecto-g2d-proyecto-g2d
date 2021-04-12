@@ -49,6 +49,9 @@ export class InicioComponent implements OnInit {
   }
 
   setWeatherData(data){
+    data.main.temp = (data.main.temp - 273.15).toFixed(2);
+    data.main.temp_max = (data.main.temp_max - 273.15).toFixed(2);
+    data.main.temp_min = (data.main.temp_min - 273.15).toFixed(2);
     this.clima = data;
     let sunsetTime = new Date(this.clima.sys.sunset * 1000);
     this.clima.sunset_time = sunsetTime.toLocaleTimeString();
