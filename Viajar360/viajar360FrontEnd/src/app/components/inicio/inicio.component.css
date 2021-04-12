@@ -3,8 +3,8 @@
 #divWeatherMain{
     display: block;
     border-radius: 10%;
-    width: 50%;
-    height: 60%;
+    width: 100%;
+    height: fit-content;
     background: rgb(0,0,0);
     background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(8,7,42,1) 75%, rgb(8, 10, 63) 100%);
     color: white;;
@@ -12,9 +12,14 @@
 }
 
 .weatherWidgetRow{
-    display:block;
-    margin:0 auto;
-    width: fit-content;
+    text-align: center;
+    width: 100%;
+}
+
+#ContenedorInfoClima{
+    height: fit-content;
+    text-align: center;
+    padding-top: 20%;
 }
 
 .sun{

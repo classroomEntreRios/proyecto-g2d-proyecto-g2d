@@ -22,7 +22,9 @@ export class InicioComponent implements OnInit {
     };
     
     this.getWeatherData();
+
     console.log(this.clima);
+    
   }
 
   getWeather(ciudad: string, codigo:  string) {
@@ -60,7 +62,6 @@ export class InicioComponent implements OnInit {
     this.clima.temp_celcius = (this.clima.main.temp);
     this.clima.temp_min = (this.clima.main.temp_min);
     this.clima.temp_max = (this.clima.main.temp_max);
-    
   }
 
   submitciudad(ciudad: HTMLInputElement, codigo: HTMLInputElement) {

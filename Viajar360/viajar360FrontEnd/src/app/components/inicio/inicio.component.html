@@ -12,7 +12,7 @@
       </div>
     </div>
     <div class="col-md-4">
-      <div *ngIf="clima" class="card card-baby">
+      <div *ngIf="clima" class="card">
         <div id="divWeatherMain">
           <div *ngIf="clima.isDay" class="weatherWidgetRow">
             <i class="fas fa-3x fa-sun sun"></i>
@@ -25,15 +25,13 @@
           </div>
           <br>
           <br>
-  
-          <div class="weatherWidgetRow" style="font-size: 32px;margin-top: 5px;">{{clima.main.temp}}°</div>
-          <div class="weatherWidgetRow" style="font-size: 12px;">{{clima.main.temp_min}}° / {{clima.main.temp_max}}
+          <div id="ContenedorInfoClima">
+            <div class="weatherWidgetRow" style="font-size: 32px;margin-top: 5px;">{{clima.main.temp}}°</div>
+            <div class="weatherWidgetRow" style="font-size: 12px;">{{clima.main.temp_min}}° / {{clima.main.temp_max}}</div>
+            <div class="weatherWidgetRow" style="font-size: 25px;margin-top: 10px;">{{clima.name}}</div>
+            <div class="weatherWidgetRow" style="font-size: 12px;">Humedad: {{clima.main.humidity}}%</div>
           </div>
-
-          <div class="weatherWidgetRow" style="font-size: 25px;margin-top: 10px;">{{clima.name}}</div>
-          <div class="weatherWidgetRow" style="font-size: 12px;">Humedad: {{clima.main.humidity}}%</div>
         </div>
-
       </div>
     </div>
   </div>
