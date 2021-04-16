@@ -3,3 +3,5 @@
 #IMPORTANTE SACA LAS COSAS DE LA CARPETA DEL GIT Y CORRELAS AFUERA PORQUE POR ALGUN MOTIVO SINO VISUAL STUDIO NO ANDA BIEN
 #Usar "ng add @ng-bootstrap/ng-bootstrap" para cargar los paquetes de bootstrap en angular
 #Usar "npm install ngx-cookie-service --save" para cargar los paquetes de cookies
+
+# Instalacion del FotnAwesome npm install --save font-awesome angular-font-awesome

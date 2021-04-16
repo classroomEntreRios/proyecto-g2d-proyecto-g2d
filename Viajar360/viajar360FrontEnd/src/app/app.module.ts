@@ -20,6 +20,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { RegistradoNavComponent } from './components/registrado-nav/registrado-nav.component';
 import { PerfilUsuarioComponent } from './components/perfil-usuario/perfil-usuario.component';
 import { LogueadoComponent } from './components/logueado/logueado.component';
+import { CardsHomeComponent } from './components/cards-home/cards-home.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { LogueadoComponent } from './components/logueado/logueado.component';
     RegistradoNavComponent,
     PerfilUsuarioComponent,
     LogueadoComponent,
+    CardsHomeComponent,
   ],
   imports: [
     FormsModule,

@@ -1,5 +1,3 @@
-
-
 #divWeatherMain{
     display: block;
     border-radius: 10%;
@@ -52,4 +50,6 @@
     from{margin-left: -55%;}
     to{margin-left: 65%;}
 }
+
+
 

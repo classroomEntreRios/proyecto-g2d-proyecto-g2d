@@ -1,53 +1,70 @@
 
 <app-general-nav></app-general-nav>
-<div class="container p-4">
-  <div class="row">
-    <div class="col-md-4">
-      <div class="card card-baby">
-        <form (submit)="submitciudad(ciudad,codigo)">
-          <input type="text" class="form-control" placeholder="Ciudad" #ciudad>
-          <input type="hidden" class="form-control" placeholder="Código ciudad" value="Ar" #codigo>
-          <button class="btn btn-warning btn-block mt-2"> Buscar clima</button>
-        </form>
+
+<!--api clima-->
+  <div class="container p-4">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card card-baby">
+          <form (submit)="submitciudad(ciudad,codigo)">
+            <input type="text" class="form-control" placeholder="Ciudad" #ciudad>
+            <input type="hidden" class="form-control" placeholder="Código ciudad" value="Ar" #codigo>
+            <button class="btn btn-warning btn-block mt-2"> Buscar clima</button>
+          </form>
+        </div>
       </div>
-    </div>
-    <div class="col-md-4">
-      <div *ngIf="clima" class="card">
-        <div id="divWeatherMain">
-          <div *ngIf="clima.isDay" class="weatherWidgetRow">
-            <i class="fas fa-3x fa-sun sun"></i>
-          </div>
-          <div *ngIf="!clima.isDay" class="weatherWidgetRow">
-            <i class="fas fa-3x fa-moon moon"></i>
-          </div>
-          <div class="weatherWidgetRow cloudDiv">
-            <i class="fas fa-cloud fa-3x cloud"></i>
-          </div>
-          <br>
-          <br>
-          <div id="ContenedorInfoClima">
-            <div class="weatherWidgetRow" style="font-size: 32px;margin-top: 5px;">{{clima.main.temp}}°</div>
-            <div class="weatherWidgetRow" style="font-size: 12px;">{{clima.main.temp_min}}° / {{clima.main.temp_max}}</div>
-            <div class="weatherWidgetRow" style="font-size: 25px;margin-top: 10px;">{{clima.name}}</div>
-            <div class="weatherWidgetRow" style="font-size: 12px;">Humedad: {{clima.main.humidity}}%</div>
+      <div class="col-md-4">
+        <div *ngIf="clima" class="card">
+          <div id="divWeatherMain">
+            <div *ngIf="clima.isDay" class="weatherWidgetRow">
+              <i class="fas fa-3x fa-sun sun"></i>
+            </div>
+            <div *ngIf="!clima.isDay" class="weatherWidgetRow">
+              <i class="fas fa-3x fa-moon moon"></i>
+            </div>
+            <div class="weatherWidgetRow cloudDiv">
+              <i class="fas fa-cloud fa-3x cloud"></i>
+            </div>
+            <br>
+            <br>
+            <div id="ContenedorInfoClima">
+              <div class="weatherWidgetRow" style="font-size: 32px;margin-top: 5px;">{{clima.main.temp}}°</div>
+              <div class="weatherWidgetRow" style="font-size: 12px;">{{clima.main.temp_min}}° / {{clima.main.temp_max}}</div>
+              <div class="weatherWidgetRow" style="font-size: 25px;margin-top: 10px;">{{clima.name}}</div>
+              <div class="weatherWidgetRow" style="font-size: 12px;">Humedad: {{clima.main.humidity}}%</div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
 
+  <!--Carousel-->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <app-carousel-home></app-carousel-home>
+      </div>
+    </div>
+  </div>
+
+  <!--Información-->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <app-info-home></app-info-home>
+      </div>
+      <div class="col-md-1">
+    </div>
+
+<!--Cards-->
 <div class="container">
   <div class="row">
-    <div class="col-md-8">
-      <app-info-home></app-info-home>
+    <div class="col-md-12">
+      <app-cards-home></app-cards-home>
     </div>
-    <div class="col-md-4">
-      <app-carousel-home></app-carousel-home>
-    </div>
-  </div>
-
-  <div class="row">
-    <app-footer-home></app-footer-home>
   </div>
 </div>
+
+

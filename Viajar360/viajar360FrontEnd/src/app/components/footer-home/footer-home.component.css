@@ -1,4 +1,12 @@
-footer{
-    background: rgb(255,179,0);
-background: linear-gradient(90deg, rgba(255,179,0,1) 23%, rgba(228,138,11,1) 66%, rgba(235,143,14,1) 97%);
+.footer{
+  width: 100%;
+  bottom: 0%;
+  background: rgb(255,179,0);
+  background: linear-gradient(90deg, rgba(255,179,0,1) 23%, rgba(228,138,11,1) 66%, rgba(235,143,14,1) 97%);
+  text-align: center;
+  display: block;
+}
+
+p{
+  padding-top: 1%;
 }
