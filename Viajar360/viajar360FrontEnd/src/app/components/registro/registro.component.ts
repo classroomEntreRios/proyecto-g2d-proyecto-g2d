@@ -28,8 +28,6 @@ export class RegistroComponent implements OnInit {
 
   };
 
-
-
   get f() {
     return this.user.controls;
   }

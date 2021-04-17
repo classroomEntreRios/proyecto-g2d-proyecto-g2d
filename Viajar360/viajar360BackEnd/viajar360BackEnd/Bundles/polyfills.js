@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Gui Salinas\source\repos\proyecto-g2d-proyecto-g2d\Viajar360\viajar360FrontEnd\src\polyfills.ts */"hN/g");
+module.exports = __webpack_require__(/*! E:\proyecto-g2d-proyecto-g2d\Viajar360\viajar360FrontEnd\src\polyfills.ts */"hN/g");
 
 
 /***/ }),

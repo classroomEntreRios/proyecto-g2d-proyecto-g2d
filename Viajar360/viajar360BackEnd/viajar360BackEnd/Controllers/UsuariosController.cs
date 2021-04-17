@@ -8,6 +8,7 @@ using System.Security.Cryptography;
 using System.Web.Http;
 using viajar360BackEnd.Models;
 
+
 namespace viajar360BackEnd.Controllers
 {
     public class ingresoController : ApiController
@@ -164,4 +165,33 @@ namespace viajar360BackEnd.Controllers
             }
         }
     }
+
+    public class PerfilUsuario : ApiController
+    {
+
+        [HttpPut]
+        public IHttpActionResult cambiarPerfil(int idusuario, [FromBody] perfilU perfilU)
+
+            if (ModelState.IsValid)
+    {
+        var perfilUExists = dbContext.UsuariosEntities.Count(c => c.Id == id) > 0;
+ 
+        if (perfilUExists)
+        {                    
+            dbContext.Entry(perfilU).State = EntityState.Modified;
+            dbContext.SaveChanges();
+ 
+            return Ok();
+    }
+        else
+        {
+            return NotFound();
+}
+    }
+    else
+{
+    return BadRequest();
+}
+}
+ 
 }
