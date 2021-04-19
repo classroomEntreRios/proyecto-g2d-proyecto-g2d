@@ -7,8 +7,11 @@ form {
     margin: 1rem auto 0 auto;
     width: 50%;
     padding: 0.3em;
+    
    
   }
+
+
   form input {
     background: #fff;
     border: 1px solid #9c9c9c;
@@ -56,7 +59,22 @@ form {
     background-image: url('../../../assets/Images/fondoPerfil.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    
   }
+
+  .containerperfil{
+  
+    height:50%;
+    width:50%;
+    max-width: 50%;
+    max-height: 50%;
+    align-items: center;
+   
+  }
+  img {
+    width:100%;
+    max-width:400%;
+}
 
   .abs-center {
     display: flex;
@@ -65,3 +83,11 @@ form {
   
    
   }
+
+  .parrafo {
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size:x-large;
+font: italic;
+  }
+  

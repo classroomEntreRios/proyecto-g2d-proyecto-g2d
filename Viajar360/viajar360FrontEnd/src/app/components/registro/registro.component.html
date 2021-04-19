@@ -1,7 +1,8 @@
 
 <app-general-nav></app-general-nav>
-<div id="fondo" class="flex-fill">
+
   <div class="container">
+    <p class="parrafo"> Registro de Usuario</p>
     <form novalidate [formGroup]="user">
       <label>
         <span>Usuario</span>
@@ -32,5 +33,7 @@
 
       <button class="btn btn-primary" type="submit" [disabled]="!user.valid">Registrarse</button>
     </form>
-  </div>
+    <div class="espacio">
+      <br><br><br><br><br><br>
+    </div>
 </div>

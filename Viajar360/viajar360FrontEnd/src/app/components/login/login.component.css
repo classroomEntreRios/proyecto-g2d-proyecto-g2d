@@ -58,9 +58,20 @@ input:focus {
   height: 100%;
   width: 100%;
   background-image: url('../../../assets/images/nog-registro.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
+
 }
+
+.espacio {
+  height: 200%;
+  width: 100%;
+}
+.parrafo {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size:x-large;
+  font: italic;
+    }
 
 
   

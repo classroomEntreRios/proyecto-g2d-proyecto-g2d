@@ -1,39 +1,44 @@
 <app-general-nav></app-general-nav>
-<div class="container">
-<div class="login">
-    <form class="custom-form" method="post" [formGroup]="Forumulario" (ngSubmit)="login()">
-      <h1>Ingreso de usuario</h1>
-      <div>
-        <input 
-        type="text"
-        formControlName="Usuario"
-        placeholder="Usuario"
-        required="required" style="margin-top: 1%"
-        />
-      </div>
-      <div *ngIf="f.Usuario.touched && f.Usuario.invalid" class="alert alert-danger">
+<div class="abs-center">
+ 
+  <div class="container">
+    <div class="login">
+      <p class="parrafo">Ingreso de usuario</p>
+      <form class="custom-form" method="post" [formGroup]="Forumulario" (ngSubmit)="login()">
+        
+        <div>
+          <input type="text" formControlName="Usuario" placeholder="Usuario" required="required"
+            style="margin-top: 1%" />
+        </div>
+        <div *ngIf="f.Usuario.touched && f.Usuario.invalid" class="alert alert-danger">
           <div *ngIf="f.Usuario.errors.required">Ingrese un Usuario</div>
           <div *ngIf="f.Usuario.errors.minlength">El usuario debe tener 8 caracteres como minimo</div>
+        </div>
+
+        <div>
+          <input type="password" formControlName="Pass" placeholder="Password" required="required"
+            style="margin-top: 1%" />
+        </div>
+        <div *ngIf="f.Pass.touched && f.Pass.invalid" class="alert alert-danger">
+          <div *ngIf="f.Pass.errors.required">Ingrese la contraseña</div>
+          <div *ngIf="f.Pass.errors.minlength">La contraseña tiene que tener 8 caracteres como minimo</div>
+          <div *ngIf="f.Pass.errors.maxlength">La contraña tiene un maximo de 50 caracteres</div>
+          <div *ngIf="f.Pass.errors.pattern">La contraseña requiere por lo menos una mayúscula, una minúscula y un
+            número</div>
+        </div>
+        <div>
+          <button type="submit" [disabled]="!Forumulario.valid" routerLink="/logueado" routerLinkActive="active"
+            style="margin-top: 2%">Ingresar</button>
+        </div>
+        <div *ngIf="resp.error == true" class="alert alert-danger">{{resp.reporte}}</div>
+
+      </form>
+      <div class="espacio">
+        <br><br><br><br><br><br><br><br><br><br><br>
       </div>
-      
-      <div>
-        <input
-          type="password"
-          formControlName="Pass"
-          placeholder="Password"
-          required="required" style="margin-top: 1%"
-        />
-      </div>
-      <div *ngIf="f.Pass.touched && f.Pass.invalid" class="alert alert-danger">
-        <div *ngIf="f.Pass.errors.required">Ingrese la contraseña</div>
-        <div *ngIf="f.Pass.errors.minlength">La contraseña tiene que tener 8 caracteres como minimo</div>
-        <div *ngIf="f.Pass.errors.maxlength">La contraña tiene un maximo de 50 caracteres</div>
-        <div *ngIf="f.Pass.errors.pattern">La contraseña requiere por lo menos una mayuscula, una minuscula y un numero</div>
-      </div>
-      <div>
-        <button type="submit" [disabled]="!Forumulario.valid" routerLink="/logueado" routerLinkActive="active" style="margin-top: 4%">Ingresar</button>
-       </div>
-      <div *ngIf="resp.error == true" class="alert alert-danger">{{resp.reporte}}</div>
-    </form>
+
+
+
+    </div>
   </div>
 </div>

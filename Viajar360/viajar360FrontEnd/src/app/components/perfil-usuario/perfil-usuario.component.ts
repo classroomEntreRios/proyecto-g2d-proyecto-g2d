@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup } from '@angular/forms';
 import { Validators } from '@angular/forms';
+import {UploaderService} from '../../services/uploader.service';
 
 
 @Component({
@@ -9,8 +10,16 @@ import { Validators } from '@angular/forms';
   styleUrls: ['./perfil-usuario.component.css']
 })
 export class PerfilUsuarioComponent implements OnInit {
+  progress: number;
+  infoMessage: any;
+  isUploading: boolean = false;
+  file: File;
 
-  constructor() { }
+  imageUrl: string | ArrayBuffer =
+    "https://bulma.io/images/placeholders/480x480.png";
+  fileName: string = "No file selected";
+
+  constructor(private uploader: UploaderService) { }
   user: FormGroup;
 
   ngOnInit(): void {
@@ -18,24 +27,33 @@ export class PerfilUsuarioComponent implements OnInit {
       mail: new FormControl('', [Validators.required, Validators.email]),
       foto: null,
     }),
-
-      this.user.get('foto').valueChanges.subscribe((value) => {
-        if (value !== null && value !== '') {
-          this.imgToBase64((document.querySelector('input[type="file"]') as HTMLInputElement).files[0]);
-        }
-      });
+    this.uploader.progressSource.subscribe(progress => {
+      this.progress = progress;
+    });
   }
 
-  private imgToBase64(file: any) {
+  onChange(file: File) {
     if (file) {
+      this.fileName = file.name;
+      this.file = file;
+
       const reader = new FileReader();
-      reader.onload = this.toBase64.bind(this);
-      reader.readAsBinaryString(file);
+      reader.readAsDataURL(file);
+
+      reader.onload = event => {
+        this.imageUrl = reader.result;
+      };
     }
   }
 
-  toBase64(e) {
-    console.log('data:image/png;base64,' + btoa(e.target.result));
+  onUpload() {
+    this.infoMessage = null;
+    this.progress = 0;
+    this.isUploading = true;
+
+    this.uploader.upload(this.file).subscribe(message => {
+      this.isUploading = false;
+      this.infoMessage = message;
+    });
   }
 }
-
