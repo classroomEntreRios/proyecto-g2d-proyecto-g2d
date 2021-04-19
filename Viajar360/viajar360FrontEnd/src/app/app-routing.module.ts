@@ -1,3 +1,4 @@
+import { AdminDashboardComponent } from './components/admin-dashboard/admin-dashboard.component';
 import { InicioComponent } from './components/inicio/inicio.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
@@ -15,16 +16,16 @@ const routes: Routes = [
   { path: 'salida', component: LogoffComponent},
   { path: 'registro', component: RegistroComponent},
   { path: 'perfil', component: PerfilUsuarioComponent},
-  
+  { path: 'admin-dashboard', component: AdminDashboardComponent },
   { path: '', redirectTo: 'home',pathMatch: 'full'}
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes,{ 
+  imports: [RouterModule.forRoot(routes,{
     useHash: true,
   })],
   exports: [RouterModule]
 })
-  
+
 export class AppRoutingModule { }
 export const ComponentesRouting = [LoginComponent,LogoffComponent,RegistroComponent,PerfilUsuarioComponent];

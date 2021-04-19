@@ -1,0 +1,22 @@
+
+
+<div class="container custom-container">
+
+  <div class="col-lg-4">
+    <h3 class="mb-3 text-center">Crear Ciudad</h3>
+
+    <div class="form-group">
+      <input type="text" [(ngModel)]="detallesCiudad.id" class="form-control" placeholder="id ciudad">
+    </div>
+
+    <div class="form-group">
+      <input type="text" [(ngModel)]="detallesCiudad.nombre" class="form-control" placeholder="Nombre ciudad">
+    </div>
+
+    <div class="form-group">
+      <button class="btn btn-primary" (click)="agregarCiudad(detallesCiudad)">Agregar Ciudad</button>
+    </div>
+  </div>
+</div>
+
+

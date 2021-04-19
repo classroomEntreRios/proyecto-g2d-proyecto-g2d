@@ -21,6 +21,10 @@ import { RegistradoNavComponent } from './components/registrado-nav/registrado-n
 import { PerfilUsuarioComponent } from './components/perfil-usuario/perfil-usuario.component';
 import { LogueadoComponent } from './components/logueado/logueado.component';
 import { CardsHomeComponent } from './components/cards-home/cards-home.component';
+import { AdminDashboardComponent } from './components/admin-dashboard/admin-dashboard.component';
+import { CrearComponent } from './components/ciudades/crear/crear.component';
+import { ListaComponent } from './components/ciudades/lista/lista.component';
+import { EditarComponent } from './components/ciudades/editar/editar.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +43,10 @@ import { CardsHomeComponent } from './components/cards-home/cards-home.component
     PerfilUsuarioComponent,
     LogueadoComponent,
     CardsHomeComponent,
+    AdminDashboardComponent,
+    CrearComponent,
+    ListaComponent,
+    EditarComponent,
   ],
   imports: [
     FormsModule,
