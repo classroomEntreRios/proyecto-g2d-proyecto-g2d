@@ -47,15 +47,8 @@ export class AdminCiudadesService {
       );
   }
 
-  //Crear Ciudad
-
-  createCiudad(ciudad): Observable<Ciudad> {
-    //Metodo para enviar ciudad creada al back, esta seteada para enviarla como JSON
-    return this.http.post<Ciudad>(this.apiURL, JSON.stringify(ciudad), this.httpOptions)
-      .pipe(
-        retry(1),
-        catchError(this.handleError)
-      );
+  createCiudad(info:any): Observable<any> {
+    return this.http.post("https://localhost:44389/api/crearciudad", info);
   }
 
   actualizarCiudad(id, ciudad): Observable<Ciudad> {

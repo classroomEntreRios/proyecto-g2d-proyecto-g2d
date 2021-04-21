@@ -14,7 +14,6 @@ export class LoginComponent implements OnInit {
   password: string;
   resp = {
     error: false,
-    token: "",
     reporte: ""
   };
   Forumulario = new FormGroup({
@@ -30,7 +29,7 @@ export class LoginComponent implements OnInit {
       if (data.estado == true){
         this.logueo.SetToken(data.token,this.usuario);
         this.resp.error = false;
-        this.router.navigateByUrl('/');
+        this.router.navigateByUrl('logueado');
       }
       else
       {
@@ -38,8 +37,6 @@ export class LoginComponent implements OnInit {
         this.resp.reporte = data.reporte;
       }
     });
-    console.log(this.usuario);
-    console.log(this.password);
   }
   get f(){
     return this.Forumulario.controls;

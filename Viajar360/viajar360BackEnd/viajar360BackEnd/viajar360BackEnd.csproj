@@ -152,11 +152,31 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\CiudadesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\UsuariosController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Ciudades.cs">
+      <DependentUpon>CiudadesDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CiudadesDB.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CiudadesDB.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CiudadesDB.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CiudadesDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CiudadesDB.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CiudadesDB.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ModeloCiudad.cs" />
     <Compile Include="Models\ModeloUsuario.cs" />
     <Compile Include="Models\Token.cs">
       <DependentUpon>TokenDB.tt</DependentUpon>
@@ -197,13 +217,57 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\Images\carnaval.jpg" />
+    <Content Include="assets\Images\descubri.png" />
+    <Content Include="assets\Images\fondoPerfil.jpg" />
+    <Content Include="assets\Images\gastronomico.jpg" />
+    <Content Include="assets\Images\historico.jpg" />
+    <Content Include="assets\Images\nog-registro.jpg" />
+    <Content Include="assets\Images\Nogoya-paseo-puentes.jpg" />
+    <Content Include="assets\Images\pescando.jpg" />
+    <Content Include="assets\Images\playa.jpg" />
+    <Content Include="assets\Images\populares.jpg" />
+    <Content Include="assets\Images\rural.jpg" />
+    <Content Include="assets\Images\shows.jpg" />
+    <Content Include="assets\Images\sonia.png" />
+    <Content Include="assets\Images\termal.jpg" />
+    <Content Include="assets\Images\vivi.png" />
+    <Content Include="assets\Logo.gif" />
+    <Content Include="Bundles\assets\Images\atrac-1.jpg" />
+    <Content Include="Bundles\assets\Images\atrac-2.jpg" />
+    <Content Include="Bundles\assets\Images\atrac-3.jpg" />
+    <Content Include="Bundles\assets\Images\carnaval.jpg" />
+    <Content Include="Bundles\assets\Images\descubri.png" />
+    <Content Include="Bundles\assets\Images\fondoPerfil.jpg" />
+    <Content Include="Bundles\assets\Images\gastronomico.jpg" />
+    <Content Include="Bundles\assets\Images\historico.jpg" />
+    <Content Include="Bundles\assets\Images\nog-registro.jpg" />
+    <Content Include="Bundles\assets\Images\Nogoya-paseo-puentes.jpg" />
+    <Content Include="Bundles\assets\Images\pescando.jpg" />
+    <Content Include="Bundles\assets\Images\playa.jpg" />
+    <Content Include="Bundles\assets\Images\populares.jpg" />
+    <Content Include="Bundles\assets\Images\rural.jpg" />
+    <Content Include="Bundles\assets\Images\shows.jpg" />
+    <Content Include="Bundles\assets\Images\sonia.png" />
+    <Content Include="Bundles\assets\Images\soña.png" />
+    <Content Include="Bundles\assets\Images\termal.jpg" />
+    <Content Include="Bundles\assets\Images\vivi.png" />
+    <Content Include="Bundles\assets\Logo.gif" />
     <Content Include="Bundles\favicon.ico" />
+    <Content Include="Bundles\fondoPerfil.jpg" />
     <Content Include="Bundles\index.html" />
     <Content Include="Bundles\main.js" />
+    <Content Include="Bundles\main.js.map" />
+    <Content Include="Bundles\nog-registro.jpg" />
+    <Content Include="Bundles\Nogoya-paseo-puentes.jpg" />
     <Content Include="Bundles\polyfills.js" />
+    <Content Include="Bundles\polyfills.js.map" />
     <Content Include="Bundles\runtime.js" />
+    <Content Include="Bundles\runtime.js.map" />
     <Content Include="Bundles\styles.css" />
+    <Content Include="Bundles\styles.css.map" />
     <Content Include="Bundles\vendor.js" />
+    <Content Include="Bundles\vendor.js.map" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -212,6 +276,16 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Models\CiudadesDB.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>CiudadesDB.edmx</DependentUpon>
+      <LastGenOutput>CiudadesDB.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\CiudadesDB.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>CiudadesDB.edmx</DependentUpon>
+      <LastGenOutput>CiudadesDB.cs</LastGenOutput>
+    </Content>
     <Content Include="Models\TokenDB.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>TokenDB.edmx</DependentUpon>
@@ -248,11 +322,13 @@
     <Content Include="Models\TokenDB.edmx.diagram">
       <DependentUpon>TokenDB.edmx</DependentUpon>
     </Content>
-    <Content Include="Bundles\main.js.map" />
-    <Content Include="Bundles\polyfills.js.map" />
-    <Content Include="Bundles\runtime.js.map" />
-    <Content Include="Bundles\styles.css.map" />
-    <Content Include="Bundles\vendor.js.map" />
+    <EntityDeploy Include="Models\CiudadesDB.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>CiudadesDB.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\CiudadesDB.edmx.diagram">
+      <DependentUpon>CiudadesDB.edmx</DependentUpon>
+    </Content>
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />

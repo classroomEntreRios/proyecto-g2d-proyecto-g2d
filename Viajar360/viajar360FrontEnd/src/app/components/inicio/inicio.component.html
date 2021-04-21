@@ -13,10 +13,10 @@
           </form>
         </div>
       </div>
-      <div class="col-md-4">
-        <div *ngIf="clima" class="card">
+      <div class="col-md-4" >
+        <div *ngIf="clima" class="card" style="border-radius: 10%;">
           <div id="divWeatherMain">
-            <div *ngIf="clima.isDay" class="weatherWidgetRow">
+            <!-- <div *ngIf="clima.isDay" class="weatherWidgetRow">
               <i class="fas fa-3x fa-sun sun"></i>
             </div>
             <div *ngIf="!clima.isDay" class="weatherWidgetRow">
@@ -26,7 +26,7 @@
               <i class="fas fa-cloud fa-3x cloud"></i>
             </div>
             <br>
-            <br>
+            <br> -->
             <div id="ContenedorInfoClima">
               <div class="weatherWidgetRow" style="font-size: 32px;margin-top: 5px;">{{clima.main.temp}}°</div>
               <div class="weatherWidgetRow" style="font-size: 12px;">{{clima.main.temp_min}}° / {{clima.main.temp_max}}</div>

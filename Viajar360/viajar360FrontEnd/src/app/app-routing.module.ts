@@ -7,6 +7,7 @@ import { LoginComponent } from './components/login/login.component';
 import { LogoffComponent } from './components/logoff/logoff.component';
 import { RegistroComponent } from './components/registro/registro.component';
 import { PerfilUsuarioComponent } from './components/perfil-usuario/perfil-usuario.component';
+import { LogueadoComponent } from './components/logueado/logueado.component'
 
 
 const routes: Routes = [
@@ -17,6 +18,7 @@ const routes: Routes = [
   { path: 'registro', component: RegistroComponent},
   { path: 'perfil', component: PerfilUsuarioComponent},
   { path: 'admin-dashboard', component: AdminDashboardComponent },
+  { path: 'logueado', component: LogueadoComponent},
   { path: '', redirectTo: 'home',pathMatch: 'full'}
 ];
 
@@ -28,4 +30,4 @@ const routes: Routes = [
 })
 
 export class AppRoutingModule { }
-export const ComponentesRouting = [LoginComponent,LogoffComponent,RegistroComponent,PerfilUsuarioComponent];
+export const ComponentesRouting = [LoginComponent,LogoffComponent,RegistroComponent,PerfilUsuarioComponent,LogueadoComponent];

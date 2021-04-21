@@ -17,17 +17,22 @@ export class LoginService {
     return this.http.post("https://localhost:44389/api/ingreso", user);
   }
 
+  register(info:any): Observable<any> {
+    return this.http.post("https://localhost:44389/api/registro", info);
+  }
+
   SetToken(Token: string, Nus: string) {
     this.cookie.set("token",Token);
     this.cookie.set("usuario",Nus);
   }
   GetToken() {
-    return this.cookie.get("cookies")
+    this.testToken.usuario = this.cookie.get('usuario');
+    this.testToken.sid = this.cookie.get('token');
+    return this.testToken
   }
   ConnectToken(): Observable<any>{
     this.testToken.usuario = this.cookie.get('usuario');
     this.testToken.sid = this.cookie.get('token');
-    console.log("esto es el cookie: ", this.testToken);
     return this.http.post('https://localhost:44389/api/token',this.testToken);
   }
   LogOut(){
