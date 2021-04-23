@@ -3,8 +3,10 @@
     "",
     "\\viajar360BackEnd",
     "\\viajar360BackEnd\\Bundles",
-    "\\viajar360BackEnd\\Bundles\\assets"
+    "\\viajar360BackEnd\\Bundles\\assets\\Images",
+    "\\viajar360BackEnd\\Views",
+    "\\viajar360BackEnd\\Views\\Home"
   ],
-  "SelectedNode": "\\viajar360BackEnd\\packages.config",
+  "SelectedNode": "\\viajar360BackEnd\\Bundles\\index.html",
   "PreviewInSolutionExplorer": false
 }

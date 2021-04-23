@@ -297,21 +297,19 @@ class FooterHomeComponent {
     }
 }
 FooterHomeComponent.ɵfac = function FooterHomeComponent_Factory(t) { return new (t || FooterHomeComponent)(); };
-FooterHomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FooterHomeComponent, selectors: [["app-footer-home"]], decls: 7, vars: 0, consts: [["id", "footer", 1, "containter"], [1, "row"], [1, "col-md-12"], [1, "footer-social-icons"]], template: function FooterHomeComponent_Template(rf, ctx) { if (rf & 1) {
+FooterHomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FooterHomeComponent, selectors: [["app-footer-home"]], decls: 6, vars: 0, consts: [[1, "containter", "footer"], [1, "row"], [1, "col-md-12"]], template: function FooterHomeComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "footer");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "\u00A9 Grupo 2D");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "\u00A9Viajar 360 - Grupo 2D - ISPC 2021");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, styles: ["#footer[_ngcontent-%COMP%]{\n  width: 100%;\n  bottom: 0%;\n  background: rgb(255,179,0);\n  background: linear-gradient(90deg, rgba(255,179,0,1) 23%, rgba(228,138,11,1) 66%, rgba(235,143,14,1) 97%);\n  text-align: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImZvb3Rlci1ob21lLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxXQUFXO0VBQ1gsVUFBVTtFQUNWLDBCQUEwQjtFQUMxQix5R0FBeUc7RUFDekcsa0JBQWtCO0FBQ3BCIiwiZmlsZSI6ImZvb3Rlci1ob21lLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIjZm9vdGVye1xuICB3aWR0aDogMTAwJTtcbiAgYm90dG9tOiAwJTtcbiAgYmFja2dyb3VuZDogcmdiKDI1NSwxNzksMCk7XG4gIGJhY2tncm91bmQ6IGxpbmVhci1ncmFkaWVudCg5MGRlZywgcmdiYSgyNTUsMTc5LDAsMSkgMjMlLCByZ2JhKDIyOCwxMzgsMTEsMSkgNjYlLCByZ2JhKDIzNSwxNDMsMTQsMSkgOTclKTtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuIl19 */"] });
+    } }, styles: [".footer[_ngcontent-%COMP%]{\n  width: 100%;\n  bottom: 0%;\n  background: rgb(255,179,0);\n  background: linear-gradient(90deg, rgba(255,179,0,1) 23%, rgba(228,138,11,1) 66%, rgba(235,143,14,1) 97%);\n  text-align: center;\n  display: block;\n}\n\np[_ngcontent-%COMP%]{\n  padding-top: 1%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImZvb3Rlci1ob21lLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxXQUFXO0VBQ1gsVUFBVTtFQUNWLDBCQUEwQjtFQUMxQix5R0FBeUc7RUFDekcsa0JBQWtCO0VBQ2xCLGNBQWM7QUFDaEI7O0FBRUE7RUFDRSxlQUFlO0FBQ2pCIiwiZmlsZSI6ImZvb3Rlci1ob21lLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuZm9vdGVye1xuICB3aWR0aDogMTAwJTtcbiAgYm90dG9tOiAwJTtcbiAgYmFja2dyb3VuZDogcmdiKDI1NSwxNzksMCk7XG4gIGJhY2tncm91bmQ6IGxpbmVhci1ncmFkaWVudCg5MGRlZywgcmdiYSgyNTUsMTc5LDAsMSkgMjMlLCByZ2JhKDIyOCwxMzgsMTEsMSkgNjYlLCByZ2JhKDIzNSwxNDMsMTQsMSkgOTclKTtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBkaXNwbGF5OiBibG9jaztcbn1cblxucHtcbiAgcGFkZGluZy10b3A6IDElO1xufVxuIl19 */"] });
 
 
 /***/ }),
@@ -334,11 +332,29 @@ class InfoHomeComponent {
     }
 }
 InfoHomeComponent.ɵfac = function InfoHomeComponent_Factory(t) { return new (t || InfoHomeComponent)(); };
-InfoHomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: InfoHomeComponent, selectors: [["app-info-home"]], decls: 2, vars: 0, template: function InfoHomeComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, " INFORMACION GENERAL DE LA PAGINA Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.");
+InfoHomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: InfoHomeComponent, selectors: [["app-info-home"]], decls: 13, vars: 0, consts: [[1, "container", "espacios"], [1, "row"], [1, "col-md-12", "centrado"], [1, "col-md-2"], [1, "col-md-8"]], template: function InfoHomeComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "El sitio perfecto para tus vacaciones");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, styles: ["p[_ngcontent-%COMP%] {\n    background: #FFB448;\n    background: linear-gradient(to bottom, #FFB448 0%, #FFDDAA 50%, #FFFFFF 100%);\n    display: block;\n    }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZm8taG9tZS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksbUJBQW1CO0lBR25CLDZFQUE2RTtJQUM3RSxjQUFjO0lBQ2QiLCJmaWxlIjoiaW5mby1ob21lLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJwIHtcbiAgICBiYWNrZ3JvdW5kOiAjRkZCNDQ4O1xuICAgIGJhY2tncm91bmQ6IC1tb3otbGluZWFyLWdyYWRpZW50KHRvcCwgI0ZGQjQ0OCAwJSwgI0ZGRERBQSA1MCUsICNGRkZGRkYgMTAwJSk7XG4gICAgYmFja2dyb3VuZDogLXdlYmtpdC1saW5lYXItZ3JhZGllbnQodG9wLCAjRkZCNDQ4IDAlLCAjRkZEREFBIDUwJSwgI0ZGRkZGRiAxMDAlKTtcbiAgICBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQodG8gYm90dG9tLCAjRkZCNDQ4IDAlLCAjRkZEREFBIDUwJSwgI0ZGRkZGRiAxMDAlKTtcbiAgICBkaXNwbGF5OiBibG9jaztcbiAgICB9XG4iXX0= */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " La Provincia de Entre R\u00EDos se destaca por las enormes bondades de sus recursos naturales como sus r\u00EDos, playas y aguas termales. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');\n\np[_ngcontent-%COMP%], h1[_ngcontent-%COMP%] {\n  text-align: center;\n  font-family: 'Noto Sans JP', sans-serif;\n  color: #666;\n}\n.centrado[_ngcontent-%COMP%]{\n    text-align: center;\n}\n.espacios[_ngcontent-%COMP%]{\n    padding-top: 80px;\n    padding-bottom: 80px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZm8taG9tZS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0VBUUUsaUZBQWlGO0FBUm5GOzs7Ozs7TUFNTTtBQUtOO0VBQ0Usa0JBQWtCO0VBQ2xCLHVDQUF1QztFQUN2QyxXQUFXO0FBQ2I7QUFFQTtJQUNJLGtCQUFrQjtBQUN0QjtBQUVBO0lBQ0ksaUJBQWlCO0lBQ2pCLG9CQUFvQjtBQUN4QiIsImZpbGUiOiJpbmZvLWhvbWUuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qcCB7XG4gICAgYmFja2dyb3VuZDogI0ZGQjQ0ODtcbiAgICBiYWNrZ3JvdW5kOiAtbW96LWxpbmVhci1ncmFkaWVudCh0b3AsICNGRkI0NDggMCUsICNGRkREQUEgNTAlLCAjRkZGRkZGIDEwMCUpO1xuICAgIGJhY2tncm91bmQ6IC13ZWJraXQtbGluZWFyLWdyYWRpZW50KHRvcCwgI0ZGQjQ0OCAwJSwgI0ZGRERBQSA1MCUsICNGRkZGRkYgMTAwJSk7XG4gICAgYmFja2dyb3VuZDogbGluZWFyLWdyYWRpZW50KHRvIGJvdHRvbSwgI0ZGQjQ0OCAwJSwgI0ZGRERBQSA1MCUsICNGRkZGRkYgMTAwJSk7XG4gICAgZGlzcGxheTogYmxvY2s7XG4gICAgfSovXG5cbiAgQGltcG9ydCB1cmwoJ2h0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzMj9mYW1pbHk9Tm90bytTYW5zK0pQJmRpc3BsYXk9c3dhcCcpO1xuXG5cbnAsIGgxIHtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBmb250LWZhbWlseTogJ05vdG8gU2FucyBKUCcsIHNhbnMtc2VyaWY7XG4gIGNvbG9yOiAjNjY2O1xufVxuXG4uY2VudHJhZG97XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG4uZXNwYWNpb3N7XG4gICAgcGFkZGluZy10b3A6IDgwcHg7XG4gICAgcGFkZGluZy1ib3R0b206IDgwcHg7XG59XG5cblxuIl19 */"] });
 
 
 /***/ }),
@@ -355,6 +371,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppComponent", function() { return AppComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "tyNb");
+/* harmony import */ var _components_footer_home_footer_home_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/footer-home/footer-home.component */ "OtmG");
+
 
 
 class AppComponent {
@@ -363,9 +381,10 @@ class AppComponent {
     }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(); };
-AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 1, vars: 0, template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
+AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 2, vars: 0, template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "router-outlet");
-    } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterOutlet"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAuY29tcG9uZW50LmNzcyJ9 */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "app-footer-home");
+    } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterOutlet"], _components_footer_home_footer_home_component__WEBPACK_IMPORTED_MODULE_2__["FooterHomeComponent"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAuY29tcG9uZW50LmNzcyJ9 */"] });
 
 
 /***/ }),
@@ -541,6 +560,204 @@ LoginComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineCom
 
 /***/ }),
 
+/***/ "WGn0":
+/*!***************************************************************!*\
+  !*** ./src/app/components/cards-home/cards-home.component.ts ***!
+  \***************************************************************/
+/*! exports provided: CardsHomeComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CardsHomeComponent", function() { return CardsHomeComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+
+class CardsHomeComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+CardsHomeComponent.ɵfac = function CardsHomeComponent_Factory(t) { return new (t || CardsHomeComponent)(); };
+CardsHomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CardsHomeComponent, selectors: [["app-cards-home"]], decls: 105, vars: 0, consts: [[1, "container"], [1, "row"], [1, "col-md-4"], [1, "caja"], [1, "card", "centrado"], ["src", "..\\assets\\Images\\playa.jpg", "alt", "Playas y Balnearios"], [1, "capa"], ["href", ""], ["src", "..\\assets\\Images\\populares.jpg", "alt", "Fiestas Populares"], ["src", "..\\assets\\Images\\historico.jpg", "alt", "Turismo Historico"], ["src", "..\\assets\\Images\\carnaval.jpg", "alt", "Carnavales"], ["src", "..\\assets\\Images\\shows.jpg", "alt", "Shows en vivo"], ["src", "..\\assets\\Images\\gastronomico.jpg", "alt", "turismo gastronomico"], ["src", "..\\assets\\Images\\rural.jpg", "alt", "Turismo Rural"], ["src", "..\\assets\\Images\\termal.jpg", "alt", "Turismo termal"], ["src", "..\\assets\\Images\\pescando.jpg", "alt", "Turismo Pesca"]], template: function CardsHomeComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "Playas y Balnearios");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "img", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "Encontrar\u00E1 playas con suaves arenas, variedad de servicios y propuestas para poder disfrutar el sol y el calor del verano.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "a", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, " Ver m\u00E1s ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, "Fiestas Populares");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](18, "img", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "Disfrut\u00E1 de la mayor oferta tur\u00EDstica en materia de fiestas populares, y disfruta de esta experiencia en cada mes del a\u00F1o");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "a", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, " Ver m\u00E1s ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "Turismo Historico");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](29, "img", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "Entre R\u00EDos es participante destacada en la historia nacional. Conoc\u00E9 palacios, monumentos y museos testigos de nuestros or\u00EDgenes ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "a", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](34, " Ver m\u00E1s ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40, "Carnavales");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](42, "img", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](45, "Llenate del brillo de los trajes de los mejores pasistas del pa\u00EDs! Espect\u00E1culo, diversi\u00F3n y belleza combinadas para disfrutar el verano");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "a", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](47, " Ver m\u00E1s ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](51, "Shows en vivo");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](53, "img", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](56, "La provincia ofrece fiestas nacionales con artistas de primer nivel, como la FN de la Artesan\u00EDa, FN del Lago, FN de la Playa de R\u00EDo");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "a", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](58, " Ver m\u00E1s ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](60, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](61, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](62, "Gastronom\u00EDa");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](63, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](64, "img", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](66, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](67, "Deleitate con la comida regional que te ofrece el turismo gastron\u00F3mico de la mano de \"Entre R\u00EDos de Sabores\"");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "a", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](69, " Ver m\u00E1s ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](70, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](71, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](72, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](73, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](74, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](75, "Turismo Rural");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](76, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](77, "img", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](78, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](79, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](80, "El monte nativo del norte, las praderas del centro, el delta del sur y los bosques bordeando los r\u00EDos son lugares incre\u00EDblemente \u00FAnicos");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](81, "a", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](82, " Ver m\u00E1s ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](83, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](84, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](85, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](86, "Turismo Termal");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](87, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](88, "img", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](89, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](90, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](91, "Recorr\u00E9 los mas de 13 complejos termales de la provincia. Relajate en sus aguas naturales de origen subterr\u00E1neo y divertite en los parques acu\u00E1ticos");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](92, "a", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](93, " Ver m\u00E1s ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](94, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](95, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](96, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](97, "Turismo Pesca");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](98, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](99, "img", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](100, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](101, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](102, "Rodeada al este por el R\u00EDo Uruguay y al oeste por el R\u00EDo Paran\u00E1, la pesca deportiva y recreativa se extiende a sus largos");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](103, "a", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](104, " Ver m\u00E1s ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');\r\n\r\n*[_ngcontent-%COMP%]{\r\n  font-family: 'Noto Sans JP', sans-serif;\r\n}\r\n\r\n.centrado[_ngcontent-%COMP%]{\r\n  text-align: center;\r\n}\r\n\r\n.espacios[_ngcontent-%COMP%]{\r\n  padding-top: 80px;\r\n  padding-bottom: 80px;\r\n}\r\n\r\nh1[_ngcontent-%COMP%]{\r\n  color:orange;\r\n  text-transform: uppercase;\r\n}\r\n\r\np[_ngcontent-%COMP%], a[_ngcontent-%COMP%] {\r\n  color:rgb(255, 255, 255);\r\n  font-size: small;\r\n}\r\n\r\nimg[_ngcontent-%COMP%] {\r\n  width: 100%;\r\n  height: auto;\r\n}\r\n\r\n.caja[_ngcontent-%COMP%]{\r\n  padding-bottom: 15%;\r\n}\r\n\r\n\r\n\r\n.card[_ngcontent-%COMP%] {\r\n  position:relative;\r\n  height: auto;\r\n  cursor: pointer;\r\n  width: 100%;\r\n  overflow: hidden;\r\n  border-radius: 3px;\r\n}\r\n\r\n.card[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\r\n  width: 100%;\r\n  height: 100%;\r\n  transition: all 400ms ease-out;\r\n  will-change: transform;\r\n}\r\n\r\n.card[_ngcontent-%COMP%]   .capa[_ngcontent-%COMP%]{\r\n  position: absolute;\r\n  top: 0;\r\n  width: 100%;\r\n  height: 100%;\r\n  background: rgba(102, 102, 102, 0.8);\r\n  transition: all 400ms ease-out;\r\n  opacity: 0;\r\n  visibility: hidden;\r\n  text-align: center;\r\n}\r\n\r\n.card[_ngcontent-%COMP%]:hover    > .capa[_ngcontent-%COMP%] {\r\n  opacity: 1;\r\n  visibility: visible;\r\n}\r\n\r\n.card[_ngcontent-%COMP%]:hover    > img[_ngcontent-%COMP%]{\r\n  transform: scale(1.3);\r\n}\r\n\r\n.card[_ngcontent-%COMP%]:hover    > .capa[_ngcontent-%COMP%]   p[_ngcontent-%COMP%]{\r\n  margin-top: 10%;\r\n  margin-bottom: 15px;\r\n}\r\n\r\n.card[_ngcontent-%COMP%]   .capa[_ngcontent-%COMP%]   p[_ngcontent-%COMP%]{\r\n  margin-left: 5%;\r\n  transition: all 400ms ease-out;\r\n  margin-right: 5%;\r\n  text-align: center;\r\n}\r\n\r\n.card[_ngcontent-%COMP%]   .capa[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]{\r\n  line-height: 1.5;\r\n  width: 100%;\r\n  max-width: 220px;\r\n  margin: auto;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNhcmRzLWhvbWUuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxpRkFBaUY7O0FBRWpGO0VBQ0UsdUNBQXVDO0FBQ3pDOztBQUNBO0VBQ0Usa0JBQWtCO0FBQ3BCOztBQUVBO0VBQ0UsaUJBQWlCO0VBQ2pCLG9CQUFvQjtBQUN0Qjs7QUFFQTtFQUNFLFlBQVk7RUFDWix5QkFBeUI7QUFDM0I7O0FBRUE7RUFDRSx3QkFBd0I7RUFDeEIsZ0JBQWdCO0FBQ2xCOztBQUVBO0VBQ0UsV0FBVztFQUNYLFlBQVk7QUFDZDs7QUFFQTtFQUNFLG1CQUFtQjtBQUNyQjs7QUFFQSxjQUFjOztBQUVkO0VBQ0UsaUJBQWlCO0VBQ2pCLFlBQVk7RUFDWixlQUFlO0VBQ2YsV0FBVztFQUNYLGdCQUFnQjtFQUNoQixrQkFBa0I7QUFDcEI7O0FBQ0E7RUFDRSxXQUFXO0VBQ1gsWUFBWTtFQUNaLDhCQUE4QjtFQUM5QixzQkFBc0I7QUFDeEI7O0FBQ0E7RUFDRSxrQkFBa0I7RUFDbEIsTUFBTTtFQUNOLFdBQVc7RUFDWCxZQUFZO0VBQ1osb0NBQW9DO0VBQ3BDLDhCQUE4QjtFQUM5QixVQUFVO0VBQ1Ysa0JBQWtCO0VBQ2xCLGtCQUFrQjtBQUNwQjs7QUFDQTtFQUNFLFVBQVU7RUFDVixtQkFBbUI7QUFDckI7O0FBRUE7RUFDRSxxQkFBcUI7QUFDdkI7O0FBRUE7RUFDRSxlQUFlO0VBQ2YsbUJBQW1CO0FBQ3JCOztBQUVBO0VBQ0UsZUFBZTtFQUNmLDhCQUE4QjtFQUM5QixnQkFBZ0I7RUFDaEIsa0JBQWtCO0FBQ3BCOztBQUVBO0VBQ0UsZ0JBQWdCO0VBQ2hCLFdBQVc7RUFDWCxnQkFBZ0I7RUFDaEIsWUFBWTtBQUNkIiwiZmlsZSI6ImNhcmRzLWhvbWUuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIkBpbXBvcnQgdXJsKCdodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2NzczI/ZmFtaWx5PU5vdG8rU2FucytKUCZkaXNwbGF5PXN3YXAnKTtcclxuXHJcbip7XHJcbiAgZm9udC1mYW1pbHk6ICdOb3RvIFNhbnMgSlAnLCBzYW5zLXNlcmlmO1xyXG59XHJcbi5jZW50cmFkb3tcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcbi5lc3BhY2lvc3tcclxuICBwYWRkaW5nLXRvcDogODBweDtcclxuICBwYWRkaW5nLWJvdHRvbTogODBweDtcclxufVxyXG5cclxuaDF7XHJcbiAgY29sb3I6b3JhbmdlO1xyXG4gIHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7XHJcbn1cclxuXHJcbnAsIGEge1xyXG4gIGNvbG9yOnJnYigyNTUsIDI1NSwgMjU1KTtcclxuICBmb250LXNpemU6IHNtYWxsO1xyXG59XHJcblxyXG5pbWcge1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIGhlaWdodDogYXV0bztcclxufVxyXG5cclxuLmNhamF7XHJcbiAgcGFkZGluZy1ib3R0b206IDE1JTtcclxufVxyXG5cclxuLyotLS1ob3Zlci0tLSovXHJcblxyXG4uY2FyZCB7XHJcbiAgcG9zaXRpb246cmVsYXRpdmU7XHJcbiAgaGVpZ2h0OiBhdXRvO1xyXG4gIGN1cnNvcjogcG9pbnRlcjtcclxuICB3aWR0aDogMTAwJTtcclxuICBvdmVyZmxvdzogaGlkZGVuO1xyXG4gIGJvcmRlci1yYWRpdXM6IDNweDtcclxufVxyXG4uY2FyZCBpbWcge1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIGhlaWdodDogMTAwJTtcclxuICB0cmFuc2l0aW9uOiBhbGwgNDAwbXMgZWFzZS1vdXQ7XHJcbiAgd2lsbC1jaGFuZ2U6IHRyYW5zZm9ybTtcclxufVxyXG4uY2FyZCAuY2FwYXtcclxuICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgdG9wOiAwO1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIGhlaWdodDogMTAwJTtcclxuICBiYWNrZ3JvdW5kOiByZ2JhKDEwMiwgMTAyLCAxMDIsIDAuOCk7XHJcbiAgdHJhbnNpdGlvbjogYWxsIDQwMG1zIGVhc2Utb3V0O1xyXG4gIG9wYWNpdHk6IDA7XHJcbiAgdmlzaWJpbGl0eTogaGlkZGVuO1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG4uY2FyZDpob3ZlciA+IC5jYXBhIHtcclxuICBvcGFjaXR5OiAxO1xyXG4gIHZpc2liaWxpdHk6IHZpc2libGU7XHJcbn1cclxuXHJcbi5jYXJkOmhvdmVyID4gaW1ne1xyXG4gIHRyYW5zZm9ybTogc2NhbGUoMS4zKTtcclxufVxyXG5cclxuLmNhcmQ6aG92ZXIgPiAuY2FwYSBwe1xyXG4gIG1hcmdpbi10b3A6IDEwJTtcclxuICBtYXJnaW4tYm90dG9tOiAxNXB4O1xyXG59XHJcblxyXG4uY2FyZCAuY2FwYSBwe1xyXG4gIG1hcmdpbi1sZWZ0OiA1JTtcclxuICB0cmFuc2l0aW9uOiBhbGwgNDAwbXMgZWFzZS1vdXQ7XHJcbiAgbWFyZ2luLXJpZ2h0OiA1JTtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcbi5jYXJkIC5jYXBhIGF7XHJcbiAgbGluZS1oZWlnaHQ6IDEuNTtcclxuICB3aWR0aDogMTAwJTtcclxuICBtYXgtd2lkdGg6IDIyMHB4O1xyXG4gIG1hcmdpbjogYXV0bztcclxufVxyXG4iXX0= */"] });
+
+
+/***/ }),
+
 /***/ "XFqa":
 /*!*******************************************************!*\
   !*** ./src/app/components/inicio/inicio.component.ts ***!
@@ -558,7 +775,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common */ "ofXK");
 /* harmony import */ var _carousel_home_carousel_home_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../carousel-home/carousel-home.component */ "fOKF");
 /* harmony import */ var _info_home_info_home_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../info-home/info-home.component */ "SWJs");
-/* harmony import */ var _footer_home_footer_home_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../footer-home/footer-home.component */ "OtmG");
+/* harmony import */ var _cards_home_cards_home_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../cards-home/cards-home.component */ "WGn0");
 
 
 
@@ -671,7 +888,7 @@ class InicioComponent {
     }
 }
 InicioComponent.ɵfac = function InicioComponent_Factory(t) { return new (t || InicioComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](src_app_services_wheater_service__WEBPACK_IMPORTED_MODULE_1__["WheaterService"])); };
-InicioComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: InicioComponent, selectors: [["app-inicio"]], decls: 27, vars: 1, consts: [[1, "container", "p-4"], [1, "row"], [1, "col-md-4"], [1, "card", "card-baby"], [3, "submit"], ["type", "text", "placeholder", "Ciudad", 1, "form-control"], ["ciudad", ""], ["type", "hidden", "placeholder", "C\u00F3digo ciudad", "value", "Ar", 1, "form-control"], ["codigo", ""], [1, "btn", "btn-warning", "btn-block", "mt-2"], ["class", "card", 4, "ngIf"], [1, "container"], [1, "col-md-12"], [1, "col-md-8"], [1, "col-md", "12"], [1, "card"], ["id", "divWeatherMain"], ["class", "weatherWidgetRow", 4, "ngIf"], [1, "weatherWidgetRow", "cloudDiv"], [1, "fas", "fa-cloud", "fa-3x", "cloud"], ["id", "ContenedorInfoClima"], [1, "weatherWidgetRow", 2, "font-size", "32px", "margin-top", "5px"], [1, "weatherWidgetRow", 2, "font-size", "12px"], [1, "weatherWidgetRow", 2, "font-size", "25px", "margin-top", "10px"], [1, "weatherWidgetRow"], [1, "fas", "fa-3x", "fa-sun", "sun"], [1, "fas", "fa-3x", "fa-moon", "moon"]], template: function InicioComponent_Template(rf, ctx) { if (rf & 1) {
+InicioComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: InicioComponent, selectors: [["app-inicio"]], decls: 28, vars: 1, consts: [[1, "container", "p-4"], [1, "row"], [1, "col-md-4"], [1, "card", "card-baby"], [3, "submit"], ["type", "text", "placeholder", "Ciudad", 1, "form-control"], ["ciudad", ""], ["type", "hidden", "placeholder", "C\u00F3digo ciudad", "value", "Ar", 1, "form-control"], ["codigo", ""], [1, "btn", "btn-warning", "btn-block", "mt-2"], ["class", "card", 4, "ngIf"], [1, "container"], [1, "col-md-12"], [1, "col-md-1"], [1, "col-md-10"], [1, "card"], ["id", "divWeatherMain"], ["class", "weatherWidgetRow", 4, "ngIf"], [1, "weatherWidgetRow", "cloudDiv"], [1, "fas", "fa-cloud", "fa-3x", "cloud"], ["id", "ContenedorInfoClima"], [1, "weatherWidgetRow", 2, "font-size", "32px", "margin-top", "5px"], [1, "weatherWidgetRow", 2, "font-size", "12px"], [1, "weatherWidgetRow", 2, "font-size", "25px", "margin-top", "10px"], [1, "weatherWidgetRow"], [1, "fas", "fa-3x", "fa-sun", "sun"], [1, "fas", "fa-3x", "fa-moon", "moon"]], template: function InicioComponent_Template(rf, ctx) { if (rf & 1) {
         const _r5 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-general-nav");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 0);
@@ -702,15 +919,15 @@ InicioComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "div", 11);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "div", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](21, "app-info-home");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](20, "div", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "div", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](22, "app-info-home");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "div", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "div", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](26, "app-footer-home");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](23, "div", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "div", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "div", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](27, "app-cards-home");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -719,7 +936,7 @@ InicioComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](13);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.clima);
-    } }, directives: [_general_nav_general_nav_component__WEBPACK_IMPORTED_MODULE_2__["GeneralNavComponent"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["ɵangular_packages_forms_forms_ba"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["NgForm"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["NgIf"], _carousel_home_carousel_home_component__WEBPACK_IMPORTED_MODULE_5__["CarouselHomeComponent"], _info_home_info_home_component__WEBPACK_IMPORTED_MODULE_6__["InfoHomeComponent"], _footer_home_footer_home_component__WEBPACK_IMPORTED_MODULE_7__["FooterHomeComponent"]], styles: ["#body[_ngcontent-%COMP%]{\r\n  height: 100vh;\r\n}\r\n\r\n#divWeatherMain[_ngcontent-%COMP%]{\r\n    display: block;\r\n    border-radius: 10%;\r\n    width: 100%;\r\n    height: -webkit-fit-content;\r\n    height: -moz-fit-content;\r\n    height: fit-content;\r\n    background: rgb(0,0,0);\r\n    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(8,7,42,1) 75%, rgb(8, 10, 63) 100%);\r\n    color: white;;\r\n    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\r\n}\r\n\r\n.weatherWidgetRow[_ngcontent-%COMP%]{\r\n    text-align: center;\r\n    width: 100%;\r\n}\r\n\r\n#ContenedorInfoClima[_ngcontent-%COMP%]{\r\n    height: -webkit-fit-content;\r\n    height: -moz-fit-content;\r\n    height: fit-content;\r\n    text-align: center;\r\n    padding-top: 20%;\r\n}\r\n\r\n.sun[_ngcontent-%COMP%]{\r\n    margin-top: 10%;\r\n    color: yellow;\r\n    filter: drop-shadow( 1% 1% 10% yellow);\r\n}\r\n\r\n.moon[_ngcontent-%COMP%]{\r\n    margin-top: 10%;\r\n    color: white;\r\n    filter: drop-shadow( 1% 1% 10% yellow);\r\n}\r\n\r\n.cloudDiv[_ngcontent-%COMP%]{\r\n    margin-top: -40%;\r\n}\r\n\r\n.cloud[_ngcontent-%COMP%]{\r\n    color: rgb(104, 175, 197);\r\n    filter: drop-shadow( 1px 1px 5px rgb(104, 175, 197));\r\n    animation-name: cloudMovement;\r\n    animation-iteration-count: infinite;\r\n    animation-duration: 10s;\r\n    animation-timing-function: ease-in-out;\r\n    animation-direction: alternate;\r\n}\r\n\r\n@keyframes cloudMovement{\r\n    from{margin-left: -55%;}\r\n    to{margin-left: 65%;}\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluaWNpby5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsYUFBYTtBQUNmOztBQUVBO0lBQ0ksY0FBYztJQUNkLGtCQUFrQjtJQUNsQixXQUFXO0lBQ1gsMkJBQW1CO0lBQW5CLHdCQUFtQjtJQUFuQixtQkFBbUI7SUFDbkIsc0JBQXNCO0lBQ3RCLDhGQUE4RjtJQUM5RixZQUFZO0lBQ1osNERBQTREO0FBQ2hFOztBQUVBO0lBQ0ksa0JBQWtCO0lBQ2xCLFdBQVc7QUFDZjs7QUFFQTtJQUNJLDJCQUFtQjtJQUFuQix3QkFBbUI7SUFBbkIsbUJBQW1CO0lBQ25CLGtCQUFrQjtJQUNsQixnQkFBZ0I7QUFDcEI7O0FBRUE7SUFDSSxlQUFlO0lBQ2YsYUFBYTtJQUNiLHNDQUFzQztBQUMxQzs7QUFFQTtJQUNJLGVBQWU7SUFDZixZQUFZO0lBQ1osc0NBQXNDO0FBQzFDOztBQUVBO0lBQ0ksZ0JBQWdCO0FBQ3BCOztBQUVBO0lBQ0kseUJBQXlCO0lBQ3pCLG9EQUFvRDtJQUNwRCw2QkFBNkI7SUFDN0IsbUNBQW1DO0lBQ25DLHVCQUF1QjtJQUN2QixzQ0FBc0M7SUFDdEMsOEJBQThCO0FBQ2xDOztBQUVBO0lBQ0ksS0FBSyxpQkFBaUIsQ0FBQztJQUN2QixHQUFHLGdCQUFnQixDQUFDO0FBQ3hCIiwiZmlsZSI6ImluaWNpby5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiI2JvZHl7XHJcbiAgaGVpZ2h0OiAxMDB2aDtcclxufVxyXG5cclxuI2RpdldlYXRoZXJNYWlue1xyXG4gICAgZGlzcGxheTogYmxvY2s7XHJcbiAgICBib3JkZXItcmFkaXVzOiAxMCU7XHJcbiAgICB3aWR0aDogMTAwJTtcclxuICAgIGhlaWdodDogZml0LWNvbnRlbnQ7XHJcbiAgICBiYWNrZ3JvdW5kOiByZ2IoMCwwLDApO1xyXG4gICAgYmFja2dyb3VuZDogbGluZWFyLWdyYWRpZW50KDE4MGRlZywgcmdiYSgwLDAsMCwxKSAwJSwgcmdiYSg4LDcsNDIsMSkgNzUlLCByZ2IoOCwgMTAsIDYzKSAxMDAlKTtcclxuICAgIGNvbG9yOiB3aGl0ZTs7XHJcbiAgICBmb250LWZhbWlseTogJ1NlZ29lIFVJJywgVGFob21hLCBHZW5ldmEsIFZlcmRhbmEsIHNhbnMtc2VyaWY7XHJcbn1cclxuXHJcbi53ZWF0aGVyV2lkZ2V0Um93e1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgd2lkdGg6IDEwMCU7XHJcbn1cclxuXHJcbiNDb250ZW5lZG9ySW5mb0NsaW1he1xyXG4gICAgaGVpZ2h0OiBmaXQtY29udGVudDtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIHBhZGRpbmctdG9wOiAyMCU7XHJcbn1cclxuXHJcbi5zdW57XHJcbiAgICBtYXJnaW4tdG9wOiAxMCU7XHJcbiAgICBjb2xvcjogeWVsbG93O1xyXG4gICAgZmlsdGVyOiBkcm9wLXNoYWRvdyggMSUgMSUgMTAlIHllbGxvdyk7XHJcbn1cclxuXHJcbi5tb29ue1xyXG4gICAgbWFyZ2luLXRvcDogMTAlO1xyXG4gICAgY29sb3I6IHdoaXRlO1xyXG4gICAgZmlsdGVyOiBkcm9wLXNoYWRvdyggMSUgMSUgMTAlIHllbGxvdyk7XHJcbn1cclxuXHJcbi5jbG91ZERpdntcclxuICAgIG1hcmdpbi10b3A6IC00MCU7XHJcbn1cclxuXHJcbi5jbG91ZHtcclxuICAgIGNvbG9yOiByZ2IoMTA0LCAxNzUsIDE5Nyk7XHJcbiAgICBmaWx0ZXI6IGRyb3Atc2hhZG93KCAxcHggMXB4IDVweCByZ2IoMTA0LCAxNzUsIDE5NykpO1xyXG4gICAgYW5pbWF0aW9uLW5hbWU6IGNsb3VkTW92ZW1lbnQ7XHJcbiAgICBhbmltYXRpb24taXRlcmF0aW9uLWNvdW50OiBpbmZpbml0ZTtcclxuICAgIGFuaW1hdGlvbi1kdXJhdGlvbjogMTBzO1xyXG4gICAgYW5pbWF0aW9uLXRpbWluZy1mdW5jdGlvbjogZWFzZS1pbi1vdXQ7XHJcbiAgICBhbmltYXRpb24tZGlyZWN0aW9uOiBhbHRlcm5hdGU7XHJcbn1cclxuXHJcbkBrZXlmcmFtZXMgY2xvdWRNb3ZlbWVudHtcclxuICAgIGZyb217bWFyZ2luLWxlZnQ6IC01NSU7fVxyXG4gICAgdG97bWFyZ2luLWxlZnQ6IDY1JTt9XHJcbn1cclxuXHJcbiJdfQ== */"] });
+    } }, directives: [_general_nav_general_nav_component__WEBPACK_IMPORTED_MODULE_2__["GeneralNavComponent"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["ɵangular_packages_forms_forms_ba"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["NgForm"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["NgIf"], _carousel_home_carousel_home_component__WEBPACK_IMPORTED_MODULE_5__["CarouselHomeComponent"], _info_home_info_home_component__WEBPACK_IMPORTED_MODULE_6__["InfoHomeComponent"], _cards_home_cards_home_component__WEBPACK_IMPORTED_MODULE_7__["CardsHomeComponent"]], styles: ["#divWeatherMain[_ngcontent-%COMP%]{\r\n    display: block;\r\n    border-radius: 10%;\r\n    width: 100%;\r\n    height: -webkit-fit-content;\r\n    height: -moz-fit-content;\r\n    height: fit-content;\r\n    background: rgb(0,0,0);\r\n    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(8,7,42,1) 75%, rgb(8, 10, 63) 100%);\r\n    color: white;;\r\n    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\r\n}\r\n\r\n.weatherWidgetRow[_ngcontent-%COMP%]{\r\n    text-align: center;\r\n    width: 100%;\r\n}\r\n\r\n#ContenedorInfoClima[_ngcontent-%COMP%]{\r\n    height: -webkit-fit-content;\r\n    height: -moz-fit-content;\r\n    height: fit-content;\r\n    text-align: center;\r\n    padding-top: 20%;\r\n}\r\n\r\n.sun[_ngcontent-%COMP%]{\r\n    margin-top: 10%;\r\n    color: yellow;\r\n    filter: drop-shadow( 1% 1% 10% yellow);\r\n}\r\n\r\n.moon[_ngcontent-%COMP%]{\r\n    margin-top: 10%;\r\n    color: white;\r\n    filter: drop-shadow( 1% 1% 10% yellow);\r\n}\r\n\r\n.cloudDiv[_ngcontent-%COMP%]{\r\n    margin-top: -40%;\r\n}\r\n\r\n.cloud[_ngcontent-%COMP%]{\r\n    color: rgb(104, 175, 197);\r\n    filter: drop-shadow( 1px 1px 5px rgb(104, 175, 197));\r\n    animation-name: cloudMovement;\r\n    animation-iteration-count: infinite;\r\n    animation-duration: 10s;\r\n    animation-timing-function: ease-in-out;\r\n    animation-direction: alternate;\r\n}\r\n\r\n@keyframes cloudMovement{\r\n    from{margin-left: -55%;}\r\n    to{margin-left: 65%;}\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluaWNpby5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksY0FBYztJQUNkLGtCQUFrQjtJQUNsQixXQUFXO0lBQ1gsMkJBQW1CO0lBQW5CLHdCQUFtQjtJQUFuQixtQkFBbUI7SUFDbkIsc0JBQXNCO0lBQ3RCLDhGQUE4RjtJQUM5RixZQUFZO0lBQ1osNERBQTREO0FBQ2hFOztBQUVBO0lBQ0ksa0JBQWtCO0lBQ2xCLFdBQVc7QUFDZjs7QUFFQTtJQUNJLDJCQUFtQjtJQUFuQix3QkFBbUI7SUFBbkIsbUJBQW1CO0lBQ25CLGtCQUFrQjtJQUNsQixnQkFBZ0I7QUFDcEI7O0FBRUE7SUFDSSxlQUFlO0lBQ2YsYUFBYTtJQUNiLHNDQUFzQztBQUMxQzs7QUFFQTtJQUNJLGVBQWU7SUFDZixZQUFZO0lBQ1osc0NBQXNDO0FBQzFDOztBQUVBO0lBQ0ksZ0JBQWdCO0FBQ3BCOztBQUVBO0lBQ0kseUJBQXlCO0lBQ3pCLG9EQUFvRDtJQUNwRCw2QkFBNkI7SUFDN0IsbUNBQW1DO0lBQ25DLHVCQUF1QjtJQUN2QixzQ0FBc0M7SUFDdEMsOEJBQThCO0FBQ2xDOztBQUVBO0lBQ0ksS0FBSyxpQkFBaUIsQ0FBQztJQUN2QixHQUFHLGdCQUFnQixDQUFDO0FBQ3hCIiwiZmlsZSI6ImluaWNpby5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiI2RpdldlYXRoZXJNYWlue1xyXG4gICAgZGlzcGxheTogYmxvY2s7XHJcbiAgICBib3JkZXItcmFkaXVzOiAxMCU7XHJcbiAgICB3aWR0aDogMTAwJTtcclxuICAgIGhlaWdodDogZml0LWNvbnRlbnQ7XHJcbiAgICBiYWNrZ3JvdW5kOiByZ2IoMCwwLDApO1xyXG4gICAgYmFja2dyb3VuZDogbGluZWFyLWdyYWRpZW50KDE4MGRlZywgcmdiYSgwLDAsMCwxKSAwJSwgcmdiYSg4LDcsNDIsMSkgNzUlLCByZ2IoOCwgMTAsIDYzKSAxMDAlKTtcclxuICAgIGNvbG9yOiB3aGl0ZTs7XHJcbiAgICBmb250LWZhbWlseTogJ1NlZ29lIFVJJywgVGFob21hLCBHZW5ldmEsIFZlcmRhbmEsIHNhbnMtc2VyaWY7XHJcbn1cclxuXHJcbi53ZWF0aGVyV2lkZ2V0Um93e1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgd2lkdGg6IDEwMCU7XHJcbn1cclxuXHJcbiNDb250ZW5lZG9ySW5mb0NsaW1he1xyXG4gICAgaGVpZ2h0OiBmaXQtY29udGVudDtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIHBhZGRpbmctdG9wOiAyMCU7XHJcbn1cclxuXHJcbi5zdW57XHJcbiAgICBtYXJnaW4tdG9wOiAxMCU7XHJcbiAgICBjb2xvcjogeWVsbG93O1xyXG4gICAgZmlsdGVyOiBkcm9wLXNoYWRvdyggMSUgMSUgMTAlIHllbGxvdyk7XHJcbn1cclxuXHJcbi5tb29ue1xyXG4gICAgbWFyZ2luLXRvcDogMTAlO1xyXG4gICAgY29sb3I6IHdoaXRlO1xyXG4gICAgZmlsdGVyOiBkcm9wLXNoYWRvdyggMSUgMSUgMTAlIHllbGxvdyk7XHJcbn1cclxuXHJcbi5jbG91ZERpdntcclxuICAgIG1hcmdpbi10b3A6IC00MCU7XHJcbn1cclxuXHJcbi5jbG91ZHtcclxuICAgIGNvbG9yOiByZ2IoMTA0LCAxNzUsIDE5Nyk7XHJcbiAgICBmaWx0ZXI6IGRyb3Atc2hhZG93KCAxcHggMXB4IDVweCByZ2IoMTA0LCAxNzUsIDE5NykpO1xyXG4gICAgYW5pbWF0aW9uLW5hbWU6IGNsb3VkTW92ZW1lbnQ7XHJcbiAgICBhbmltYXRpb24taXRlcmF0aW9uLWNvdW50OiBpbmZpbml0ZTtcclxuICAgIGFuaW1hdGlvbi1kdXJhdGlvbjogMTBzO1xyXG4gICAgYW5pbWF0aW9uLXRpbWluZy1mdW5jdGlvbjogZWFzZS1pbi1vdXQ7XHJcbiAgICBhbmltYXRpb24tZGlyZWN0aW9uOiBhbHRlcm5hdGU7XHJcbn1cclxuXHJcbkBrZXlmcmFtZXMgY2xvdWRNb3ZlbWVudHtcclxuICAgIGZyb217bWFyZ2luLWxlZnQ6IC01NSU7fVxyXG4gICAgdG97bWFyZ2luLWxlZnQ6IDY1JTt9XHJcbn1cclxuXHJcblxyXG5cclxuIl19 */"] });
 
 
 /***/ }),
@@ -843,10 +1060,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_registrado_nav_registrado_nav_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./components/registrado-nav/registrado-nav.component */ "XgXi");
 /* harmony import */ var _components_perfil_usuario_perfil_usuario_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./components/perfil-usuario/perfil-usuario.component */ "3RtY");
 /* harmony import */ var _components_logueado_logueado_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./components/logueado/logueado.component */ "huVy");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! @angular/core */ "fXoL");
-/* harmony import */ var _components_login_login_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./components/login/login.component */ "W3Zi");
-/* harmony import */ var _components_logoff_logoff_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./components/logoff/logoff.component */ "2CEh");
-/* harmony import */ var _components_registro_registro_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./components/registro/registro.component */ "fkcT");
+/* harmony import */ var _components_cards_home_cards_home_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./components/cards-home/cards-home.component */ "WGn0");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var _components_login_login_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./components/login/login.component */ "W3Zi");
+/* harmony import */ var _components_logoff_logoff_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./components/logoff/logoff.component */ "2CEh");
+/* harmony import */ var _components_registro_registro_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./components/registro/registro.component */ "fkcT");
+
 
 
 
@@ -875,8 +1094,8 @@ __webpack_require__.r(__webpack_exports__);
 class AppModule {
 }
 AppModule.ɵfac = function AppModule_Factory(t) { return new (t || AppModule)(); };
-AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_20__["ɵɵdefineNgModule"]({ type: AppModule, bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"]] });
-AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_20__["ɵɵdefineInjector"]({ providers: [ngx_cookie_service__WEBPACK_IMPORTED_MODULE_15__["CookieService"]], imports: [[
+AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_21__["ɵɵdefineNgModule"]({ type: AppModule, bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"]] });
+AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_21__["ɵɵdefineInjector"]({ providers: [ngx_cookie_service__WEBPACK_IMPORTED_MODULE_15__["CookieService"]], imports: [[
             _angular_forms__WEBPACK_IMPORTED_MODULE_0__["FormsModule"],
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
             _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
@@ -885,7 +1104,7 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_20__["ɵɵdefineInjecto
             _angular_forms__WEBPACK_IMPORTED_MODULE_0__["ReactiveFormsModule"],
             _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_16__["FontAwesomeModule"],
         ]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_20__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"],
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_21__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"],
         _components_carousel_home_carousel_home_component__WEBPACK_IMPORTED_MODULE_6__["CarouselHomeComponent"],
         _components_footer_home_footer_home_component__WEBPACK_IMPORTED_MODULE_7__["FooterHomeComponent"],
         _components_general_nav_general_nav_component__WEBPACK_IMPORTED_MODULE_8__["GeneralNavComponent"],
@@ -894,9 +1113,10 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_20__["ɵɵdefineInjecto
         _components_user_dashboard_user_dashboard_component__WEBPACK_IMPORTED_MODULE_11__["UserDashboardComponent"],
         _components_user_favs_user_favs_component__WEBPACK_IMPORTED_MODULE_12__["UserFavsComponent"],
         _components_user_info_user_info_component__WEBPACK_IMPORTED_MODULE_13__["UserInfoComponent"],
-        _components_user_nav_user_nav_component__WEBPACK_IMPORTED_MODULE_14__["UserNavComponent"], _components_login_login_component__WEBPACK_IMPORTED_MODULE_21__["LoginComponent"], _components_logoff_logoff_component__WEBPACK_IMPORTED_MODULE_22__["LogoffComponent"], _components_registro_registro_component__WEBPACK_IMPORTED_MODULE_23__["RegistroComponent"], _components_registrado_nav_registrado_nav_component__WEBPACK_IMPORTED_MODULE_17__["RegistradoNavComponent"],
+        _components_user_nav_user_nav_component__WEBPACK_IMPORTED_MODULE_14__["UserNavComponent"], _components_login_login_component__WEBPACK_IMPORTED_MODULE_22__["LoginComponent"], _components_logoff_logoff_component__WEBPACK_IMPORTED_MODULE_23__["LogoffComponent"], _components_registro_registro_component__WEBPACK_IMPORTED_MODULE_24__["RegistroComponent"], _components_registrado_nav_registrado_nav_component__WEBPACK_IMPORTED_MODULE_17__["RegistradoNavComponent"],
         _components_perfil_usuario_perfil_usuario_component__WEBPACK_IMPORTED_MODULE_18__["PerfilUsuarioComponent"],
-        _components_logueado_logueado_component__WEBPACK_IMPORTED_MODULE_19__["LogueadoComponent"]], imports: [_angular_forms__WEBPACK_IMPORTED_MODULE_0__["FormsModule"],
+        _components_logueado_logueado_component__WEBPACK_IMPORTED_MODULE_19__["LogueadoComponent"],
+        _components_cards_home_cards_home_component__WEBPACK_IMPORTED_MODULE_20__["CardsHomeComponent"]], imports: [_angular_forms__WEBPACK_IMPORTED_MODULE_0__["FormsModule"],
         _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
         _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
         _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_5__["NgbModule"],
@@ -921,19 +1141,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "1kSV");
 
 
-function CarouselHomeComponent_ng_template_1_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-} }
 function CarouselHomeComponent_ng_template_2_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 3);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 4);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
 function CarouselHomeComponent_ng_template_3_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 3);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} }
+function CarouselHomeComponent_ng_template_4_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 6);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
 class CarouselHomeComponent {
@@ -942,11 +1162,13 @@ class CarouselHomeComponent {
     }
 }
 CarouselHomeComponent.ɵfac = function CarouselHomeComponent_Factory(t) { return new (t || CarouselHomeComponent)(); };
-CarouselHomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CarouselHomeComponent, selectors: [["app-carousel-home"]], decls: 4, vars: 0, consts: [["data-interval", "200"], ["ngbSlide", ""], [1, "picsum-img-wrapper"], ["src", "..\\assets\\Images\\so\u00F1a.png", 1, "d-block", "w-100"], ["src", "..\\assets\\Images\\descubri.png", 1, "d-block", "w-100"], ["src", "..\\assets\\Images\\vivi.png", 1, "d-block", "w-100"]], template: function CarouselHomeComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "ngb-carousel", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, CarouselHomeComponent_ng_template_1_Template, 2, 0, "ng-template", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, CarouselHomeComponent_ng_template_2_Template, 2, 0, "ng-template", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, CarouselHomeComponent_ng_template_3_Template, 2, 0, "ng-template", 1);
+CarouselHomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CarouselHomeComponent, selectors: [["app-carousel-home"]], decls: 5, vars: 0, consts: [[1, "container"], ["data-interval", "300"], ["ngbSlide", ""], [1, "picsum-img-wrapper"], ["src", "..\\assets\\Images\\so\u00F1a.png", 1, "d-block", "w-100"], ["src", "..\\assets\\Images\\descubri.png", 1, "d-block", "w-100"], ["src", "..\\assets\\Images\\vivi.png", 1, "d-block", "w-100"]], template: function CarouselHomeComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "ngb-carousel", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, CarouselHomeComponent_ng_template_2_Template, 2, 0, "ng-template", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, CarouselHomeComponent_ng_template_3_Template, 2, 0, "ng-template", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, CarouselHomeComponent_ng_template_4_Template, 2, 0, "ng-template", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } }, directives: [_ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_1__["NgbCarousel"], _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_1__["NgbSlide"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJjYXJvdXNlbC1ob21lLmNvbXBvbmVudC5jc3MifQ== */"] });
 
@@ -1471,7 +1693,7 @@ GeneralNavComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefi
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](9);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngbCollapse", ctx.isMenuCollapsed);
-    } }, directives: [_ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_1__["NgbNavbar"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkWithHref"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkActive"], _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_1__["NgbCollapse"]], styles: ["nav[_ngcontent-%COMP%]{\n    border-radius:  0px 0px 25px 25px;\n}\n\n.container-fluid[_ngcontent-%COMP%] {\n    text-align: center;\n}\n\na[_ngcontent-%COMP%], .navbar-dark[_ngcontent-%COMP%]   .navbar-nav[_ngcontent-%COMP%]   .nav-link[_ngcontent-%COMP%] {\n    font-family: 'Ubuntu', sans-serif;\n}\n\n.nav-link[_ngcontent-%COMP%]{\n    margin-right: 20px;\n}\n\n.btn-primary[_ngcontent-%COMP%], .btn-primary[_ngcontent-%COMP%]:hover, .btn-primary[_ngcontent-%COMP%]:active, .btn-primary[_ngcontent-%COMP%]:visited {\n    background-color: #f3a60c !important;\n    border-color: #f3a60c !important ;\n}\n\n.btn[_ngcontent-%COMP%]:hover {\n    font-size: 20px;\n    font-weight: bold;\n  }\n\nimg[_ngcontent-%COMP%] {\n  max-width: 30%;\n  height: auto;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImdlbmVyYWwtbmF2LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxpQ0FBaUM7QUFDckM7O0FBRUE7SUFDSSxrQkFBa0I7QUFDdEI7O0FBRUE7O0lBRUksaUNBQWlDO0FBQ3JDOztBQUVBO0lBQ0ksa0JBQWtCO0FBQ3RCOztBQUVBO0lBQ0ksb0NBQW9DO0lBQ3BDLGlDQUFpQztBQUNyQzs7QUFFQTtJQUNJLGVBQWU7SUFDZixpQkFBaUI7RUFDbkI7O0FBRUY7RUFDRSxjQUFjO0VBQ2QsWUFBWTtBQUNkIiwiZmlsZSI6ImdlbmVyYWwtbmF2LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJuYXZ7XG4gICAgYm9yZGVyLXJhZGl1czogIDBweCAwcHggMjVweCAyNXB4O1xufVxuXG4uY29udGFpbmVyLWZsdWlkIHtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cbmEsXG4ubmF2YmFyLWRhcmsgLm5hdmJhci1uYXYgLm5hdi1saW5rIHtcbiAgICBmb250LWZhbWlseTogJ1VidW50dScsIHNhbnMtc2VyaWY7XG59XG5cbi5uYXYtbGlua3tcbiAgICBtYXJnaW4tcmlnaHQ6IDIwcHg7XG59XG5cbi5idG4tcHJpbWFyeSwgLmJ0bi1wcmltYXJ5OmhvdmVyLCAuYnRuLXByaW1hcnk6YWN0aXZlLCAuYnRuLXByaW1hcnk6dmlzaXRlZCB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2YzYTYwYyAhaW1wb3J0YW50O1xuICAgIGJvcmRlci1jb2xvcjogI2YzYTYwYyAhaW1wb3J0YW50IDtcbn1cblxuLmJ0bjpob3ZlciB7XG4gICAgZm9udC1zaXplOiAyMHB4O1xuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xuICB9XG5cbmltZyB7XG4gIG1heC13aWR0aDogMzAlO1xuICBoZWlnaHQ6IGF1dG87XG59XG4iXX0= */"] });
+    } }, directives: [_ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_1__["NgbNavbar"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkWithHref"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkActive"], _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_1__["NgbCollapse"]], styles: ["nav[_ngcontent-%COMP%]{\n    border-radius:  0px 0px 25px 25px;\n}\n\n.container-fluid[_ngcontent-%COMP%] {\n    text-align: center;\n}\n\na[_ngcontent-%COMP%], .navbar-dark[_ngcontent-%COMP%]   .navbar-nav[_ngcontent-%COMP%]   .nav-link[_ngcontent-%COMP%] {\n    font-family: 'Ubuntu', sans-serif;\n}\n\n.nav-link[_ngcontent-%COMP%]{\n    margin-right: 20px;\n}\n\n.btn-primary[_ngcontent-%COMP%], .btn-primary[_ngcontent-%COMP%]:hover, .btn-primary[_ngcontent-%COMP%]:active, .btn-primary[_ngcontent-%COMP%]:visited {\n    background-color: #f3a60c !important;\n    border-color: #f3a60c !important ;\n}\n\n.btn[_ngcontent-%COMP%]:hover {\n    font-size: 20px;\n    font-weight: bold;\n  }\n\nimg[_ngcontent-%COMP%] {\n  max-width: 35%;\n  height: auto;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImdlbmVyYWwtbmF2LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxpQ0FBaUM7QUFDckM7O0FBRUE7SUFDSSxrQkFBa0I7QUFDdEI7O0FBRUE7O0lBRUksaUNBQWlDO0FBQ3JDOztBQUVBO0lBQ0ksa0JBQWtCO0FBQ3RCOztBQUVBO0lBQ0ksb0NBQW9DO0lBQ3BDLGlDQUFpQztBQUNyQzs7QUFFQTtJQUNJLGVBQWU7SUFDZixpQkFBaUI7RUFDbkI7O0FBRUY7RUFDRSxjQUFjO0VBQ2QsWUFBWTtBQUNkIiwiZmlsZSI6ImdlbmVyYWwtbmF2LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJuYXZ7XG4gICAgYm9yZGVyLXJhZGl1czogIDBweCAwcHggMjVweCAyNXB4O1xufVxuXG4uY29udGFpbmVyLWZsdWlkIHtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cbmEsXG4ubmF2YmFyLWRhcmsgLm5hdmJhci1uYXYgLm5hdi1saW5rIHtcbiAgICBmb250LWZhbWlseTogJ1VidW50dScsIHNhbnMtc2VyaWY7XG59XG5cbi5uYXYtbGlua3tcbiAgICBtYXJnaW4tcmlnaHQ6IDIwcHg7XG59XG5cbi5idG4tcHJpbWFyeSwgLmJ0bi1wcmltYXJ5OmhvdmVyLCAuYnRuLXByaW1hcnk6YWN0aXZlLCAuYnRuLXByaW1hcnk6dmlzaXRlZCB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2YzYTYwYyAhaW1wb3J0YW50O1xuICAgIGJvcmRlci1jb2xvcjogI2YzYTYwYyAhaW1wb3J0YW50IDtcbn1cblxuLmJ0bjpob3ZlciB7XG4gICAgZm9udC1zaXplOiAyMHB4O1xuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xuICB9XG5cbmltZyB7XG4gIG1heC13aWR0aDogMzUlO1xuICBoZWlnaHQ6IGF1dG87XG59XG4iXX0= */"] });
 
 
 /***/ }),
