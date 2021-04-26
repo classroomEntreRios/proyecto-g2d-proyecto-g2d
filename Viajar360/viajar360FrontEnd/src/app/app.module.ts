@@ -25,6 +25,7 @@ import { AdminDashboardComponent } from './components/admin-dashboard/admin-dash
 import { CrearComponent } from './components/ciudades/crear/crear.component';
 import { ListaComponent } from './components/ciudades/lista/lista.component';
 import { EditarComponent } from './components/ciudades/editar/editar.component';
+import {ChatModule} from './components/chat/chat.module';
 
 @NgModule({
   declarations: [
@@ -47,6 +48,7 @@ import { EditarComponent } from './components/ciudades/editar/editar.component';
     CrearComponent,
     ListaComponent,
     EditarComponent,
+    ChatModule,
   ],
   imports: [
     FormsModule,
@@ -56,6 +58,8 @@ import { EditarComponent } from './components/ciudades/editar/editar.component';
     HttpClientModule,
     ReactiveFormsModule,
     FontAwesomeModule,
+
+
   ],
   providers: [CookieService],
   bootstrap: [AppComponent]
