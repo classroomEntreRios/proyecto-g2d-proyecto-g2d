@@ -13,6 +13,6 @@ import { FormsModule } from '@angular/forms';
     ChatDialogComponent
   ],
   exports: [ChatDialogComponent],
-  providers: [ChatService]
+  providers: [ChatService],
 })
-export class ChatModule { }
+export class ChatModule {};
