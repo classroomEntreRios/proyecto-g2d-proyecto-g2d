@@ -7,8 +7,7 @@ import { LoginComponent } from './components/login/login.component';
 import { LogoffComponent } from './components/logoff/logoff.component';
 import { RegistroComponent } from './components/registro/registro.component';
 import { PerfilUsuarioComponent } from './components/perfil-usuario/perfil-usuario.component';
-import { LogueadoComponent } from './components/logueado/logueado.component';
-import {ChatComponent} from './chat/chat/chat.component';
+import {ChatDialogComponent} from './components/chat/chat-dialog/chat-dialog.component';
 
 
 const routes: Routes = [
@@ -18,9 +17,10 @@ const routes: Routes = [
   { path: 'salida', component: LogoffComponent},
   { path: 'registro', component: RegistroComponent},
   { path: 'perfil', component: PerfilUsuarioComponent},
+  { path: 'admin-dashboard/:dir/:info', component: AdminDashboardComponent },
+  { path: 'admin-dashboard/:dir', component: AdminDashboardComponent },
   { path: 'admin-dashboard', component: AdminDashboardComponent },
-  { path: 'logueado', component: LogueadoComponent},
-  { path: 'chat', component: ChatComponent},
+  { path: 'chat', component: ChatDialogComponent},
   { path: '', redirectTo: 'home',pathMatch: 'full'}
 ];
 
@@ -32,4 +32,4 @@ const routes: Routes = [
 })
 
 export class AppRoutingModule { }
-export const ComponentesRouting = [LoginComponent,LogoffComponent,RegistroComponent,PerfilUsuarioComponent,LogueadoComponent,ChatComponent];
+export const ComponentesRouting = [LoginComponent,LogoffComponent,RegistroComponent,PerfilUsuarioComponent,ChatDialogComponent];
