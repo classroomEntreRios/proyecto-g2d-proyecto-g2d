@@ -19,7 +19,6 @@ import { CookieService } from 'ngx-cookie-service';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { RegistradoNavComponent } from './components/registrado-nav/registrado-nav.component';
 import { PerfilUsuarioComponent } from './components/perfil-usuario/perfil-usuario.component';
-import { LogueadoComponent } from './components/logueado/logueado.component';
 import { CardsHomeComponent } from './components/cards-home/cards-home.component';
 import { AdminDashboardComponent } from './components/admin-dashboard/admin-dashboard.component';
 import { CrearComponent } from './components/ciudades/crear/crear.component';
@@ -42,7 +41,6 @@ import {ChatModule} from './components/chat/chat.module';
     ComponentesRouting,
     RegistradoNavComponent,
     PerfilUsuarioComponent,
-    LogueadoComponent,
     CardsHomeComponent,
     AdminDashboardComponent,
     CrearComponent,

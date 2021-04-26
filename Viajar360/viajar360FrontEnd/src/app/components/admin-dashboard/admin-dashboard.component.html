@@ -1,18 +1,18 @@
-  <ul ngbNav #nav="ngbNav" class="nav-tabs">
-  <li ngbNavItem>
+  <ul ngbNav #nav="ngbNav" [(activeId)]="dir" class="nav-tabs">
+  <li [ngbNavItem]="1">
     <a ngbNavLink>Crear-Ciudad</a>
     <ng-template ngbNavContent>
       <crear-ciudad></crear-ciudad>
     </ng-template>
   </li>
-  <li ngbNavItem>
+  <li [ngbNavItem]="2">
     <a ngbNavLink>Editar-Ciudad</a>
     <ng-template ngbNavContent>
       <lista-ciudad></lista-ciudad>
       <editar-ciudad></editar-ciudad>
     </ng-template>
   </li>
-  <li ngbNavItem>
+  <li [ngbNavItem]="3">
     <a ngbNavLink>Volver</a>
     <ng-template ngbNavContent>
 

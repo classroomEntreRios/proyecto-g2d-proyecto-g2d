@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { Ciudad } from '../shared/ciudad';
 import { Observable, throwError } from 'rxjs';
 import { retry, catchError } from 'rxjs/operators';
 
@@ -13,74 +12,30 @@ import { retry, catchError } from 'rxjs/operators';
 })
 export class AdminCiudadesService {
 
-  //Aca va a ir la url de la API para las ciudades.
-  apiURL = "asdasdasd";
-
   constructor(private http: HttpClient) { }
 
-  //DETERMINAMOS EL FORMATO DE CONTENIDO QUE VA A VENIR DESDE EL BACK
-  //PARA QUE EL FRONT LO INTERPRETE PARA SERVIRLO AL USUARIO
+  // Traer ciudad desde el back
 
-  httpOptions = {
-    headers: new HttpHeaders({
-      'Content-Type': 'application/json'
-    })
-  }
-
-  //Traer ciudad desde el back
-
-  getCiudad(id): Observable<Ciudad> {
-    return this.http.get<Ciudad>(this.apiURL)
-      .pipe(
-        retry(1),
-        catchError(this.handleError)
-      );
+  getCiudad(id): Observable<any> {
+    return this.http.get("https://localhost:44389/api/obtenerciudad/"+id);
   }
 
 //Traer lista de ciudades
 
-  getCiudades(): Observable<Ciudad> {
-    return this.http.get<Ciudad>(this.apiURL)
-      .pipe(
-        retry(1),
-        catchError(this.handleError)
-      );
+  getCiudades(): Observable<any> {
+    return this.http.get("https://localhost:44389/api/listarciudades");
   }
 
   createCiudad(info:any): Observable<any> {
     return this.http.post("https://localhost:44389/api/crearciudad", info);
   }
 
-  actualizarCiudad(id, ciudad): Observable<Ciudad> {
-    return this.http.put<Ciudad>(this.apiURL + '/ciudades/' + id, JSON.stringify(ciudad), this.httpOptions)
-    .pipe(
-      retry(1),
-      catchError(this.handleError)
-    )
+  actualizarCiudad(info:any): Observable<any> {
+    return this.http.post("https://localhost:44389/api/editarciudad", info);
   }
 
-  deleteCiudad(id) {
-    return this.http.delete<Ciudad>(this.apiURL, this.httpOptions)
-      .pipe(
-        retry(1),
-        catchError(this.handleError)
-      );
+  deleteCiudad(datos:any): Observable<any>{
+    return this.http.post("https://localhost:44389/api/borrarciudad",datos);
   }
-
-
-
-
-  handleError(error) {
-    let errorMessage = '';
-    if(error.error instanceof ErrorEvent) {
-      // Esto trae el error del lado del usuario
-      errorMessage = error.error.message;
-    } else {
-      // Esto trae el error del lado del servidor
-      errorMessage = `Error Code: ${error.status}\nMessage: ${error.message}`;
-    }
-    window.alert(errorMessage);
-    return throwError(errorMessage);
- }
 
 }

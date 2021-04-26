@@ -29,7 +29,11 @@ export class LoginComponent implements OnInit {
       if (data.estado == true){
         this.logueo.SetToken(data.token,this.usuario);
         this.resp.error = false;
+<<<<<<< HEAD
         this.router.navigateByUrl('chat');
+=======
+        this.router.navigateByUrl('/');
+>>>>>>> b82456a5f7064a08c73790ab6674081ffb074e04
       }
       else
       {
