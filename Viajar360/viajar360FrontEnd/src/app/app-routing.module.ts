@@ -7,7 +7,7 @@ import { LoginComponent } from './components/login/login.component';
 import { LogoffComponent } from './components/logoff/logoff.component';
 import { RegistroComponent } from './components/registro/registro.component';
 import { PerfilUsuarioComponent } from './components/perfil-usuario/perfil-usuario.component';
-import { LogueadoComponent } from './components/logueado/logueado.component'
+import { RedirectdummyComponent } from './components/redirectdummy/redirectdummy.component';
 
 
 const routes: Routes = [
@@ -17,9 +17,11 @@ const routes: Routes = [
   { path: 'salida', component: LogoffComponent},
   { path: 'registro', component: RegistroComponent},
   { path: 'perfil', component: PerfilUsuarioComponent},
+  { path: 'admin-dashboard/:dir/:info', component: AdminDashboardComponent },
+  { path: 'admin-dashboard/:dir', component: AdminDashboardComponent },
   { path: 'admin-dashboard', component: AdminDashboardComponent },
-  { path: 'logueado', component: LogueadoComponent},
-  { path: '', redirectTo: 'home',pathMatch: 'full'}
+  { path: 'dummy/:id', component: RedirectdummyComponent},
+  { path: '', redirectTo: 'home',pathMatch: 'full'},
 ];
 
 @NgModule({
@@ -30,4 +32,4 @@ const routes: Routes = [
 })
 
 export class AppRoutingModule { }
-export const ComponentesRouting = [LoginComponent,LogoffComponent,RegistroComponent,PerfilUsuarioComponent,LogueadoComponent];
+export const ComponentesRouting = [LoginComponent,LogoffComponent,RegistroComponent,PerfilUsuarioComponent];

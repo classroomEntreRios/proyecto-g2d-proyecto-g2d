@@ -35,7 +35,7 @@ export class CrearComponent implements OnInit {
         const Envio = { nombre: this.Nciudad, usuario: this.Usuario.usuario, sid: this.Usuario.sid };
         this.adminCiudades.createCiudad(Envio).subscribe(data => {
           if(data.estado==true){
-            this.router.navigate(['lista-ciudad']);
+            this.router.navigate(['/admin-dashboard/2']);
           }
           else
           {
