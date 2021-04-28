@@ -7,7 +7,10 @@ import { LoginComponent } from './components/login/login.component';
 import { LogoffComponent } from './components/logoff/logoff.component';
 import { RegistroComponent } from './components/registro/registro.component';
 import { PerfilUsuarioComponent } from './components/perfil-usuario/perfil-usuario.component';
-
+import { RedirectdummyComponent } from './components/redirectdummy/redirectdummy.component';
+import { TemasComponent } from './components/foro/temas/temas.component';
+import { CreartemaComponent } from './components/foro/creartema/creartema.component';
+import { HiloComponent } from './components/foro/hilo/hilo.component';
 
 
 const routes: Routes = [
@@ -20,8 +23,12 @@ const routes: Routes = [
   { path: 'admin-dashboard/:dir/:info', component: AdminDashboardComponent },
   { path: 'admin-dashboard/:dir', component: AdminDashboardComponent },
   { path: 'admin-dashboard', component: AdminDashboardComponent },
-
-  { path: '', redirectTo: 'home',pathMatch: 'full'}
+  { path: 'dummy/:id', component: RedirectdummyComponent},
+  { path: 'foro', component: TemasComponent},
+  { path: 'foro/crear', component: CreartemaComponent},
+  { path: 'foro/tema/:id', component: HiloComponent},
+  { path: 'foro/tema', component: TemasComponent},
+  { path: '', redirectTo: 'home',pathMatch: 'full'},
 ];
 
 @NgModule({
@@ -32,4 +39,4 @@ const routes: Routes = [
 })
 
 export class AppRoutingModule { }
-export const ComponentesRouting = [LoginComponent,LogoffComponent,RegistroComponent,PerfilUsuarioComponent];
+export const ComponentesRouting = [LoginComponent,LogoffComponent,RegistroComponent,PerfilUsuarioComponent,TemasComponent,CreartemaComponent];

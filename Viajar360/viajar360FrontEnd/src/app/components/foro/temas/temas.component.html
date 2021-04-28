@@ -1,0 +1,41 @@
+<div class="container">
+    <div class="no-data text-center" *ngIf="primera">
+        <img src="/assets/carga.gif">
+    </div>
+    <div *ngIf="falla">
+        <div class="alert alert-danger">
+            {{resp.reporte}}
+        </div>
+    </div>
+    <div class="no-data text-center" *ngIf="temas.length == 0 && !primera && !falla">
+        <button routerLink="/foro/crear">Nuevo Tema</button>
+        <p>No hay temas!!!</p>
+    </div>
+    <div *ngIf="temas.length !== 0">
+        <button routerLink="/foro/crear">Nuevo Tema</button>
+        <h3 class="mb-3 text-center">Lista de Temas</h3>
+        <div class="col-md-12">
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th scope="col">Tema</th>
+                <th scope="col">Estado</th>
+                <th scope="col">Enlace</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let tema of temas">
+                <td>{{tema.titulo}}</td>
+                <td *ngIf="tema.estado == 0; else estado_tema">abierto</td>
+                <ng-template #estado_tema>
+                    <td>cerrado</td>
+                </ng-template>
+                <td>
+                  <span class="edit botonera" routerLink="/foro/tema/{{tema.id_tema}}">ir al tema</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+</div>

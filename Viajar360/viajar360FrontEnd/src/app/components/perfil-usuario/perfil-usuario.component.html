@@ -2,7 +2,7 @@
 <div class="abs-center">
     <div class="container">
         <p class="parrafo"> Perfil del usuario: Personalizar</p>
-        <form>
+        <form method="post" [formGroup]="user" (ngSubmit)="actualizar()">
             <label>
 
                 <span>Foto de perfil</span>
@@ -66,6 +66,7 @@
             <label>
                 <span>Teléfono</span>
                 <input type="text" placeholder="Teléfono" formControlName="telefono">
+                <div *ngIf="f.telefono.touched && f.telefono.invalid" class="alert alert-danger">El numero de telefono no es valido</div>
             </label>
             <label>
                 <span>Localidad</span>

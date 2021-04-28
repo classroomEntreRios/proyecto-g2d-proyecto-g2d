@@ -1,0 +1,18 @@
+<div class="container">
+    <form method="POST" [formGroup]="entrada" (ngSubmit)="CrearTema()">
+        <h1>Titulo</h1>
+        <input type="text" formControlName="titulo" placeholder="Ingrese titulo" required="required"/>
+        <div *ngIf="f.titulo.touched && f.titulo.invalid; else espaciador" class="alert alert-danger">
+            <div *ngIf="f.titulo.errors.required">Ingrese el titulo del tema a crear</div>
+            <div *ngIf="f.titulo.errors.minlength">El titulo del tema tiene que tener 8 caracteres como minimo</div>
+            <div *ngIf="f.titulo.errors.maxlength">El titulo del tema tiene que tener 255 caracteres como maximo</div>
+            <br>
+        </div>
+        <ng-template #espaciador>
+            <br>
+        </ng-template>
+        <button type="submit" class="btn btn-primary" [disabled]="!entrada.valid">CrearTema</button>
+          <button class="btn btn-primary" routerLink="/">Volver al Inicio</button> 
+    </form>
+    <div *ngIf="respuesta" class="alert alert-danger">{{resp.reporte}}</div>
+</div>
