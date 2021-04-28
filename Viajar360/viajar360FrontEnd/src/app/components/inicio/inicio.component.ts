@@ -9,52 +9,134 @@ import { WheaterService } from '../../services/wheater.service';
 
 export class InicioComponent implements OnInit {
 
-  title = 'Viajar360FrontEnd';
+  title = 'Viajar 360° - Un estilo en viajes';
   clima: any;
+  icono: any;
   constructor(private weatherService: WheaterService) {
 
   }
 
   ngOnInit() {
-   
+
     this.clima = {
-      main : {},
-      isDay: true
+      main: {},
+      isDay: true,
+     
     };
-    
+
     this.getWeatherData();
 
     console.log(this.clima);
+
+  }
+  resolverimagen() {
+    if ((this.clima.icon) = '01d') {
+      return 'https://www.seekpng.com/png/full/169-1698241_imagen-sol-png-svg-free-download-sun-vector.png'
     
-  }
+    };
+    if ((this.clima.icon) = '02d') {
+      return 'https://openweathermap.org/img/wn/02d@2x.png'
+     
+    };
+    if ((this.clima.icon) = '03d') {
+      return 'https://openweathermap.org/img/wn/03d@2x.png'
+  
+    };
+    if ((this.clima.icon) = '04d') {
+      return 'https://openweathermap.org/img/wn/04d@2x.png'
+    
+    };
+    if ((this.clima.icon) = '09d') {
+      return 'https://openweathermap.org/img/wn/09d@2x.png'
+    
+    };
+    if ((this.clima.icon) = '10d') {
+      return 'https://openweathermap.org/img/wn/10d@2x.png'
+    
+    };
+    if ((this.clima.icon) = '11d') {
+      return 'https://openweathermap.org/img/wn/11d@2x.png'
+  
+    };
+    if ((this.clima.icon) = '13d') {
+      return'https://openweathermap.org/img/wn/13d@2x.png'
+  
+    };
+    if ((this.clima.icon) = '50d') {
+      return 'https://openweathermap.org/img/wn/50d@2x.png'
+    
+    };
+    if ((this.clima.icon) = '01n') {
+      return 'https://openweathermap.org/img/wn/10n@2x.png'
 
-  getWeather(ciudad: string, codigo:  string) {
-    codigo = 'Ar';
+    };
+
+    if ((this.clima.icon) = '02n') {
+      return 'https://openweathermap.org/img/wn/02n@2x.png'
  
-    this.weatherService.getWeather(ciudad, codigo)
-    .subscribe (
-      res => { 
-      console.log(res);
-      this.clima = res
-    },
-      err => console.log(err)
-    )
+    };
+    if ((this.clima.icon) = '03n') {
+      return 'https://openweathermap.org/img/wn/03n@2x.png'
   
- }
+    };
+    if ((this.clima.icon) = '04n') {
+      return 'https://openweathermap.org/img/wn/04n@2x.png'
+   
+    };
+    if ((this.clima.icon) = '09n') {
+      return 'https://openweathermap.org/img/wn/09n@2x.png'
+   
+    };
+    if ((this.clima.icon) = '10n') {
+      return'https://openweathermap.org/img/wn/10n@2x.png'
+  
+    };
+    if ((this.clima.icon) = '11n') {
+      return 'https://openweathermap.org/img/wn/11n@2x.png'
+   
+    };
+    if ((this.clima.icon) = '13n') {
+      return 'https://openweathermap.org/img/wn/13n@2x.png'
+    
+    };
+    if ((this.clima.icon) = '50n') {
+      return 'https://openweathermap.org/img/wn/50n@2x.png'
+     
+    };
 
-  
-  
-
-  getWeatherData(){
-    fetch('https://api.openweathermap.org/data/2.5/weather?q=Paraná,ar&appid=ff1bc4683fc7325e9c57e586c20cc03e')
-    .then(response=>response.json())
-    .then(data=>{this.setWeatherData(data);})
   }
 
-  setWeatherData(data){
+
+  getWeather(ciudad: string, codigo: string) {
+    codigo = 'Ar';
+
+    this.weatherService.getWeather(ciudad, codigo)
+      .subscribe(
+        res => {
+          console.log(res);
+          this.clima = res
+        },
+        err => console.log(err)
+      )
+
+  }
+
+
+
+
+  getWeatherData() {
+    fetch('https://api.openweathermap.org/data/2.5/weather?q=Paraná,ar&appid=ff1bc4683fc7325e9c57e586c20cc03e')
+
+
+      .then(response => response.json())
+      .then(data => { this.setWeatherData(data); })
+  }
+
+  setWeatherData(data) {
     data.main.temp = (data.main.temp - 273.15).toFixed(2);
     data.main.temp_max = (data.main.temp_max - 273.15).toFixed(2);
     data.main.temp_min = (data.main.temp_min - 273.15).toFixed(2);
+    data.main.icono = (data.main.icon);
     this.clima = data;
     let sunsetTime = new Date(this.clima.sys.sunset * 1000);
     this.clima.sunset_time = sunsetTime.toLocaleTimeString();
@@ -63,6 +145,7 @@ export class InicioComponent implements OnInit {
     this.clima.temp_celcius = (this.clima.main.temp);
     this.clima.temp_min = (this.clima.main.temp_min);
     this.clima.temp_max = (this.clima.main.temp_max);
+    this.clima.icono = (this.clima.main.icon);
   }
 
   submitciudad(ciudad: HTMLInputElement, codigo: HTMLInputElement) {
@@ -70,11 +153,11 @@ export class InicioComponent implements OnInit {
     if (ciudad.value && codigo.value) {
       this.getWeather(ciudad.value, codigo.value);
       ciudad.value = '';
-     
+
     } else {
-      alert ('Por favor, ingrese datos válidos');
+      alert('Por favor, ingrese datos válidos');
     }
-   
+
     ciudad.focus();
     return false;
   }
