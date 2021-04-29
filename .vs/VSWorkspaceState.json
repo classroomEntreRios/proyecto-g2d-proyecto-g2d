@@ -3,8 +3,12 @@
     "",
     "\\Viajar360",
     "\\Viajar360\\viajar360BackEnd\\viajar360BackEnd",
+    "\\Viajar360\\viajar360BackEnd\\viajar360BackEnd\\App_Start",
+    "\\Viajar360\\viajar360BackEnd\\viajar360BackEnd\\Bundles",
+    "\\Viajar360\\viajar360BackEnd\\viajar360BackEnd\\Controllers",
+    "\\Viajar360\\viajar360BackEnd\\viajar360BackEnd\\Models",
     "\\Viajar360\\viajar360FrontEnd"
   ],
-  "SelectedNode": "\\Viajar360\\viajar360FrontEnd",
+  "SelectedNode": "\\Viajar360\\viajar360BackEnd\\viajar360BackEnd\\Global.asax.cs",
   "PreviewInSolutionExplorer": false
 }

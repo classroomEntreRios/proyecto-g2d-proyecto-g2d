@@ -1,35 +1,75 @@
-
 <div id="fondo" class="flex-fill">
   <div class="container">
-    <form novalidate [formGroup]="user">
+    <form novalidate [formGroup]="user" (ngSubmit)="submit()">
       <label>
         <span>Usuario</span>
+        <br>
         <input type="text" placeholder="Nombre de usuario" formControlName="username">
-        <div class="error" *ngIf="user.get('username').hasError('required') && user.get('username').touched">
-          Usuario requerido
+        <div *ngIf="f.username.touched && f.username.invalid; else Separador_User" class="alert alert-danger">
+          <div *ngIf="f.username.errors.minlength">el usuario debe tener 8 caracteres como minimo</div>
+          <div *ngIf="f.username.errors.required">Usuario requerido</div>
+          <div *ngIf="f.username.errors.maxlength">el usuario debe tener 50 caracteres como maximo</div>
         </div>
+        <ng-template #Separador_User>
+          <div> 
+            <br>
+          </div>
+        </ng-template>
       </label>
       <label>
         <span>Contraseña</span>
+        <br>
         <input type="password" placeholder="Ingrese contraseña" formControlName="password">
-        <div *ngIf="f.password.touched && f.password.invalid" class="alert alert-danger">
+        <div *ngIf="f.password.touched && f.password.invalid; else Separador_Contra" class="alert alert-danger">
+          <div *ngIf="f.password.errors.minlength">La contraseña debe tener 8 caracteres como minimo</div>
+          <div *ngIf="f.password.errors.maxlength">La contraseña debe tener 50 caracteres como maximo</div>
           <div *ngIf="f.password.errors.required">Contraseña es requerida.</div>
+          <div *ngIf="f.password.errors.pattern">La Contraseña requiere una mayuscula, una minuscula y un numero como minimo.</div>
         </div>
+        <ng-template #Separador_Contra>
+          <div> 
+            <br>
+          </div>
+        </ng-template>
       </label>
       <label>
         <span>Confirme contraseña</span>
+        <br>
         <input type="password" placeholder="Confirme su contraseña" formControlName="confirmpassword">
-        <div *ngIf="f.confirmpassword.touched && f.confirmpassword.invalid" class="alert alert-danger">
-          <div *ngIf="f.confirmpassword.errors.required">Contraseña es requerida.</div>
-          <div *ngIf="f.confirmpassword.errors.confirmedValidator">Contraseña y confirmación deben coincidir.</div>
+        <div *ngIf="f.confirmpassword.touched && (f.confirmpassword.invalid || user.errors?.Diferente); else Separador_Confirmacion" class="alert alert-danger">
+          <div *ngIf="f.confirmpassword.invalid">
+            <div *ngIf="f.confirmpassword.errors.required">Contraseña es requerida.</div>
+            <div *ngIf="f.confirmpassword.errors.pattern">La Contraseña requiere una mayuscula, una minuscula y un numero como minimo.</div>
+          </div>
+          <div *ngIf="f.confirmpassword.errors.minlength">La contraseña debe tener 8 caracteres como minimo</div>
+          <div *ngIf="f.confirmpassword.errors.maxlength">La contraseña debe tener 50 caracteres como maximo</div>
+          <div *ngIf="user.errors?.Diferente">La Contraseña y Confirmacion deben coincidir</div>
         </div>
+        <ng-template #Separador_Confirmacion>
+          <div> 
+            <br>
+          </div>
+        </ng-template>
       </label>
       <label>
         <span>Correo electrónico</span>
+        <br>
         <input type="text" placeholder="Ingrese su mail" formControlName="mail">
+        <div *ngIf="f.mail.touched && f.mail.invalid; else Separador_Mail" class="alert alert-danger">
+          <div *ngIf="f.mail.errors.required">E-Mail requerido</div>
+          <div *ngIf="f.mail.errors.email">Formato de E-Mail invalido</div>
+        </div>
+        <ng-template #Separador_Mail>
+          <div> 
+            <br>
+          </div>
+        </ng-template>
       </label>
-
-      <button class="btn btn-primary" type="submit" [disabled]="!user.valid">Registrarse</button>
+      <div id="botones">
+        <button class="btn btn-primary" routerLink="/">Volver al Inicio</button> 
+        <button class="btn btn-primary" [disabled]="!user.valid">Registrarse</button> 
+      </div>
     </form>
+    <div *ngIf="resp.error == true" class="alert alert-danger">{{resp.reporte}}</div>
   </div>
 </div>

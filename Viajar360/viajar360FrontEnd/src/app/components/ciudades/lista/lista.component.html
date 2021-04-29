@@ -1,0 +1,39 @@
+<div class="container custom-container-2">
+  <div class="no-data text-center" *ngIf="primera">
+    <img src="/assets/carga.gif">
+  </div>
+<!--Muestra mensaje si no hay ciudades-->
+  <div class="no-data text-center" *ngIf="Ciudades.length == 0 && !primera">
+    <p>No hay ciudades!!!</p>
+  </div>
+
+<!--Lista de ciudades, no se muestra si no hay ciudades-->
+  <div *ngIf="Ciudades.length !== 0">
+    <h3 class="mb-3 text-center">Lista de Ciudades</h3>
+
+    <div class="col-md-12">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">Id Ciudad</th>
+            <th scope="col">Nombre Ciudad</th>
+            <th scope="col">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let ciudad of Ciudades">
+            <td>{{ciudad.id_ciudad}}</td>
+            <td>{{ciudad.nombre}}</td>
+            <td>
+              <span class="edit botonera" routerLink="/dummy/{{ciudad.id_ciudad}}">Editar</span>
+              <span> - </span>
+              <span class="delete botonera" (click)="borrarCiudad(ciudad.id_ciudad,ciudad.nombre)">Borrar</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+
+</div>

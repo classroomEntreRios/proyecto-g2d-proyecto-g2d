@@ -1,67 +1,68 @@
 form {
-    display: grid;
-    background: #fceabb;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #f8b500, #fceabb);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #f8b500, #fceabb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
-    border: 1px solid #c1c1c1;
-    margin: 0 auto 0 auto;
-    width: 75%;
-    padding: 20%;
-   
-  }
-  form input {
-    background: #fff;
-    border: 1px solid #9c9c9c;
-    width: 70%;
-
-  }
-  form button {
-    background: lightgrey;
-    padding: 0.7em;
-    width: 50%;
-    border: 1;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+  display: grid;
+  background: #fceabb;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f8b500, #fceabb);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f8b500, #fceabb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
-  }
-  form button:hover {
-    background: gold;
-  }
-  
-  label {
-    padding: 0.5em 0.5em 0.5em 0;
-    width: 300px;
-    
-    font-family: fantasy;
+  border: 1px solid #c1c1c1;
+  margin: 0 auto 0 auto;
+  width: 75%;
+  padding: 5%;
  
-  }
-  
-  input {
-    padding: 0.5em;
-    height: 40px;
-    width: 70%;
-    background-color: powderblue;
+}
+form input {
+  background: #fff;
+  border: 1px solid #9c9c9c;
+  width: 100%;
 
-  }
-  input:focus {
-    outline: 3px solid gold;
-  }
+}
+form button {
+  background: orange;
+  width: 35%;
+  border: 1;
+  align-items: center;
+  margin-left: 10%;
+}
+form button:disabled {
+  background: lightgrey;
+}
+form button:hover {
+  background: gold;
+}
 
-  .container {
-    padding: 10%;
-  }
-  #fondo{
-    background-image: url('../../../assets/Images/Nogoya-paseo-puentes.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    overflow: auto;
-  }
+label {
+  width: 95%;
   
+  font-family: fantasy;
+
+}
+#botones{
+  display: block;
+}
+
+input {
+  padding: 0.5em;
+  height: 40px;
+  width: 100%;
+  background-color: powderblue;
+
+}
+input:focus {
+  outline: 3px solid gold;
+}
+
+.container {
+  padding: 10%;
+}
+#fondo{
+  background-image: url('/assets/Images/Nogoya-paseo-puentes.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+}

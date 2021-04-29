@@ -19,8 +19,13 @@ import { CookieService } from 'ngx-cookie-service';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { RegistradoNavComponent } from './components/registrado-nav/registrado-nav.component';
 import { PerfilUsuarioComponent } from './components/perfil-usuario/perfil-usuario.component';
-import { LogueadoComponent } from './components/logueado/logueado.component';
 import { CardsHomeComponent } from './components/cards-home/cards-home.component';
+import { AdminDashboardComponent } from './components/admin-dashboard/admin-dashboard.component';
+import { CrearComponent } from './components/ciudades/crear/crear.component';
+import { ListaComponent } from './components/ciudades/lista/lista.component';
+import { EditarComponent } from './components/ciudades/editar/editar.component';
+import { InvitadoNavComponent } from './components/invitado-nav/invitado-nav.component';
+
 
 @NgModule({
   declarations: [
@@ -37,8 +42,12 @@ import { CardsHomeComponent } from './components/cards-home/cards-home.component
     ComponentesRouting,
     RegistradoNavComponent,
     PerfilUsuarioComponent,
-    LogueadoComponent,
     CardsHomeComponent,
+    AdminDashboardComponent,
+    CrearComponent,
+    ListaComponent,
+    EditarComponent,
+    InvitadoNavComponent,
   ],
   imports: [
     FormsModule,

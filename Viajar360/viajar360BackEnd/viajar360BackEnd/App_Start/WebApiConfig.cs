@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using viajar360BackEnd.App_Start;
 using System.Web.Http;
 
 namespace viajar360BackEnd
@@ -10,7 +8,7 @@ namespace viajar360BackEnd
         public static void Register(HttpConfiguration config)
         {
             // Web API configuration and services
-
+            config.EnableCors(new AccessPolicyCors());
             // Web API routes
             config.MapHttpAttributeRoutes();
 

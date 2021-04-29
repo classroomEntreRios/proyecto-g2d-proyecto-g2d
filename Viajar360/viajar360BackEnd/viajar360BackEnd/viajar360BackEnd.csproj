@@ -51,14 +51,53 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.AspNetCore.Cors, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Cors.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Cors.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.AspNetCore.Cryptography.Internal, Version=5.0.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNetCore.Cryptography.Internal.5.0.4\lib\net461\Microsoft.AspNetCore.Cryptography.Internal.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.AspNetCore.Cryptography.KeyDerivation, Version=5.0.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNetCore.Cryptography.KeyDerivation.5.0.4\lib\net461\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Http.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Http.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http.Extensions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Http.Extensions.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http.Features, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Http.Features.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Http.Features.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Extensions.Configuration.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileProviders.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.FileProviders.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.Extensions.FileProviders.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Options.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Options.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Primitives.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Net.Http.Headers, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Net.Http.Headers.2.2.0\lib\netstandard2.0\Microsoft.Net.Http.Headers.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.0\lib\netstandard2.0\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ComponentModel.Annotations.4.5.0\lib\net461\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Linq, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
@@ -66,14 +105,33 @@
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
+    <Reference Include="System.Memory, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.1\lib\netstandard2.0\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.4.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.1\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
+    <Reference Include="System.Text.Encodings.Web, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encodings.Web.4.5.0\lib\netstandard2.0\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Cors, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Cors.5.2.7\lib\net45\System.Web.Cors.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Http.Cors, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Cors.5.2.7\lib\net45\System.Web.Http.Cors.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Extensions" />
@@ -148,16 +206,60 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Start\AccessPolicyCors.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\CiudadesController.cs" />
+    <Compile Include="Controllers\ForoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\UsuariosController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Ciudades.cs">
+      <DependentUpon>CiudadesDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CiudadesDB.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CiudadesDB.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CiudadesDB.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CiudadesDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CiudadesDB.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CiudadesDB.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Comentarios.cs">
+      <DependentUpon>ForoDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ForoDB.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ForoDB.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ForoDB.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ForoDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ForoDB.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ForoDB.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ModeloCiudad.cs" />
+    <Compile Include="Models\ModeloForo.cs" />
     <Compile Include="Models\ModeloUsuario.cs" />
+    <Compile Include="Models\Temas.cs">
+      <DependentUpon>ForoDB.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\Token.cs">
       <DependentUpon>TokenDB.tt</DependentUpon>
     </Compile>
@@ -197,13 +299,57 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\carga.gif" />
+    <Content Include="assets\Images\carnaval.jpg" />
+    <Content Include="assets\Images\descubri.png" />
+    <Content Include="assets\Images\fondoPerfil.jpg" />
+    <Content Include="assets\Images\gastronomico.jpg" />
+    <Content Include="assets\Images\historico.jpg" />
+    <Content Include="assets\Images\nog-registro.jpg" />
+    <Content Include="assets\Images\Nogoya-paseo-puentes.jpg" />
+    <Content Include="assets\Images\pescando.jpg" />
+    <Content Include="assets\Images\playa.jpg" />
+    <Content Include="assets\Images\populares.jpg" />
+    <Content Include="assets\Images\rural.jpg" />
+    <Content Include="assets\Images\shows.jpg" />
+    <Content Include="assets\Images\sonia.png" />
+    <Content Include="assets\Images\termal.jpg" />
+    <Content Include="assets\Images\vivi.png" />
+    <Content Include="assets\Logo.gif" />
+    <Content Include="Bundles\assets\carga.gif" />
+    <Content Include="Bundles\assets\Images\atrac-1.jpg" />
+    <Content Include="Bundles\assets\Images\atrac-2.jpg" />
+    <Content Include="Bundles\assets\Images\atrac-3.jpg" />
+    <Content Include="Bundles\assets\Images\carnaval.jpg" />
+    <Content Include="Bundles\assets\Images\descubri.png" />
+    <Content Include="Bundles\assets\Images\fondoPerfil.jpg" />
+    <Content Include="Bundles\assets\Images\gastronomico.jpg" />
+    <Content Include="Bundles\assets\Images\historico.jpg" />
+    <Content Include="Bundles\assets\Images\nog-registro.jpg" />
+    <Content Include="Bundles\assets\Images\Nogoya-paseo-puentes.jpg" />
+    <Content Include="Bundles\assets\Images\pescando.jpg" />
+    <Content Include="Bundles\assets\Images\playa.jpg" />
+    <Content Include="Bundles\assets\Images\populares.jpg" />
+    <Content Include="Bundles\assets\Images\rural.jpg" />
+    <Content Include="Bundles\assets\Images\shows.jpg" />
+    <Content Include="Bundles\assets\Images\sonia.png" />
+    <Content Include="Bundles\assets\Images\soña.png" />
+    <Content Include="Bundles\assets\Images\termal.jpg" />
+    <Content Include="Bundles\assets\Images\vivi.png" />
+    <Content Include="Bundles\assets\Logo.gif" />
     <Content Include="Bundles\favicon.ico" />
+    <Content Include="Bundles\fondoPerfil.jpg" />
     <Content Include="Bundles\index.html" />
     <Content Include="Bundles\main.js" />
+    <Content Include="Bundles\main.js.map" />
     <Content Include="Bundles\polyfills.js" />
+    <Content Include="Bundles\polyfills.js.map" />
     <Content Include="Bundles\runtime.js" />
+    <Content Include="Bundles\runtime.js.map" />
     <Content Include="Bundles\styles.css" />
+    <Content Include="Bundles\styles.css.map" />
     <Content Include="Bundles\vendor.js" />
+    <Content Include="Bundles\vendor.js.map" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -212,6 +358,26 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Models\CiudadesDB.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>CiudadesDB.edmx</DependentUpon>
+      <LastGenOutput>CiudadesDB.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\CiudadesDB.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>CiudadesDB.edmx</DependentUpon>
+      <LastGenOutput>CiudadesDB.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\ForoDB.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ForoDB.edmx</DependentUpon>
+      <LastGenOutput>ForoDB.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\ForoDB.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ForoDB.edmx</DependentUpon>
+      <LastGenOutput>ForoDB.cs</LastGenOutput>
+    </Content>
     <Content Include="Models\TokenDB.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>TokenDB.edmx</DependentUpon>
@@ -248,11 +414,20 @@
     <Content Include="Models\TokenDB.edmx.diagram">
       <DependentUpon>TokenDB.edmx</DependentUpon>
     </Content>
-    <Content Include="Bundles\main.js.map" />
-    <Content Include="Bundles\polyfills.js.map" />
-    <Content Include="Bundles\runtime.js.map" />
-    <Content Include="Bundles\styles.css.map" />
-    <Content Include="Bundles\vendor.js.map" />
+    <EntityDeploy Include="Models\CiudadesDB.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>CiudadesDB.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\CiudadesDB.edmx.diagram">
+      <DependentUpon>CiudadesDB.edmx</DependentUpon>
+    </Content>
+    <EntityDeploy Include="Models\ForoDB.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ForoDB.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\ForoDB.edmx.diagram">
+      <DependentUpon>ForoDB.edmx</DependentUpon>
+    </Content>
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />

@@ -17,7 +17,6 @@
 #ContenedorInfoClima{
     height: fit-content;
     text-align: center;
-    padding-top: 20%;
 }
 
 .sun{
@@ -51,5 +50,28 @@
     to{margin-left: 65%;}
 }
 
+/* div de foro en inicio */
 
+.logo-foro {
+  width: 70%;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+p{
+  text-transform: uppercase;
+  text-align: center;
+  color:rgb(255, 255, 255);
+  padding: 3%;
+}
+
+.foro {
+  height: 325px;
+  border-radius: 3px;
+  padding-top: 10px;
+  text-align: center;
+  background-color: orange;
+  color: #666;
+
+}
 

@@ -5,59 +5,65 @@ form {
   background: linear-gradient(to right, #f8b500, #fceabb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
   border: 1px solid #c1c1c1;
-  margin: 2rem auto 0 auto;
-  width: 500px;
-  padding: 0.5em;
+  margin: 20% auto 20% auto;
+  height: 40%;
+  width: 75%;
+  padding: 5%;
   
  
 }
 form input {
   background: #fff;
   border: 1px solid #9c9c9c;
-  width: 300pxs;
+  width: 100%;
 
 }
 form button {
-  background: lightgrey;
-  padding: 0.7em;
-  width: 50%;
+  background: orange;
+  width: 35%;
   border: 1;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-
+  margin-left: 10%;
 }
+
+form button:disabled {
+  background: lightgrey;
+}
+
 form button:hover {
   background: gold;
 }
 
 label {
-  padding: 0.5em 0.5em 0.5em 0;
-  width: 300px;
-  
+  width: 95%;
   font-family: fantasy;
-
 }
 
 input {
   padding: 0.5em;
   height: 40px;
-  width: 400px;
+  width: 100%;
   background-color: powderblue;
-
 }
 input:focus {
   outline: 3px solid gold;
 }
 
-.container {
-  position: 30px;
-  
-  height: 600px;
-  width: 800px;
-  background-image: url('../../../assets/images/nog-registro.jpg');
+.container{
+  padding: 0%;
+}
+
+.fondo {
+  background-image: url('/assets/Images/nog-registro.jpg');
   background-repeat: no-repeat;
-  background-position: 30px;
+  background-position: center;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
 }
 
 

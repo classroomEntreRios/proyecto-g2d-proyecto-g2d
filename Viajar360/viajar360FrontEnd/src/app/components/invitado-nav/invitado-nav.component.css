@@ -1,0 +1,31 @@
+nav{
+    border-radius:  0px 0px 25px 25px;
+}
+
+.container-fluid {
+    text-align: center;
+}
+
+a,
+.navbar-dark .navbar-nav .nav-link {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-link{
+    margin-right: 20px;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #f3a60c !important;
+    border-color: #f3a60c !important ;
+}
+
+.btn:hover {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+img {
+  max-width: 35%;
+  height: auto;
+}

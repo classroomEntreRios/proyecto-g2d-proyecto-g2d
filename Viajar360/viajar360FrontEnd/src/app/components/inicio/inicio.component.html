@@ -1,44 +1,6 @@
 
 <app-general-nav></app-general-nav>
 
-<!--api clima-->
-  <div class="container p-4">
-    <div class="row">
-      <div class="col-md-4">
-        <div class="card card-baby">
-          <form (submit)="submitciudad(ciudad,codigo)">
-            <input type="text" class="form-control" placeholder="Ciudad" #ciudad>
-            <input type="hidden" class="form-control" placeholder="Código ciudad" value="Ar" #codigo>
-            <button class="btn btn-warning btn-block mt-2"> Buscar clima</button>
-          </form>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div *ngIf="clima" class="card">
-          <div id="divWeatherMain">
-            <div *ngIf="clima.isDay" class="weatherWidgetRow">
-              <i class="fas fa-3x fa-sun sun"></i>
-            </div>
-            <div *ngIf="!clima.isDay" class="weatherWidgetRow">
-              <i class="fas fa-3x fa-moon moon"></i>
-            </div>
-            <div class="weatherWidgetRow cloudDiv">
-              <i class="fas fa-cloud fa-3x cloud"></i>
-            </div>
-            <br>
-            <br>
-            <div id="ContenedorInfoClima">
-              <div class="weatherWidgetRow" style="font-size: 32px;margin-top: 5px;">{{clima.main.temp}}°</div>
-              <div class="weatherWidgetRow" style="font-size: 12px;">{{clima.main.temp_min}}° / {{clima.main.temp_max}}</div>
-              <div class="weatherWidgetRow" style="font-size: 25px;margin-top: 10px;">{{clima.name}}</div>
-              <div class="weatherWidgetRow" style="font-size: 12px;">Humedad: {{clima.main.humidity}}%</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <!--Carousel-->
   <div class="container">
     <div class="row">
@@ -47,6 +9,45 @@
       </div>
     </div>
   </div>
+
+<!--api clima-->
+  <div class="container p-4">
+
+    <div class="row">
+
+      <div class="col-md-6">
+        <div class="card card-baby">
+          <form (submit)="submitciudad(ciudad,codigo)">
+            <input type="text" class="form-control" placeholder="Ciudad" #ciudad>
+            <input type="hidden" class="form-control" placeholder="Código ciudad" value="Ar" #codigo>
+            <button class="btn btn-warning btn-block mt-2"> Buscar clima</button>
+          </form>
+        </div>
+        <!-- </div> -->
+        <!-- <div class="col-md-4" > -->
+        <div *ngIf="clima" class="card" style="border-radius: 10%;">
+          <div class="weatherWidgetRow"><img style="max-width: 20%;" src ="{{resolverimagen()}}"></div>
+          <div id="divWeatherMain">
+              <div id="ContenedorInfoClima">
+              <div class="weatherWidgetRow" style="font-size: 32px;margin-top: 5px;">{{clima.main.temp}}°</div>
+              <div class="weatherWidgetRow" style="font-size: 12px;">{{clima.main.temp_min}}° / {{clima.main.temp_max}}</div>
+              <div class="weatherWidgetRow" style="font-size: 25px;margin-top: 10px;">{{clima.name}}</div>
+              <div class="weatherWidgetRow" style="font-size: 12px;">Humedad: {{clima.main.humidity}}%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--ir al foro-->
+      <div class="col-md-6">
+        <div class="foro">
+          <p>¡Conocé la <b>experiencia de viajeros</b> <br> que <b>ya han visitado</b> nuestra provincia!</p>
+          <br>
+          <a routerLink="/foro"> <img class="logo-foro" src="..\assets\viajeros-bco.svg" alt="Viajeros 360"> </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <!--Información-->
   <div class="container">
@@ -66,5 +67,3 @@
     </div>
   </div>
 </div>
-
-

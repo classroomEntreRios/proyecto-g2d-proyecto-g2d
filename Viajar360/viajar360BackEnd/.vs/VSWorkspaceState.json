@@ -1,12 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\viajar360BackEnd",
-    "\\viajar360BackEnd\\Bundles",
-    "\\viajar360BackEnd\\Bundles\\assets\\Images",
-    "\\viajar360BackEnd\\Views",
-    "\\viajar360BackEnd\\Views\\Home"
+    "\\viajar360BackEnd"
   ],
-  "SelectedNode": "\\viajar360BackEnd\\Bundles\\index.html",
+  "SelectedNode": "\\viajar360BackEnd\\Models",
   "PreviewInSolutionExplorer": false
 }
