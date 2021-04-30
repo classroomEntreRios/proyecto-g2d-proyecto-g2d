@@ -20,7 +20,8 @@ export class InicioComponent implements OnInit {
 
     this.clima = {
       main: {},
-      isDay: true,
+      weather: {},
+    
      
     };
 
@@ -30,7 +31,7 @@ export class InicioComponent implements OnInit {
 
   }
   resolverimagen() {
-    if ((this.clima.icon) = '01d') {
+    if ((this.clima.weather.icon) = '01d') {
       return 'https://www.seekpng.com/png/full/169-1698241_imagen-sol-png-svg-free-download-sun-vector.png'
     
     };
@@ -38,7 +39,7 @@ export class InicioComponent implements OnInit {
       return 'https://openweathermap.org/img/wn/02d@2x.png'
      
     };
-    if ((this.clima.icon) = '03d') {
+    if ((this.clima.weather.icon) = '03d') {
       return 'https://openweathermap.org/img/wn/03d@2x.png'
   
     };

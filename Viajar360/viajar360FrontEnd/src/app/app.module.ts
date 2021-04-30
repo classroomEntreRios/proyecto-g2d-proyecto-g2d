@@ -25,6 +25,7 @@ import { CrearComponent } from './components/ciudades/crear/crear.component';
 import { ListaComponent } from './components/ciudades/lista/lista.component';
 import { EditarComponent } from './components/ciudades/editar/editar.component';
 import { InvitadoNavComponent } from './components/invitado-nav/invitado-nav.component';
+import { ChatComponent } from './components/chat/chat.component';
 
 
 @NgModule({
@@ -48,6 +49,7 @@ import { InvitadoNavComponent } from './components/invitado-nav/invitado-nav.com
     ListaComponent,
     EditarComponent,
     InvitadoNavComponent,
+    ChatComponent,
   ],
   imports: [
     FormsModule,
@@ -57,8 +59,12 @@ import { InvitadoNavComponent } from './components/invitado-nav/invitado-nav.com
     HttpClientModule,
     ReactiveFormsModule,
     FontAwesomeModule,
+    BrowserModule, 
+   
   ],
   providers: [CookieService],
   bootstrap: [AppComponent]
 })
+
+
 export class AppModule { }

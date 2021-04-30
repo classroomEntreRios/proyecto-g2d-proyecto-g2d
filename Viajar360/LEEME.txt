@@ -5,3 +5,8 @@
 #Usar "npm install ngx-cookie-service --save" para cargar los paquetes de cookies
 
 # Instalacion del FotnAwesome "npm install --save font-awesome angular-font-awesome"
+
+# para el chat (solo probando por ahora)
+#"npm install express @4" y "npm instalar socket.io"  en la carpeta socket
+
+#"npm i socket.io-client" en la aplicación angular

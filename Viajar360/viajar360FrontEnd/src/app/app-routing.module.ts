@@ -11,6 +11,7 @@ import { RedirectdummyComponent } from './components/redirectdummy/redirectdummy
 import { TemasComponent } from './components/foro/temas/temas.component';
 import { CreartemaComponent } from './components/foro/creartema/creartema.component';
 import { HiloComponent } from './components/foro/hilo/hilo.component';
+import {ChatComponent} from './components/chat/chat.component';
 
 
 const routes: Routes = [
@@ -28,6 +29,7 @@ const routes: Routes = [
   { path: 'foro/crear', component: CreartemaComponent},
   { path: 'foro/tema/:id', component: HiloComponent},
   { path: 'foro/tema', component: TemasComponent},
+  { path: 'chat', component: ChatComponent },
   { path: '', redirectTo: 'home',pathMatch: 'full'},
 ];
 
@@ -39,4 +41,4 @@ const routes: Routes = [
 })
 
 export class AppRoutingModule { }
-export const ComponentesRouting = [LoginComponent,LogoffComponent,RegistroComponent,PerfilUsuarioComponent,TemasComponent,CreartemaComponent];
+export const ComponentesRouting = [LoginComponent,LogoffComponent,RegistroComponent,PerfilUsuarioComponent,TemasComponent,CreartemaComponent,ChatComponent];

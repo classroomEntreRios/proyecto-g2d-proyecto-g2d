@@ -1,0 +1,18 @@
+<h2 class="center">Ingrese</h2>
+
+<div class="container">
+  <form novalidate [formGroup]="loginForm">
+    <label>
+      <span>Usuario</span>
+      <input type="text" placeholder="Nombre de usuario" formControlName="username">
+     
+    </label>
+    <label>
+      <span>Contraseña</span>
+      <input type="password" placeholder="Ingrese contraseña" formControlName="password">
+      
+    </label>
+   
+    <button class="btn btn-primary" type="submit" [disabled]="!loginForm.valid">Registrarse</button>
+  </form>
+</div>
