@@ -1,56 +1,56 @@
 USE [master]
 GO
-/****** Object:  Database [Viajar360]    Script Date: 22/3/2021 3:38:59 p. m. ******/
+/****** Object:  Database [Viajar360]    Script Date: 2/5/2021 7:46:27 p. m. ******/
 CREATE DATABASE [Viajar360]
 GO
 USE [Viajar360]
 GO
-/****** Object:  Table [dbo].[Atracciones]    Script Date: 22/3/2021 3:39:00 p. m. ******/
+/****** Object:  Table [dbo].[Atracciones]    Script Date: 2/5/2021 7:46:28 p. m. ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
 CREATE TABLE [dbo].[Atracciones](
-	[id_atraccion] [int] NOT NULL,
-	[nombre] [varchar](50) NULL,
-	[detalles] [varchar](255) NULL,
+	[id_atraccion] [int] IDENTITY(1,1) NOT NULL,
+	[nombre] [varchar](50) NOT NULL,
+	[detalles] [varchar](255) NOT NULL,
 	[id_ciudad] [int] NOT NULL,
-	[ubicacion] [varchar](25) NULL,
+	[ubicacion] [varchar](25) NOT NULL,
  CONSTRAINT [PK_Atracciones] PRIMARY KEY CLUSTERED 
 (
 	[id_atraccion] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Chat]    Script Date: 22/3/2021 3:39:00 p. m. ******/
+/****** Object:  Table [dbo].[Chat]    Script Date: 2/5/2021 7:46:28 p. m. ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
 CREATE TABLE [dbo].[Chat](
-	[id_categoria] [int] NOT NULL,
-	[categoria] [varchar](50) NULL,
+	[id_categoria] [int] IDENTITY(1,1) NOT NULL,
+	[categoria] [varchar](50) NOT NULL,
  CONSTRAINT [PK_Chat] PRIMARY KEY CLUSTERED 
 (
 	[id_categoria] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Ciudades]    Script Date: 22/3/2021 3:39:00 p. m. ******/
+/****** Object:  Table [dbo].[Ciudades]    Script Date: 2/5/2021 7:46:28 p. m. ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
 CREATE TABLE [dbo].[Ciudades](
 	[id_ciudad] [int] IDENTITY(1,1) NOT NULL,
-	[nombre] [varchar](25) NULL,
+	[nombre] [varchar](25) NOT NULL,
  CONSTRAINT [PK_Ciudades] PRIMARY KEY CLUSTERED 
 (
 	[id_ciudad] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Clima]    Script Date: 22/3/2021 3:39:00 p. m. ******/
+/****** Object:  Table [dbo].[Clima]    Script Date: 2/5/2021 7:46:28 p. m. ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -67,52 +67,56 @@ CREATE TABLE [dbo].[Clima](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Comentarios]    Script Date: 22/3/2021 3:39:00 p. m. ******/
+/****** Object:  Table [dbo].[Comentarios]    Script Date: 2/5/2021 7:46:28 p. m. ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
 CREATE TABLE [dbo].[Comentarios](
-	[id_comentario] [int] NOT NULL,
+	[id_comentario] [int] IDENTITY(1,1) NOT NULL,
 	[id_tema] [int] NOT NULL,
 	[fecha_hora] [timestamp] NOT NULL,
 	[mensaje] [varchar](600) NOT NULL,
 	[id_usuario] [int] NOT NULL,
-	[reportes] [int] NOT NULL
+	[reportes] [int] NOT NULL,
+ CONSTRAINT [PK_Comentarios] PRIMARY KEY CLUSTERED 
+(
+	[id_comentario] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Preguntas]    Script Date: 22/3/2021 3:39:00 p. m. ******/
+/****** Object:  Table [dbo].[Preguntas]    Script Date: 2/5/2021 7:46:28 p. m. ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
 CREATE TABLE [dbo].[Preguntas](
-	[id_pregunta] [int] NOT NULL,
-	[pregunta] [varchar](max) NULL,
-	[respuesta] [varchar](max) NULL,
-	[id_categoria] [int] NULL,
+	[id_pregunta] [int] IDENTITY(1,1) NOT NULL,
+	[pregunta] [varchar](max) NOT NULL,
+	[respuesta] [varchar](max) NOT NULL,
+	[id_categoria] [int] NOT NULL,
  CONSTRAINT [PK_Preguntas] PRIMARY KEY CLUSTERED 
 (
 	[id_pregunta] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Temas]    Script Date: 22/3/2021 3:39:00 p. m. ******/
+/****** Object:  Table [dbo].[Temas]    Script Date: 2/5/2021 7:46:28 p. m. ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
 CREATE TABLE [dbo].[Temas](
-	[id_tema] [int] NOT NULL,
-	[titulo] [varchar](255) NULL,
-	[estado] [int] NULL,
+	[id_tema] [int] IDENTITY(1,1) NOT NULL,
+	[titulo] [varchar](255) NOT NULL,
+	[estado] [int] NOT NULL,
  CONSTRAINT [PK_Temas] PRIMARY KEY CLUSTERED 
 (
 	[id_tema] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Token]    Script Date: 22/3/2021 3:39:00 p. m. ******/
+/****** Object:  Table [dbo].[Token]    Script Date: 2/5/2021 7:46:28 p. m. ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -128,7 +132,7 @@ CREATE TABLE [dbo].[Token](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Usuario]    Script Date: 22/3/2021 3:39:00 p. m. ******/
+/****** Object:  Table [dbo].[Usuario]    Script Date: 2/5/2021 7:46:28 p. m. ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -166,3 +170,4 @@ USE [master]
 GO
 ALTER DATABASE [Viajar360] SET  READ_WRITE 
 GO
+
