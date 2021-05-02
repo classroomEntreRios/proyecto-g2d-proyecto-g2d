@@ -1,83 +1,71 @@
-<app-registrado-nav></app-registrado-nav>
-<div class="abs-center">
-    <div class="container">
-        <p class="parrafo"> Perfil del usuario: Personalizar</p>
-        <form method="post" [formGroup]="user" (ngSubmit)="actualizar()">
-            <label>
+<app-general-nav></app-general-nav>
 
-                <span>Foto de perfil</span>
-
+<div class="container" *ngIf="carga_completa; else cargando">
+    <p class="parrafo"> Perfil del usuario: Personalizar</p>
+    <form method="post" [formGroup]="user" (ngSubmit)="actualizar()">
+        <label>
+            <span>Foto de perfil</span>
+            <div class="field">
+                <div class="file has-name is-primary is-fullwidth">
+                    <label class="file-label">
+                        <input class="file-input" type="file" name="file" #fileInput
+                            (change)="onChange($event)" formControlName="foto" />
+                    </label>
+                </div>
+            </div>
+            <div class="containerperfil">
                 <div class="field">
-                    <div class="file has-name is-primary is-fullwidth">
-                        <label class="file-label">
-                            <input class="file-input" type="file" name="file" #fileInput
-                                (change)="onChange(fileInput.files[0])" formControlName="foto" />
-                            <span class="file-cta">
-                                <span class="file-icon">
-                                    <fa-icon [icon]="['fas', 'upload']"></fa-icon>
-                                </span>
-                            </span>
-                            <span class="file-name">
-                                {{ fileName }}
-                            </span>
-                        </label>
-
+                    <div class="column">
+                        <img [src]="imageUrl" />
                     </div>
                 </div>
+            </div>
+        </label>
+        <label>
+            <span>Mail</span>
+            <input type="text" placeholder="example@mail.com" formControlName="mail">
+        </label>
+        <label>
+            <span>Apellido</span>
+            <input type="text" placeholder="Apellido" formControlName="apellido">
+        </label>
+        <label>
+            <span>Nombre</span>
+            <input type="text" placeholder="Nombre" formControlName="nombre">
+        </label>
+        <label>
+            <span>Dirección</span>
+            <input type="text" placeholder="Dirección" formControlName="direccion">
 
+        </label>
+        <label>
+            <span>Teléfono</span>
+            <input type="text" placeholder="Teléfono" formControlName="telefono">
+            <div *ngIf="f.telefono.touched && f.telefono.invalid" class="alert alert-danger">El numero de telefono no es valido</div>
+        </label>
+        <label>
+            <span>Localidad</span>
+            <input type="text" placeholder="Localidad" formControlName="localidad">
+        </label>
+        <label>
+            <span>Provincia</span>
+            <input type="text" placeholder="Provincia" formControlName="provincia">
+        </label>
 
-                <article class="message" *ngIf="infoMessage">
-                    <div class="message-body">
-                        {{ infoMessage }}
-                    </div>
-                </article>
+        <button class="btn btn-primary" type="submit" [disabled]="!user.valid">Guardar</button>
+    </form>
 
-                <div class="containerperfil">
-                <div class="field">
-                    <!--<div class="control">
-                            <button class="btn btn-primary" (click)="onUpload()"
-                                [attr.disabled]="isUploading ? '' : null">
-                                Vista previa
-                            </button>
-                        </div>-->
-                   
-                        <div class="column">
-                            <figure class="image is-50x50">
-                                <img [src]="imageUrl" />
-                            </figure>
-                        </div>
-                    </div>
-                </div>
-            </label>
-            <label>
-                <span>Apellido</span>
-                <input type="text" placeholder="Apellido" formControlName="apellido">
-
-            </label>
-            <label>
-                <span>Nombre</span>
-                <input type="text" placeholder="Nombre" formControlName="nombre">
-            </label>
-            <label>
-                <span>Dirección</span>
-                <input type="text" placeholder="Dirección" formControlName="direccion">
-
-            </label>
-            <label>
-                <span>Teléfono</span>
-                <input type="text" placeholder="Teléfono" formControlName="telefono">
-                <div *ngIf="f.telefono.touched && f.telefono.invalid" class="alert alert-danger">El numero de telefono no es valido</div>
-            </label>
-            <label>
-                <span>Localidad</span>
-                <input type="text" placeholder="Localidad" formControlName="localidad">
-
-            </label>
-            <label>
-                <span>Provincia</span>
-                <input type="text" placeholder="Provincia" formControlName="provincia">
-            </label>
-
-            <button class="btn btn-primary" type="submit">Guardar</button>
-        </form>
+    <div class="borrado">
+        <h2>Borrar cuenta</h2>
+        <label for="Sborrado"><input type="checkbox" id="Sborrado" [(ngModel)]="seguro_borrado"/>Seguro para borrar cuenta</label>
+        <button routerLink='/BorrarCuenta' class="peligro" [disabled]="!seguro_borrado">Borrar Cuenta</button>
     </div>
+    <div *ngIf="subiendo">
+        <img src="/assets/carga.gif" width="50%" height="50%">
+    </div>
+</div>
+<ng-template #cargando>
+    <div class="cargando">
+        <img class="img_carga"src="/assets/carga.gif" width="50%" height="50%">
+    </div>
+</ng-template>

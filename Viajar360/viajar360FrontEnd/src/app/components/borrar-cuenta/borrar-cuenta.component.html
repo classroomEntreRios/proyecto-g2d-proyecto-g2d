@@ -1,0 +1,18 @@
+<app-general-nav></app-general-nav>
+<div class="fondo" *ngIf="carga_completa;else cargando">
+    <div class="cartel">
+        <h2>Borrado de cuenta de: '{{datos.usuario}}'</h2>
+        <p>Reintroduzca la clave de borrado que se encuentra arriba en el cuadro de texto de abajo</p>
+        <label>La clave de borrado es: '{{ClaveDeBorrado}}'</label>
+        <input class="repuesta_texto" type="text" [(ngModel)]="lectura"><br>
+        <button class="volver" routerLink="/perfil">volver al perfil</button>
+        <label for="Sborrado"><input type="checkbox" id="Sborrado" [(ngModel)]="seguro_borrado"/>Confirmo que quiero borrar la cuenta</label>
+        <div *ngIf="seguro_borrado">
+            <label>Realize la siguiente cuenta: <a style="background-color: brown; color:cornsilk;">{{num_A}}+{{num_B}}=</a></label><input class="repuesta_cuenta" type="text" [(ngModel)]="num_read" placeholder="respuesta"><br>
+            <button class="peligro" (click)="borradoFinal()" [disabled]="lectura!=ClaveDeBorrado">Borrar la cuenta '{{datos.usuario}}'</button>
+        </div>
+    </div>
+</div>
+<ng-template #cargando>
+    <img class="img_carga" src="/assets/carga.gif" width="50%" height="50%">
+</ng-template>

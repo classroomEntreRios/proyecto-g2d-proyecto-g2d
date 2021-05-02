@@ -11,7 +11,9 @@ import { RedirectdummyComponent } from './components/redirectdummy/redirectdummy
 import { TemasComponent } from './components/foro/temas/temas.component';
 import { CreartemaComponent } from './components/foro/creartema/creartema.component';
 import { HiloComponent } from './components/foro/hilo/hilo.component';
-import {ChatComponent} from './components/chat/chat.component';
+import { ChatComponent } from './components/chat/chat.component';
+import { BorrarCuentaComponent } from './components/borrar-cuenta/borrar-cuenta.component';
+import { VerPerfilComponent } from './components/ver-perfil/ver-perfil.component';
 
 
 const routes: Routes = [
@@ -30,6 +32,8 @@ const routes: Routes = [
   { path: 'foro/tema/:id', component: HiloComponent},
   { path: 'foro/tema', component: TemasComponent},
   { path: 'chat', component: ChatComponent },
+  { path: 'BorrarCuenta', component: BorrarCuentaComponent},
+  { path: 'verperfil/:id', component: VerPerfilComponent},
   { path: '', redirectTo: 'home',pathMatch: 'full'},
 ];
 
@@ -41,4 +45,4 @@ const routes: Routes = [
 })
 
 export class AppRoutingModule { }
-export const ComponentesRouting = [LoginComponent,LogoffComponent,RegistroComponent,PerfilUsuarioComponent,TemasComponent,CreartemaComponent,ChatComponent];
+export const ComponentesRouting = [LoginComponent,LogoffComponent,RegistroComponent,PerfilUsuarioComponent,TemasComponent,CreartemaComponent,ChatComponent,BorrarCuentaComponent,VerPerfilComponent,];

@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from "rxjs";
 import { CookieService } from 'ngx-cookie-service';
+import { url } from 'node:inspector';
 
 @Injectable({
   providedIn: 'root'
@@ -38,5 +39,25 @@ export class LoginService {
   LogOut(){
     this.cookie.delete('token');
     this.cookie.delete('usuario');
+  }
+
+  getid(name: any): Observable<any>{
+    return this.http.post('https://localhost:44389/api/obtenerid/', name);
+  }
+
+  getdata(id: string): Observable<any>{
+    return this.http.get('https://localhost:44389/api/getdatos/'+id);
+  }
+
+  editarUser(datos: any): Observable<any>{
+    return this.http.post('https://localhost:44389/api/editarusuario', datos);
+  }
+  //borrardo de cuentas
+  getRemoveKey(datos: any): Observable<any>{
+    return this.http.post('https://localhost:44389/api/getremovekey',datos);
+  }
+  
+  borrarCuenta(datos: any): Observable<any>{
+    return this.http.post('https://localhost:44389/api/borrarcuenta',datos);
   }
 }

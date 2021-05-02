@@ -1,0 +1,64 @@
+.peligro{
+    width: 30%;
+    margin-left: 35%;
+    background-color: lightcoral;
+    border: 1;
+}
+
+.peligro:disabled{
+    background-color: lightgray;
+}
+
+.volver{
+    width: 30%;
+    margin-left: 35%;
+    background: orange;
+    border: 1;
+}
+
+.volver:hover{
+    background-color: gold;
+}
+
+.volver:active{
+    background-color: steelblue;
+}
+
+.img_carga{
+    max-width:30%;
+    max-height:30%;
+    vertical-align: middle;
+    align-items: center;
+    margin: 30%;
+}
+.fondo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/assets/Images/historico.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    min-height: 100%;
+    padding-top: 25vh;
+    padding-bottom: 35vh;
+}
+.cartel{
+    max-height: 30vh;
+    display: grid;
+    background: #fceabb;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f8b500, #fceabb);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f8b500, #fceabb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: 1% solid #c1c1c1;
+    margin: 1rem auto 0 auto;
+    width: 50%;
+    padding: 0.3em;
+}
+.repuesta_texto{
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+}
+.repuesta_cuenta{
+    width: 3em;
+}

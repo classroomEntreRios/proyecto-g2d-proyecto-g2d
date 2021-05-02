@@ -1,0 +1,28 @@
+.cargando {
+    background-image: url('/assets/Images/fondoPerfil.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fondo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: url('/assets/Images/historico.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    min-height: 100%;
+    padding-top: 25vh;
+    padding-bottom: 35vh;
+}
+
+.cartel{
+    display: grid;
+    background: #fceabb;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f8b500, #fceabb);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f8b500, #fceabb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: 1% solid #c1c1c1;
+    min-width: 70vh;
+    padding: 0.3em;
+}

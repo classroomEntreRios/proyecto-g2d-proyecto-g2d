@@ -1,93 +1,111 @@
 form {
-    display: grid;
-    background: #fceabb;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #f8b500, #fceabb);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #f8b500, #fceabb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    border: 1% solid #c1c1c1;
-    margin: 1rem auto 0 auto;
-    width: 50%;
-    padding: 0.3em;
-    
-   
-  }
-
-
-  form input {
-    background: #fff;
-    border: 1px solid #9c9c9c;
-    width: 335%;
-    height:60%;
-
-  }
-  form button {
-    background: lightgrey;
-    padding: 0.5em;
-    width: 30%;
-    border: 1;
-    margin: 0 auto;
- 
-  
-  }
-  form button:hover {
-    background: gold;
-
-  }
-  
-  label {
-    padding: 0.2em 0.2em 0.2em 0;
-    width: 30%;
-    font-family:Arial, Helvetica, sans-serif
- 
-  }
-  
-  input {
-    padding: 0.1em;
-    height: 50%;
-    width: 50%;
- 
-    background-color: powderblue;
-  
-  }
-  input:focus {
-    outline: 3% solid gold;
-  }
-
-  .container {
-  
-    height: 600%;
-    width: 800%;
-    background-image: url('../../../assets/Images/fondoPerfil.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-  }
-
-  .containerperfil{
-  
-    height:50%;
-    width:50%;
-    max-width: 50%;
-    max-height: 50%;
-    align-items: center;
-   
-  }
-  img {
-    width:100%;
-    max-width:400%;
+  display: grid;
+  background: #fceabb;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f8b500, #fceabb);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f8b500, #fceabb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: 1% solid #c1c1c1;
+  margin: 1rem auto 0 auto;
+  width: 50%;
+  padding: 0.3em;
 }
 
-  .abs-center {
-    display: flex;
-    align-items: center;
-    
-  
-   
-  }
 
-  .parrafo {
-text-align: center;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-size:x-large;
-font: italic;
-  }
+form input {
+  background: #fff;
+  border: 1px solid #9c9c9c;
+  width: 335%;
+  height:60%;
+
+}
+form button {
+  background: orange;
+  padding: 0.5em;
+  width: 30%;
+  border: 1;
+  margin: 0 auto;
+
+
+}
+
+form button:disabled {
+  background: lightgrey;  
+}
+
+form button:hover {
+  background: gold;
+}
+
+form label {
+  padding: 0.2em 0.2em 0.2em 0;
+  width: 30%;
+  font-family:Arial, Helvetica, sans-serif
+
+}
+
+input:focus {
+  outline: 3% solid gold;
+}
+
+.container {
+
+  height: 600%;
+  width: 800%;
+  background-image: url('/assets/Images/fondoPerfil.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   
+}
+
+.containerperfil{
+
+  height:50%;
+  width:50%;
+  max-width: 50%;
+  max-height: 50%;
+  align-items: center;
+  
+}
+img {
+  width:100%;
+  max-width:400%;
+}
+
+.parrafo {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size:x-large;
+  font: italic;
+}
+
+.cargando {
+  background-image: url('/assets/Images/fondoPerfil.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.borrado {
+  display: grid;
+  background: #fceabb;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f8b500, #fceabb);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f8b500, #fceabb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: 1% solid #c1c1c1;
+  margin: 1rem auto 0 auto;
+  width: 50%;
+  padding: 0.3em;
+}
+
+.peligro{
+  background-color: lightcoral;
+}
+
+.peligro:disabled{
+  background-color: lightgray;
+}
+
+.img_carga{
+  max-width:30%;
+  max-height:30%;
+  vertical-align: middle;
+  align-items: center;
+  margin: 30%;
+}
