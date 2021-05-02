@@ -421,7 +421,7 @@ ChatComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.chat.chats);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngModel", ctx.text)("ngModelOptions", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](3, _c1));
-    } }, directives: [_general_nav_general_nav_component__WEBPACK_IMPORTED_MODULE_2__["GeneralNavComponent"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"], _angular_forms__WEBPACK_IMPORTED_MODULE_4__["ɵangular_packages_forms_forms_ba"], _angular_forms__WEBPACK_IMPORTED_MODULE_4__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_4__["NgForm"], _angular_forms__WEBPACK_IMPORTED_MODULE_4__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_4__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_4__["NgModel"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgClass"]], styles: [".chatContainer[_ngcontent-%COMP%] {\r\npadding:30%;\r\nwidth: 100%;\r\nheight: -webkit-max-content;\r\nheight: max-content;\r\nmin-width: 100%;\r\ndisplay: flex;\r\nflex-direction: column;\r\npadding-bottom: 70%;\r\nbackground-color: ghostwhite;\r\n}\r\n\r\n.local[_ngcontent-%COMP%] {\r\n    padding: 20%;\r\n    border-radius: 20%;\r\n    background-color: darkgreen;\r\n    max-width: 80%;\r\n    color: blanchedalmond;\r\n    font-size: 17%;\r\n    align-self: flex-start;\r\n}\r\n\r\n.remoto[_ngcontent-%COMP%] {\r\n    padding: 20%;\r\n    border-radius: 20%;\r\n    background-color: rgb(30, 0, 100);\r\n    max-width: 80%;\r\n    color: blanchedalmond;\r\n    font-size: 17%;\r\n    align-self: flex-end;\r\n}\r\n\r\n.inputContainer[_ngcontent-%COMP%] {\r\n    background-color: blanchedalmond;\r\n    position: fixed;\r\n    bottom: 0;\r\n    width: 100%;\r\n    padding: 10%;\r\n}\r\n\r\n.input[_ngcontent-%COMP%] {\r\n    width: 100%;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNoYXQuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtBQUNBLFdBQVc7QUFDWCxXQUFXO0FBQ1gsMkJBQW1CO0FBQW5CLG1CQUFtQjtBQUNuQixlQUFlO0FBQ2YsYUFBYTtBQUNiLHNCQUFzQjtBQUN0QixtQkFBbUI7QUFDbkIsNEJBQTRCO0FBQzVCOztBQUVBO0lBQ0ksWUFBWTtJQUNaLGtCQUFrQjtJQUNsQiwyQkFBMkI7SUFDM0IsY0FBYztJQUNkLHFCQUFxQjtJQUNyQixjQUFjO0lBQ2Qsc0JBQXNCO0FBQzFCOztBQUNBO0lBQ0ksWUFBWTtJQUNaLGtCQUFrQjtJQUNsQixpQ0FBaUM7SUFDakMsY0FBYztJQUNkLHFCQUFxQjtJQUNyQixjQUFjO0lBQ2Qsb0JBQW9CO0FBQ3hCOztBQUVBO0lBQ0ksZ0NBQWdDO0lBQ2hDLGVBQWU7SUFDZixTQUFTO0lBQ1QsV0FBVztJQUNYLFlBQVk7QUFDaEI7O0FBQ0E7SUFDSSxXQUFXO0FBQ2YiLCJmaWxlIjoiY2hhdC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmNoYXRDb250YWluZXIge1xyXG5wYWRkaW5nOjMwJTtcclxud2lkdGg6IDEwMCU7XHJcbmhlaWdodDogbWF4LWNvbnRlbnQ7XHJcbm1pbi13aWR0aDogMTAwJTtcclxuZGlzcGxheTogZmxleDtcclxuZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxucGFkZGluZy1ib3R0b206IDcwJTtcclxuYmFja2dyb3VuZC1jb2xvcjogZ2hvc3R3aGl0ZTtcclxufVxyXG5cclxuLmxvY2FsIHtcclxuICAgIHBhZGRpbmc6IDIwJTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDIwJTtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IGRhcmtncmVlbjtcclxuICAgIG1heC13aWR0aDogODAlO1xyXG4gICAgY29sb3I6IGJsYW5jaGVkYWxtb25kO1xyXG4gICAgZm9udC1zaXplOiAxNyU7XHJcbiAgICBhbGlnbi1zZWxmOiBmbGV4LXN0YXJ0O1xyXG59XHJcbi5yZW1vdG8ge1xyXG4gICAgcGFkZGluZzogMjAlO1xyXG4gICAgYm9yZGVyLXJhZGl1czogMjAlO1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDMwLCAwLCAxMDApO1xyXG4gICAgbWF4LXdpZHRoOiA4MCU7XHJcbiAgICBjb2xvcjogYmxhbmNoZWRhbG1vbmQ7XHJcbiAgICBmb250LXNpemU6IDE3JTtcclxuICAgIGFsaWduLXNlbGY6IGZsZXgtZW5kO1xyXG59XHJcblxyXG4uaW5wdXRDb250YWluZXIge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogYmxhbmNoZWRhbG1vbmQ7XHJcbiAgICBwb3NpdGlvbjogZml4ZWQ7XHJcbiAgICBib3R0b206IDA7XHJcbiAgICB3aWR0aDogMTAwJTtcclxuICAgIHBhZGRpbmc6IDEwJTtcclxufVxyXG4uaW5wdXQge1xyXG4gICAgd2lkdGg6IDEwMCU7XHJcbn0iXX0= */"] });
+    } }, directives: [_general_nav_general_nav_component__WEBPACK_IMPORTED_MODULE_2__["GeneralNavComponent"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"], _angular_forms__WEBPACK_IMPORTED_MODULE_4__["ɵangular_packages_forms_forms_ba"], _angular_forms__WEBPACK_IMPORTED_MODULE_4__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_4__["NgForm"], _angular_forms__WEBPACK_IMPORTED_MODULE_4__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_4__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_4__["NgModel"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgClass"]], styles: [".chatContainer[_ngcontent-%COMP%] {\r\npadding:30%;\r\nwidth: 100%;\r\nheight: -webkit-max-content;\r\nheight: max-content;\r\nmin-width: 100%;\r\ndisplay: flex;\r\nflex-direction: column;\r\npadding-bottom: 70%;\r\nbackground-color: ghostwhite;\r\n}\r\n\r\n.local[_ngcontent-%COMP%] {\r\n    padding: 20%;\r\n    border-radius: 20%;\r\n    background-color: darkgreen;\r\n    max-width: 80%;\r\n    color: blanchedalmond;\r\n    font-size: 17%;\r\n    align-self: flex-start;\r\n}\r\n\r\n.remoto[_ngcontent-%COMP%] {\r\n    padding: 20%;\r\n    border-radius: 20%;\r\n    background-color: rgb(30, 0, 100);\r\n    max-width: 80%;\r\n    color: blanchedalmond;\r\n    font-size: 17%;\r\n    align-self: flex-end;\r\n}\r\n\r\n.inputContainer[_ngcontent-%COMP%] {\r\n    background-color: blanchedalmond;\r\n    position: fixed;\r\n    bottom: 0;\r\n    width: 100%;\r\n    padding: 10%;\r\n}\r\n\r\n.input[_ngcontent-%COMP%] {\r\n    width: 100%;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNoYXQuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtBQUNBLFdBQVc7QUFDWCxXQUFXO0FBQ1gsMkJBQW1CO0FBQW5CLG1CQUFtQjtBQUNuQixlQUFlO0FBQ2YsYUFBYTtBQUNiLHNCQUFzQjtBQUN0QixtQkFBbUI7QUFDbkIsNEJBQTRCO0FBQzVCOztBQUVBO0lBQ0ksWUFBWTtJQUNaLGtCQUFrQjtJQUNsQiwyQkFBMkI7SUFDM0IsY0FBYztJQUNkLHFCQUFxQjtJQUNyQixjQUFjO0lBQ2Qsc0JBQXNCO0FBQzFCOztBQUNBO0lBQ0ksWUFBWTtJQUNaLGtCQUFrQjtJQUNsQixpQ0FBaUM7SUFDakMsY0FBYztJQUNkLHFCQUFxQjtJQUNyQixjQUFjO0lBQ2Qsb0JBQW9CO0FBQ3hCOztBQUVBO0lBQ0ksZ0NBQWdDO0lBQ2hDLGVBQWU7SUFDZixTQUFTO0lBQ1QsV0FBVztJQUNYLFlBQVk7QUFDaEI7O0FBQ0E7SUFDSSxXQUFXO0FBQ2YiLCJmaWxlIjoiY2hhdC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmNoYXRDb250YWluZXIge1xyXG5wYWRkaW5nOjMwJTtcclxud2lkdGg6IDEwMCU7XHJcbmhlaWdodDogbWF4LWNvbnRlbnQ7XHJcbm1pbi13aWR0aDogMTAwJTtcclxuZGlzcGxheTogZmxleDtcclxuZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxucGFkZGluZy1ib3R0b206IDcwJTtcclxuYmFja2dyb3VuZC1jb2xvcjogZ2hvc3R3aGl0ZTtcclxufVxyXG5cclxuLmxvY2FsIHtcclxuICAgIHBhZGRpbmc6IDIwJTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDIwJTtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IGRhcmtncmVlbjtcclxuICAgIG1heC13aWR0aDogODAlO1xyXG4gICAgY29sb3I6IGJsYW5jaGVkYWxtb25kO1xyXG4gICAgZm9udC1zaXplOiAxNyU7XHJcbiAgICBhbGlnbi1zZWxmOiBmbGV4LXN0YXJ0O1xyXG59XHJcbi5yZW1vdG8ge1xyXG4gICAgcGFkZGluZzogMjAlO1xyXG4gICAgYm9yZGVyLXJhZGl1czogMjAlO1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDMwLCAwLCAxMDApO1xyXG4gICAgbWF4LXdpZHRoOiA4MCU7XHJcbiAgICBjb2xvcjogYmxhbmNoZWRhbG1vbmQ7XHJcbiAgICBmb250LXNpemU6IDE3JTtcclxuICAgIGFsaWduLXNlbGY6IGZsZXgtZW5kO1xyXG59XHJcblxyXG4uaW5wdXRDb250YWluZXIge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogYmxhbmNoZWRhbG1vbmQ7XHJcbiAgICBwb3NpdGlvbjogZml4ZWQ7XHJcbiAgICBib3R0b206IDA7XHJcbiAgICB3aWR0aDogMTAwJTtcclxuICAgIHBhZGRpbmc6IDEwJTtcclxufVxyXG4uaW5wdXQge1xyXG4gICAgd2lkdGg6IDEwMCU7XHJcbn0gIl19 */"] });
 
 
 /***/ }),
@@ -1476,76 +1476,78 @@ class InicioComponent {
         console.log(this.clima);
     }
     resolverimagen() {
-        if ((this.clima.weather.icon) = '01d') {
-            return 'https://www.seekpng.com/png/full/169-1698241_imagen-sol-png-svg-free-download-sun-vector.png';
+        var iconcode = this.clima.weather[0].icon;
+        var iconurl = "http://openweathermap.org/img/w/" + iconcode + ".png";
+        if ((this.clima.weather[0].icon) = '01d') {
+            return "http://openweathermap.org/img/w/" + iconcode + ".png";
         }
         ;
-        if ((this.clima.icon) = '02d') {
-            return 'https://openweathermap.org/img/wn/02d@2x.png';
+        if ((this.clima.weather[0].icon) = '02d') {
+            return "http://openweathermap.org/img/w/" + iconcode + ".png";
         }
         ;
-        if ((this.clima.weather.icon) = '03d') {
-            return 'https://openweathermap.org/img/wn/03d@2x.png';
+        if ((this.clima.weather[0].icon) = '03d') {
+            return "http://openweathermap.org/img/w/" + iconcode + ".png";
         }
         ;
-        if ((this.clima.icon) = '04d') {
-            return 'https://openweathermap.org/img/wn/04d@2x.png';
+        if ((this.clima.weather[0].icon) = '04d') {
+            return "http://openweathermap.org/img/w/" + iconcode + ".png";
         }
         ;
-        if ((this.clima.icon) = '09d') {
-            return 'https://openweathermap.org/img/wn/09d@2x.png';
+        if ((this.clima.weather[0].icon) = '09d') {
+            return "http://openweathermap.org/img/w/" + iconcode + ".png";
         }
         ;
-        if ((this.clima.icon) = '10d') {
-            return 'https://openweathermap.org/img/wn/10d@2x.png';
+        if ((this.clima.weather[0].icon) = '10d') {
+            return "http://openweathermap.org/img/w/" + iconcode + ".png";
         }
         ;
-        if ((this.clima.icon) = '11d') {
-            return 'https://openweathermap.org/img/wn/11d@2x.png';
+        if ((this.clima.weather[0].icon) = '11d') {
+            return "http://openweathermap.org/img/w/" + iconcode + ".png";
         }
         ;
-        if ((this.clima.icon) = '13d') {
-            return 'https://openweathermap.org/img/wn/13d@2x.png';
+        if ((this.clima.weather[0].icon) = '13d') {
+            return "http://openweathermap.org/img/w/" + iconcode + ".png";
         }
         ;
-        if ((this.clima.icon) = '50d') {
-            return 'https://openweathermap.org/img/wn/50d@2x.png';
+        if ((this.clima.weather[0].icon) = '50d') {
+            return "http://openweathermap.org/img/w/" + iconcode + ".png";
         }
         ;
-        if ((this.clima.icon) = '01n') {
-            return 'https://openweathermap.org/img/wn/10n@2x.png';
+        if ((this.clima.weather[0].icon) = '01n') {
+            return "http://openweathermap.org/img/w/" + iconcode + ".png";
         }
         ;
-        if ((this.clima.icon) = '02n') {
-            return 'https://openweathermap.org/img/wn/02n@2x.png';
+        if ((this.clima.weather[0].icon) = '02n') {
+            return "http://openweathermap.org/img/w/" + iconcode + ".png";
         }
         ;
-        if ((this.clima.icon) = '03n') {
-            return 'https://openweathermap.org/img/wn/03n@2x.png';
+        if ((this.clima.weather[0].icon) = '03n') {
+            return "http://openweathermap.org/img/w/" + iconcode + ".png";
         }
         ;
-        if ((this.clima.icon) = '04n') {
-            return 'https://openweathermap.org/img/wn/04n@2x.png';
+        if ((this.clima.weather[0].icon) = '04n') {
+            return "http://openweathermap.org/img/w/" + iconcode + ".png";
         }
         ;
-        if ((this.clima.icon) = '09n') {
-            return 'https://openweathermap.org/img/wn/09n@2x.png';
+        if ((this.clima.weather[0].icon) = '09n') {
+            return "http://openweathermap.org/img/w/" + iconcode + ".png";
         }
         ;
-        if ((this.clima.icon) = '10n') {
-            return 'https://openweathermap.org/img/wn/10n@2x.png';
+        if ((this.clima.weather[0].icon) = '10n') {
+            return "http://openweathermap.org/img/w/" + iconcode + ".png";
         }
         ;
-        if ((this.clima.icon) = '11n') {
-            return 'https://openweathermap.org/img/wn/11n@2x.png';
+        if ((this.clima.weather[0].icon) = '11n') {
+            return "http://openweathermap.org/img/w/" + iconcode + ".png";
         }
         ;
-        if ((this.clima.icon) = '13n') {
-            return 'https://openweathermap.org/img/wn/13n@2x.png';
+        if ((this.clima.weather[0].icon) = '13n') {
+            return "http://openweathermap.org/img/w/" + iconcode + ".png";
         }
         ;
-        if ((this.clima.icon) = '50n') {
-            return 'https://openweathermap.org/img/wn/50n@2x.png';
+        if ((this.clima.weather[0].icon) = '50n') {
+            return "http://openweathermap.org/img/w/" + iconcode + ".png";
         }
         ;
     }

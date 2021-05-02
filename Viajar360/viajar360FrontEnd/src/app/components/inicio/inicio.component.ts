@@ -20,7 +20,7 @@ export class InicioComponent implements OnInit {
 
     this.clima = {
       main: {},
-      weather: {},
+      weather: [],
     
      
     };
@@ -30,83 +30,7 @@ export class InicioComponent implements OnInit {
     console.log(this.clima);
 
   }
-  resolverimagen() {
-    if ((this.clima.weather.icon) = '01d') {
-      return 'https://www.seekpng.com/png/full/169-1698241_imagen-sol-png-svg-free-download-sun-vector.png'
-    
-    };
-    if ((this.clima.icon) = '02d') {
-      return 'https://openweathermap.org/img/wn/02d@2x.png'
-     
-    };
-    if ((this.clima.weather.icon) = '03d') {
-      return 'https://openweathermap.org/img/wn/03d@2x.png'
   
-    };
-    if ((this.clima.icon) = '04d') {
-      return 'https://openweathermap.org/img/wn/04d@2x.png'
-    
-    };
-    if ((this.clima.icon) = '09d') {
-      return 'https://openweathermap.org/img/wn/09d@2x.png'
-    
-    };
-    if ((this.clima.icon) = '10d') {
-      return 'https://openweathermap.org/img/wn/10d@2x.png'
-    
-    };
-    if ((this.clima.icon) = '11d') {
-      return 'https://openweathermap.org/img/wn/11d@2x.png'
-  
-    };
-    if ((this.clima.icon) = '13d') {
-      return'https://openweathermap.org/img/wn/13d@2x.png'
-  
-    };
-    if ((this.clima.icon) = '50d') {
-      return 'https://openweathermap.org/img/wn/50d@2x.png'
-    
-    };
-    if ((this.clima.icon) = '01n') {
-      return 'https://openweathermap.org/img/wn/10n@2x.png'
-
-    };
-
-    if ((this.clima.icon) = '02n') {
-      return 'https://openweathermap.org/img/wn/02n@2x.png'
- 
-    };
-    if ((this.clima.icon) = '03n') {
-      return 'https://openweathermap.org/img/wn/03n@2x.png'
-  
-    };
-    if ((this.clima.icon) = '04n') {
-      return 'https://openweathermap.org/img/wn/04n@2x.png'
-   
-    };
-    if ((this.clima.icon) = '09n') {
-      return 'https://openweathermap.org/img/wn/09n@2x.png'
-   
-    };
-    if ((this.clima.icon) = '10n') {
-      return'https://openweathermap.org/img/wn/10n@2x.png'
-  
-    };
-    if ((this.clima.icon) = '11n') {
-      return 'https://openweathermap.org/img/wn/11n@2x.png'
-   
-    };
-    if ((this.clima.icon) = '13n') {
-      return 'https://openweathermap.org/img/wn/13n@2x.png'
-    
-    };
-    if ((this.clima.icon) = '50n') {
-      return 'https://openweathermap.org/img/wn/50n@2x.png'
-     
-    };
-
-  }
-
 
   getWeather(ciudad: string, codigo: string) {
     codigo = 'Ar';

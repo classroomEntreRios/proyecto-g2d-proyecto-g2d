@@ -26,8 +26,9 @@
         <!-- </div> -->
         <!-- <div class="col-md-4" > -->
         <div *ngIf="clima" class="card" style="border-radius: 10%;">
-          <div class="weatherWidgetRow"><img style="max-width: 20%;" src ="{{resolverimagen()}}"></div>
-          <div id="divWeatherMain">
+          <div class="weatherWidgetRow"><img style="max-width: 20%;" [src] ="'http://openweathermap.org/img/w/'+ this.clima.weather[0].icon +'.png'"></div>
+          <div id="divWeatherMain" >
+           
               <div id="ContenedorInfoClima">
               <div class="weatherWidgetRow" style="font-size: 32px;margin-top: 5px;">{{clima.main.temp}}°</div>
               <div class="weatherWidgetRow" style="font-size: 12px;">{{clima.main.temp_min}}° / {{clima.main.temp_max}}</div>
