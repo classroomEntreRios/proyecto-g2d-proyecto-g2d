@@ -1,3 +1,12 @@
+<app-general-nav></app-general-nav>
+
+<div class="container">
+  <div class="row">
+  <div class="col-md-12">
+    <img class="foro" src="..\assets\foro.png" alt="foro viajar 360">
+  </div>
+</div>
+
 <div class="container">
     <form method="POST" [formGroup]="entrada" (ngSubmit)="CrearTema()">
         <h1>Crear Tema</h1>
@@ -11,8 +20,8 @@
         <ng-template #espaciador>
             <br>
         </ng-template>
-        <button type="submit" class="btn btn-primary" [disabled]="!entrada.valid">CrearTema</button>
-          <button class="btn btn-primary" routerLink="/">Volver al Inicio</button>
+        <button type="submit" class="btn" [disabled]="!entrada.valid">CrearTema</button>
+          <button class="btn" routerLink="/">Volver al Inicio</button>
     </form>
     <div *ngIf="respuesta" class="alert alert-danger">{{resp.reporte}}</div>
 </div>

@@ -1,3 +1,12 @@
+<app-general-nav></app-general-nav>
+
+<div class="container">
+  <div class="row">
+  <div class="col-md-12">
+    <img class="foro" src="..\assets\foro.png" alt="foro viajar 360">
+  </div>
+</div>
+
 <div class="container">
     <div class="no-data text-center" *ngIf="primera">
         <img src="/assets/carga.gif">
@@ -8,11 +17,11 @@
         </div>
     </div>
     <div class="no-data text-center" *ngIf="temas.length == 0 && !primera && !falla">
-        <button routerLink="/foro/crear">Nuevo Tema</button>
-        <p>No hay temas!!!</p>
+        <button class="btn" routerLink="/foro/crear">Nuevo Tema</button>
+        <p>¡No hay temas!</p>
     </div>
     <div *ngIf="temas.length !== 0">
-        <button routerLink="/foro/crear">Nuevo Tema</button>
+        <button class="btn" routerLink="/foro/crear">Nuevo Tema</button>
         <h3 class="mb-3 text-center">Lista de Temas</h3>
         <div class="col-md-12">
           <table class="table table-bordered">
@@ -26,16 +35,25 @@
             <tbody>
               <tr *ngFor="let tema of temas">
                 <td>{{tema.titulo}}</td>
-                <td *ngIf="tema.estado == 0; else estado_tema">abierto</td>
+                <td *ngIf="tema.estado == 0; else estado_tema">Abierto</td>
                 <ng-template #estado_tema>
-                    <td>cerrado</td>
+                    <td>Cerrado</td>
                 </ng-template>
                 <td>
-                  <span class="edit botonera" routerLink="/foro/tema/{{tema.id_tema}}">ir al tema</span>
+                  <span class="edit botonera" routerLink="/foro/tema/{{tema.id_tema}}">Ir al tema</span>
                 </td>
               </tr>
             </tbody>
           </table>
         </div>
       </div>
+</div>
+
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-12">
+      <a href="#">Volver</a>
+      </div>
+  </div>
 </div>

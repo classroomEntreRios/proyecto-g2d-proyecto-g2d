@@ -1,0 +1,9 @@
+.foro {
+  display: block;
+  margin: auto;
+}
+
+.btn {
+  background-color: orange;
+  color: #333;
+}

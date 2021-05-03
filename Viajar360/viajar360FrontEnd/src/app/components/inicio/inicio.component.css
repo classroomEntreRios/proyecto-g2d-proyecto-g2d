@@ -65,8 +65,12 @@ p{
   padding: 3%;
 }
 
+a img {
+  padding: 3%;
+}
+
 .foro {
-  height: 325px;
+  height: 300px;
   border-radius: 3px;
   padding-top: 10px;
   text-align: center;
