@@ -1,0 +1,15 @@
+<div *ngIf="!primera; else cargando">
+    <label>atraccion: </label>
+    <select [(ngModel)]="sel_atracc" (change)="cambiarInfo(sel_atracc)">
+        <option *ngFor="let atraccion of atracciones" value={{atraccion.nombre}}>{{atraccion.nombre}}</option>
+    </select>
+    <br>
+    <h3>{{info.nombre}}</h3><br>
+    <label>Ubicacion: {{info.ubicacion}}</label><br>
+    <div>
+        Descripcion: {{info.detalles}}
+    </div>
+</div>
+<ng-template #cargando>
+    <img src="/assets/carga.gif" height="50%" width="50%">
+</ng-template>

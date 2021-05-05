@@ -14,7 +14,7 @@ export class AdminDashboardComponent implements OnInit {
   dir=1;
   ngOnInit(): void {
     this.LG.ConnectToken().subscribe(data => {
-      if(!data.respuesta){
+      if(!data.respuesta || !data.flag){
         if(data.invalido){
           this.router.navigate(['/salida'])
         }

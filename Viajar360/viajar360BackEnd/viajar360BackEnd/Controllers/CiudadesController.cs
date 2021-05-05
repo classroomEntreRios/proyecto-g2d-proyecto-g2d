@@ -15,6 +15,7 @@ namespace viajar360BackEnd.Controllers
         {
             CiudadesEntities db = new CiudadesEntities();
             TokenEntities Tdb = new TokenEntities();
+            UsuariosEntities Udb = new UsuariosEntities();
             Dictionary<string, dynamic> respuesta = new Dictionary<string, dynamic>
             {
                 { "estado", false },
@@ -26,7 +27,7 @@ namespace viajar360BackEnd.Controllers
                 if (Tdb.Token.Any(j => j.usuario == ciudad.usuario))
                 {
                     var user = Tdb.Token.First(i => i.usuario == ciudad.usuario);
-                    if (user.token1 == ciudad.sid && (DateTime.Compare(DateTime.Today, user.vencimiento) <= 0))
+                    if (user.token1 == ciudad.sid && (DateTime.Compare(DateTime.Today, user.vencimiento) <= 0) && (Udb.Usuario.Where(d=> d.username == ciudad.usuario).First().modificaciones == "admin") )
                     {
                         if (!db.Ciudades.Any(i => i.nombre == ciudad.nombre))
                         {
@@ -81,7 +82,7 @@ namespace viajar360BackEnd.Controllers
             try
             {
                 CiudadesEntities db = new CiudadesEntities();
-                var listado = db.Ciudades.ToList();
+                var listado = db.Ciudades.OrderBy(n => n.nombre).ToList();
                 respuesta["estado"] = true;
                 respuesta["listado"] = listado;
                 return Ok(respuesta);
@@ -135,6 +136,8 @@ namespace viajar360BackEnd.Controllers
         {
             CiudadesEntities db = new CiudadesEntities();
             TokenEntities Tdb = new TokenEntities();
+            UsuariosEntities Udb = new UsuariosEntities();
+            AtraccionesEntities Adb = new AtraccionesEntities();
             Dictionary<string, dynamic> respuesta = new Dictionary<string, dynamic>
             {
                 { "estado", false },
@@ -145,12 +148,18 @@ namespace viajar360BackEnd.Controllers
                 if (Tdb.Token.Any(j => j.usuario == ciudad.usuario))
                 {
                     var user = Tdb.Token.First(i => i.usuario == ciudad.usuario);
-                    if (user.token1 == ciudad.sid && (DateTime.Compare(DateTime.Today, user.vencimiento) <= 0))
+                    if (user.token1 == ciudad.sid && (DateTime.Compare(DateTime.Today, user.vencimiento) <= 0) && (Udb.Usuario.Where(d => d.username == ciudad.usuario).First().modificaciones == "admin") )
                     {
                         if (db.Ciudades.Any(j => (j.id_ciudad == ciudad.id) && (j.nombre == ciudad.nombre)))
                         {
                             var dato = db.Ciudades.Where(k => k.id_ciudad == ciudad.id).First();
+                            var aDatos = Adb.Atracciones.Where(d => d.id_ciudad == dato.id_ciudad);
+                            foreach(var linea in aDatos)
+                            {
+                                Adb.Atracciones.Remove(linea);
+                            }
                             db.Ciudades.Remove(dato);
+                            Adb.SaveChanges();
                             db.SaveChanges();
                             respuesta["estado"] = true;
                             respuesta["reporte"] = "Se borro con exito la ciudad" + ciudad.nombre;
@@ -194,12 +203,13 @@ namespace viajar360BackEnd.Controllers
             };
             CiudadesEntities db = new CiudadesEntities();
             TokenEntities Tdb = new TokenEntities();
+            UsuariosEntities Udb = new UsuariosEntities();
             try
             {
                 if (Tdb.Token.Any(j => j.usuario == ciudad.usuario))
                 {
                     var user = Tdb.Token.First(i => i.usuario == ciudad.usuario);
-                    if (user.token1 == ciudad.sid && (DateTime.Compare(DateTime.Today, user.vencimiento) <= 0))
+                    if (user.token1 == ciudad.sid && (DateTime.Compare(DateTime.Today, user.vencimiento) <= 0) && (Udb.Usuario.Where(d=> d.username == ciudad.usuario).First().modificaciones == "admin") )
                     {
                         if (db.Ciudades.Any(j => (j.id_ciudad == ciudad.id) && (j.nombre == ciudad.nombre)))
                         {

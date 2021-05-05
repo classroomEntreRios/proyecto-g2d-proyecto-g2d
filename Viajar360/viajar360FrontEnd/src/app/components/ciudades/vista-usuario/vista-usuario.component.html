@@ -1,0 +1,27 @@
+<div *ngIf="!primera; else loading">
+    <label>Ciudad: </label>
+    <select [(ngModel)]="seleccionado" (change)="getId(seleccionado)">
+        <option *ngFor="let ciudad of Ciudades" value={{ciudad.nombre}}>{{ciudad.nombre}}</option>
+    </select>
+    <br>
+    <h2>{{seleccionado}}</h2>
+    <br>
+    <label>atraccion: </label>
+    <select [(ngModel)]="sel_atracc" (change)="cambiarInfo(sel_atracc)">
+        <option *ngFor="let atraccion of Atracciones" value={{atraccion.nombre}}>{{atraccion.nombre}}</option>
+    </select>
+    <br>
+    <div *ngIf="!cargando; else cargandoAtrrac">
+        <h3>{{info.nombre}}</h3><br>
+        <label>Ubicacion: {{info.ubicacion}}</label><br>
+        <div>
+            Descripcion: {{info.detalles}}
+        </div>
+    </div>
+    <ng-template #cargandoAtracc>
+        <img src="/assets/carga.gif" height="20%", width="20%">
+    </ng-template>
+</div>
+<ng-template #loading>
+    <img src="/assets/carga.gif">
+</ng-template>

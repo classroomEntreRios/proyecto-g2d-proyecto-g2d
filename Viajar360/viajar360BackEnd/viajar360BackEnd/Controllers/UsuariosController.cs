@@ -162,12 +162,14 @@ namespace viajar360BackEnd.Controllers
     {
 
         TokenEntities Tdb = new TokenEntities();
+        UsuariosEntities db = new UsuariosEntities();
         [HttpPost]
         public IHttpActionResult token(authToken entrada)
         {
             Dictionary<string, bool> respuesta = new Dictionary<string, bool> {
                 { "respuesta", false },
-                { "invalido", false }
+                { "invalido", false },
+                { "flag", false },
             };
             try
             {
@@ -179,6 +181,10 @@ namespace viajar360BackEnd.Controllers
                         if (DateTime.Compare(DateTime.Today, user.vencimiento) <= 0)
                         {
                             respuesta["respuesta"] = true;
+                            if (db.Usuario.Where(d => d.username == entrada.usuario).First().modificaciones == "admin")
+                            {
+                                respuesta["flag"] = true;
+                            }
                             return Ok(respuesta);
                         }
                         else
@@ -250,7 +256,7 @@ namespace viajar360BackEnd.Controllers
                     return Ok(respuesta);
                 }
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 respuesta["reporte"] = "Ha ocurrido un error por favor intentelo mas tarde   ";
                 respuesta["error"] = e;
@@ -258,18 +264,18 @@ namespace viajar360BackEnd.Controllers
             }
         }
 
-        public string KeyGen(string user,string hash)
+        public string KeyGen(string user, string hash)
         {
             MD5 md5 = new MD5CryptoServiceProvider();
             UTF8Encoding encoder = new UTF8Encoding();
-            Byte[] originalBytes = encoder.GetBytes(hash+user);
+            Byte[] originalBytes = encoder.GetBytes(hash + user);
             Byte[] encodedBytes = md5.ComputeHash(originalBytes);
             string key = BitConverter.ToString(encodedBytes).Replace("-", "");
             return (key);
         }
     }
 
-    public class borrarcuentaController: ApiController
+    public class borrarcuentaController : ApiController
     {
         UsuariosEntities db = new UsuariosEntities();
         TokenEntities Tdb = new TokenEntities();
@@ -291,7 +297,7 @@ namespace viajar360BackEnd.Controllers
                     {
                         if (DateTime.Compare(DateTime.Today, user.vencimiento) <= 0)
                         {
-                            if(datos.removekey == KeyGen(datos.usuario, datos.sid))
+                            if (datos.removekey == KeyGen(datos.usuario, datos.sid))
                             {
                                 var usuario = db.Usuario.Where(i => i.username == datos.usuario).First();
                                 var Tusuario = Tdb.Token.Where(j => j.usuario == datos.usuario).First();
@@ -300,12 +306,12 @@ namespace viajar360BackEnd.Controllers
                                 db.SaveChanges();
                                 Tdb.SaveChanges();
                                 String path = HttpContext.Current.Server.MapPath("~/images/perfil/");
-                                File.Delete(path+datos.usuario + ".png");
+                                File.Delete(path + datos.usuario + ".png");
                                 respuesta["estado"] = true;
                                 respuesta["reporte"] = "Usuario borrado con éxito";
                                 return Ok(respuesta);
                             }
-                            else 
+                            else
                             {
                                 respuesta["reporte"] = "Clave de borrado incorrecta, no se borro la cuenta";
                                 return Ok(respuesta);
@@ -329,7 +335,7 @@ namespace viajar360BackEnd.Controllers
                     return Ok(respuesta);
                 }
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 respuesta["reporte"] = "Ha ocurrido un error por favor intentelo mas tarde   ";
                 respuesta["error"] = e;
@@ -347,7 +353,7 @@ namespace viajar360BackEnd.Controllers
         }
     }
 
-    public class editarusuarioController: ApiController
+    public class editarusuarioController : ApiController
     {
         UsuariosEntities db = new UsuariosEntities();
         TokenEntities Tdb = new TokenEntities();
@@ -362,7 +368,7 @@ namespace viajar360BackEnd.Controllers
             };
             try
             {
-                
+
                 if (Tdb.Token.Any(j => j.usuario == user.usuario))
                 {
                     var usuario = Tdb.Token.First(j => j.usuario == user.usuario);
@@ -371,8 +377,8 @@ namespace viajar360BackEnd.Controllers
                         if (DateTime.Compare(DateTime.Today, usuario.vencimiento) <= 0)
                         {
                             var cambio = db.Usuario.Where(i => i.username == user.usuario).First();
-                            if (user.nombre!="") 
-                            { 
+                            if (user.nombre != "")
+                            {
                                 cambio.nombre = user.nombre;
                             }
                             if (user.apellido != "")
@@ -417,7 +423,7 @@ namespace viajar360BackEnd.Controllers
                                 byte[] imageBytes = Convert.FromBase64String(user.foto);
 
                                 File.WriteAllBytes(imgPath, imageBytes);
-                                cambio.foto = "/images/perfil/"+cambio.username+".png";
+                                cambio.foto = "/images/perfil/" + cambio.username + ".png";
                             }
                             db.SaveChanges();
                             respuesta["estado"] = true;
@@ -450,7 +456,7 @@ namespace viajar360BackEnd.Controllers
         }
     }
 
-    public class obteneridController: ApiController
+    public class obteneridController : ApiController
     {
         UsuariosEntities db = new UsuariosEntities();
         [HttpPost]
@@ -478,7 +484,7 @@ namespace viajar360BackEnd.Controllers
                     return Ok(respuesta);
                 }
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 respuesta["error"] = e;
                 respuesta["reporte"] = "Ha ocurrido un error vuelva a intentarlo mas tarde";
@@ -487,7 +493,7 @@ namespace viajar360BackEnd.Controllers
         }
     }
 
-    public class getdatosController: ApiController
+    public class getdatosController : ApiController
     {
         Dictionary<string, dynamic> respuesta = new Dictionary<string, dynamic>
         {
@@ -509,7 +515,7 @@ namespace viajar360BackEnd.Controllers
             { "foto", ""  },
             { "user", "" },
         };
-        
+
 
         UsuariosEntities db = new UsuariosEntities();
         [HttpGet]
@@ -540,12 +546,25 @@ namespace viajar360BackEnd.Controllers
                 }
 
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 respuesta["reporte"] = "Ha ocurrido un error vuelva a intentarlo mas tarde";
                 respuesta["error"] = e;
                 return Ok(respuesta);
             }
+        }
+    }
+
+    public class getguidController : ApiController
+    {
+        [HttpGet]
+        public IHttpActionResult generador()
+        {
+            Dictionary<string, dynamic> datos = new Dictionary<string, dynamic>
+            {
+                { "id" ,Guid.NewGuid().ToString() },
+            };
+            return Ok(datos);
         }
     }
 }

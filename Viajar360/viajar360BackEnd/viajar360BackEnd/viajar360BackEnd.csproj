@@ -211,12 +211,31 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AtraccionesController.cs" />
     <Compile Include="Controllers\CiudadesController.cs" />
     <Compile Include="Controllers\ForoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\UsuariosController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Atracciones.cs">
+      <DependentUpon>AtraccionesDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AtraccionesDB.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AtraccionesDB.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AtraccionesDB.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AtraccionesDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AtraccionesDB.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AtraccionesDB.edmx</DependentUpon>
     </Compile>
     <Compile Include="Models\Ciudades.cs">
       <DependentUpon>CiudadesDB.tt</DependentUpon>
@@ -358,6 +377,16 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Models\AtraccionesDB.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>AtraccionesDB.edmx</DependentUpon>
+      <LastGenOutput>AtraccionesDB.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\AtraccionesDB.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>AtraccionesDB.edmx</DependentUpon>
+      <LastGenOutput>AtraccionesDB.cs</LastGenOutput>
+    </Content>
     <Content Include="Models\CiudadesDB.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>CiudadesDB.edmx</DependentUpon>
@@ -427,6 +456,13 @@
     </EntityDeploy>
     <Content Include="Models\ForoDB.edmx.diagram">
       <DependentUpon>ForoDB.edmx</DependentUpon>
+    </Content>
+    <EntityDeploy Include="Models\AtraccionesDB.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>AtraccionesDB.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\AtraccionesDB.edmx.diagram">
+      <DependentUpon>AtraccionesDB.edmx</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />

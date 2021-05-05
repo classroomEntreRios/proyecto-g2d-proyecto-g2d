@@ -28,6 +28,7 @@ import { InvitadoNavComponent } from './components/invitado-nav/invitado-nav.com
 import { ChatComponent } from './components/chat/chat.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
