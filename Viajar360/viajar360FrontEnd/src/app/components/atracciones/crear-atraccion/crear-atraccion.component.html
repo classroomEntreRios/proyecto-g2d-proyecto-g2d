@@ -1,0 +1,26 @@
+<div class="container custom-container">
+
+    <div class="col-lg-4">
+      <h3 class="mb-3 text-center">Crear atraccion</h3>
+  
+      <div class="form-group">
+        <label>Nombre:</label><input type="text" [(ngModel)]="datos.nombre" class="form-control" placeholder="Nombre atracción">
+      </div>
+      <div class="form-group">
+        <label>Ubicacion:</label><input type="text" [(ngModel)]="datos.ubicacion" class="form-control" placeholder="Ubicación">
+      </div>
+      <div class="form-group">
+        <label>Detalles:</label><input type="text" [(ngModel)]="datos.detalles" class="form-control" placeholder="Detalles">
+      </div>
+      <div class="form-group">
+          <label>Ciudad:</label><select [(ngModel)]="datos.nombre_ciudad" (change)="cambios(datos.nombre_ciudad)">
+              <option *ngFor="let ciudad of ciudades" value={{ciudad.nombre}}>{{ciudad.nombre}}</option>
+          </select>
+      </div>
+  
+      <div class="form-group">
+        <button class="btn btn-primary" (click)="agregarAtraccion()">Agregar Ciudad</button>
+      </div>
+    </div>
+  </div>
+  

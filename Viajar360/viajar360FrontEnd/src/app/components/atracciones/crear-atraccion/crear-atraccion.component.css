@@ -1,0 +1,15 @@
+
+.custom-container{
+    margin-top: 10%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 10%;
+  }
+  
+  
+  .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    margin-left: 30%;
+    background-color: #f3a60c !important;
+    border-color: #f3a60c !important ;
+  }
+  

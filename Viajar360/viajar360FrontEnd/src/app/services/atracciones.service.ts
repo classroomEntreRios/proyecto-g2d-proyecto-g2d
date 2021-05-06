@@ -13,7 +13,18 @@ export class AtraccionesService {
   }
 
   listarAtracciones(): Observable<any>{
-    console.log("me ejecute");
     return this.http.get("https://localhost:44389/api/listaratracciones");
+  }
+
+  editarAtraccion(entrada: any) : Observable<any>{
+    return this.http.post("https://localhost:44389/api/editaratraccion",entrada);
+  }
+
+  borrarAtraccion(entrada: any) : Observable<any>{
+    return this.http.post("https://localhost:44389/api/borraratraccion",entrada);
+  }
+
+  crearAtraccion(entrada: any) : Observable<any>{
+    return this.http.post("https://localhost:44389/api/crearatraccion",entrada);
   }
 }

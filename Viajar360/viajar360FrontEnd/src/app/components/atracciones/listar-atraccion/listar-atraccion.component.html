@@ -1,0 +1,36 @@
+<div class="container custom-container-2">
+    <div *ngIf="!primera; else cargando">
+        <h3 class="mb-3 text-center">Lista de Atracciones</h3>
+        <div class="col-md-12">
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th scope="col">Id_Atraccion</th>
+                <th scope="col">Nombre Atraccion</th>
+                <th scope="col">nombre_ciudad</th>
+                <th scope="col">Ubicación</th>
+                <th scope="col">Descripción</th>
+                <th scope="col">Acción</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let atraccion of atracciones">
+                <td>{{atraccion.id_atraccion}}</td>
+                <td>{{atraccion.nombre}}</td>
+                <td>{{obtenerNombre(atraccion.id_ciudad)}}{{salida}}</td>
+                <td>{{atraccion.ubicacion}}</td>
+                <td>{{atraccion.detalles}}</td>
+                <td>
+                <span class="edit botonera" (click)="editar(atraccion.id_atraccion)">Editar</span>
+                <span> - </span>
+                <span class="delete botonera" (click)="borrarAtraccion(atraccion.id_atraccion,atraccion.nombre)">Borrar</span>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        </div>
+    </div>
+<ng-template #cargando>
+    <img src="/assets/carga.gif" height="50%" width="50%">
+</ng-template>
+</div>

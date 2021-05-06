@@ -27,8 +27,6 @@ export class InicioComponent implements OnInit {
 
     this.getWeatherData();
 
-    console.log(this.clima);
-
   }
   
 
@@ -38,7 +36,6 @@ export class InicioComponent implements OnInit {
     this.weatherService.getWeather(ciudad, codigo)
       .subscribe(
         res => {
-          console.log(res);
           this.clima = res
         },
         err => console.log(err)
@@ -87,57 +84,4 @@ export class InicioComponent implements OnInit {
     return false;
   }
 
-  // Listado:lista[] = [
-  //   {nombre:"Basavilbaso"},
-  //   {nombre:"Brazo Largo"},
-  //   {nombre:"Caseros"},
-  //   {nombre:"Cerrito"},
-  //   {nombre:"Chajarí"},
-  //   {nombre:"Colón"},
-  //   {nombre:"C. del Uruguay"},
-  //   {nombre:"Concordia"},
-  //   {nombre:"Crespo"},
-  //   {nombre:"Diamante"},
-  //   {nombre:"Federación"},
-  //   {nombre:"Federal"},
-  //   {nombre:"Feliciano"},
-  //   {nombre:"General Ramirez"},
-  //   {nombre:"General Campos"},
-  //   {nombre:"Gualeguay"},
-  //   {nombre:"Gualeguaychú"},
-  //   {nombre:"Hernandarias"},
-  //   {nombre:"Ibicuy"},
-  //   {nombre:"La Paz"},
-  //   {nombre:"Larroque"},
-  //   {nombre:"Lib. San Martín"},
-  //   {nombre:"Liebig"},
-  //   {nombre:"Lucas González"},
-  //   {nombre:"María Grande"},
-  //   {nombre:"Nogoyá"},
-  //   {nombre:"Oro Verde"},
-  //   {nombre:"Paraná"},
-  //   {nombre:"Piedras Blancas"},
-  //   {nombre:"Pueblo Belgrano"},
-  //   {nombre:"Pueblo Brugo"},
-  //   {nombre:"Puerto Alvear"},
-  //   {nombre:"Puerto Yeruá"},
-  //   {nombre:"Rosario del Tala"},
-  //   {nombre:"San José"},
-  //   {nombre:"San Salvador"},
-  //   {nombre:"Santa Ana"},
-  //   {nombre:"Santa Elena"},
-  //   {nombre:"Ubajay"},
-  //   {nombre:"Urdinarrain"},
-  //   {nombre:"Valle María"},
-  //   {nombre:"Viale"},
-  //   {nombre:"Victoria"},
-  //   {nombre:"Villa Elisa"},
-  //   {nombre:"Villa Paranacito"},
-  //   {nombre:"Villa Urquiza"},
-  //   {nombre:"Villaguay"}
-  // ]
 }
-
-// interface lista {
-//   nombre: string;
-// }

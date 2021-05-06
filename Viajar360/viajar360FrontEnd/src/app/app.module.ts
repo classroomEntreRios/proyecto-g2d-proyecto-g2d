@@ -26,6 +26,9 @@ import { ListaComponent } from './components/ciudades/lista/lista.component';
 import { EditarComponent } from './components/ciudades/editar/editar.component';
 import { InvitadoNavComponent } from './components/invitado-nav/invitado-nav.component';
 import { ChatComponent } from './components/chat/chat.component';
+import { CrearAtraccionComponent } from './components/atracciones/crear-atraccion/crear-atraccion.component';
+import { EditarAtraccionComponent } from './components/atracciones/editar-atraccion/editar-atraccion.component';
+import { ListarAtraccionComponent } from './components/atracciones/listar-atraccion/listar-atraccion.component';
 
 
 
@@ -51,6 +54,9 @@ import { ChatComponent } from './components/chat/chat.component';
     EditarComponent,
     InvitadoNavComponent,
     ChatComponent,
+    CrearAtraccionComponent,
+    EditarAtraccionComponent,
+    ListarAtraccionComponent,
   ],
   imports: [
     FormsModule,

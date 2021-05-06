@@ -13,12 +13,26 @@
     </ng-template>
   </li>
   <li [ngbNavItem]="3">
+    <a ngbNavLink>Crear-Atraccion</a>
+    <ng-template ngbNavContent>
+      <app-crear-atraccion></app-crear-atraccion>
+    </ng-template>
+  </li>
+  <li [ngbNavItem]="4">
+    <a ngbNavLink>Editar-Atraccion</a>
+    <ng-template ngbNavContent>
+      <app-listar-atraccion></app-listar-atraccion>
+      <app-editar-atraccion></app-editar-atraccion>
+    </ng-template>
+  </li>
+  <li [ngbNavItem]="5">
     <a ngbNavLink>Volver</a>
     <ng-template ngbNavContent>
 
       <a class="nav-link" routerLink="/home" routerLinkActive="active"><button type="button" class="btn btn-primary">Volver a Inicio
       </button></a>
-
+      <a class="nav-link" routerLink="/salida" routerLinkActive="active"><button type="button" class="btn btn-primary">Salir de la sesion y volver al menu
+      </button></a>
     </ng-template>
   </li>
 </ul>

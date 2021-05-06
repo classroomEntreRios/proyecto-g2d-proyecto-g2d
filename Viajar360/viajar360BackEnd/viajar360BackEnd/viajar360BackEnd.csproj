@@ -273,6 +273,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ForoDB.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Models\ModeloAtracciones.cs" />
     <Compile Include="Models\ModeloCiudad.cs" />
     <Compile Include="Models\ModeloForo.cs" />
     <Compile Include="Models\ModeloUsuario.cs" />

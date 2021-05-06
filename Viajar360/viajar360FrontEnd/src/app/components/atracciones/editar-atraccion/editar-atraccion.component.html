@@ -1,0 +1,44 @@
+<div class="container custom-container" *ngIf="!primera">
+  <div class="col-md-12">
+
+    <h3 class="mb-3 text-center">Editar Atraccion</h3>
+
+    <div class="form-group">
+      <label>Numero de Id. de la atraccion:</label>
+      <input type="text" [(ngModel)]="datos.id_atraccion" class="form-control" placeholder="ID_atraccion">
+    </div>
+
+    <div class="form-group">
+      <label>Nombre de la atraccion:</label>
+      <input type="text" [(ngModel)]="datos.nombre" class="form-control" placeholder="NombreAtraccion">
+    </div>
+
+    <div class="form-group">
+      <label>Nombre de la ciudad:</label>
+      <select [(ngModel)]="datos.nombre_ciudad" (Change)="cambiarDatos(datos.nombre_ciudad)">
+          <option *ngFor="let ciudad of ciudades" value={{ciudad.nombre}}>{{ciudad.nombre}}</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>Descripción:</label>
+      <input type="text" [(ngModel)]="datos.detalles" class="form-control" placeholder="detalles">
+    </div>
+
+    <div class="form-group">
+      <label>Ubicación:</label>
+      <input type="text" [(ngModel)]="datos.ubicacion" class="form-control" placeholder="ubicacion">
+    </div>
+
+
+    <div class="form-group">
+      <button class="btn btn-success btn-lg btn-block" (click)="actualizarAtraccion()">Actualizar atraccion</button>
+    </div>
+
+  </div>
+</div>
+<ng-template>
+  <img src="/assets/carga.gif" height="50%" width="50%">
+</ng-template>
+
+  
