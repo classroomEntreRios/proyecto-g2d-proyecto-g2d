@@ -32,7 +32,13 @@ export class ChatComponent implements OnInit {
   ngOnInit(): void {
  
       this.chat = new FormGroup({
-        'mail': new FormControl('', [Validators.required, Validators.email] ),
+        'apellido': new FormControl ('', [Validators.required, Validators.minLength(4),]),
+        'nombre': new FormControl ('', [Validators.required, Validators.minLength(4),]),
+        'mensaje':new FormControl('',[Validators.required, Validators.minLength(4)]),
+        'mail': new FormControl('', [Validators.required, Validators.email] )
+        
+      
+
       });
     }
   

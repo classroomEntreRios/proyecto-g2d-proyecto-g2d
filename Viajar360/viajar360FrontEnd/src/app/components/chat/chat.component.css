@@ -1,15 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 
-.custom-container{
-    margin-top: 10%;
-    margin-left: 35%;
-    margin-right: 35%;
-    margin-bottom: 10%;
-  }
+
+}
+
+
+body {
+  font-family: arial;
   
+}
+input {
+ 
+  height: 80%;
+  width: 190%;
+  background-color: rgb(252, 252, 252);
+  padding-top: 10%;
+}
+
+.form-chat {
+
+  width: 30%;
+  height: 20%;
+  background-image: url('src/assets/Images/rios.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+  margin-top: 2%;
+  box-shadow: 7% 13% 37% #eea047;
+  padding: 2% 5%;
+  border-top: 4% solid #0f0a0a;
+  color: white;
+
+}
+form button {
   
-  .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    margin-left: 30%;
-    background-color: #f3a60c !important;
-    border-color: #f3a60c !important ;
-  }
+  background: orange;
+  width: 40%;
+  border: 1;
+  align-items: center;
+  margin-left: 5%;
+}
+h5 {
   
+  color: black;
+  text-align: center;
+}
+
+
+

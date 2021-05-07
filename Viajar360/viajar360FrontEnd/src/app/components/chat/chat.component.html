@@ -1,53 +1,53 @@
 <app-general-nav></app-general-nav>
-<h1> Escríbenos un mensaje </h1>
-<div class="container">
-  <form novalidate [formGroup]="chat" (ngSubmit)="submit()">
-    <div class="form-row">
-      <div class="form-group col-md-6">
-        <label>
-          <input type="text" [(ngModel)]="detallechat.apellido" placeholder="Apellido" formControlName="apellido">
-        </label>
-      </div>
-      <div class="form-group col-md-6">
-        <label>
-          <input type="text" [(ngModel)]="detallechat.nombre" placeholder="Nombre" formControlName="nombre">
-        </label>
-      </div>
-      <br>
+
+<form class="form-chat" novalidate [formGroup]="chat" (ngSubmit)="submit()">
+  <h5> Envíanos un mensaje</h5>
+  <hr style="color: black; background-color: black; width:95%;" />
+  <br>
+  <div class="form-group col-md-6">
+    <br>
+
+    <input type="text" [(ngModel)]="detallechat.apellido" placeholder="Apellido" formControlName="apellido">
+
+  </div>
+  <div class="form-group col-md-6">
+    <br>
+    <input type="text" [(ngModel)]="detallechat.nombre" placeholder="Nombre" formControlName="nombre">
+
+  </div>
+  <br>
+
+  <div class="form-group col-md-6">
+
+    <textarea rows="5" cols="24" [(ngModel)]="detallechat.mensaje" placeholder="Mensaje"
+      formControlName="mensaje"> </textarea>
+
+  </div>
+  <div class="form-group col-md-6">
+
+    <br>
+    <input type="text" [(ngModel)]="detallechat.mail" placeholder="Ingrese su mail" formControlName="mail">
+    <div *ngIf="f.mail.touched && f.mail.invalid; else Separador_Mail" class="alert alert-danger">
+      <div *ngIf="f.mail.errors.required">Mail requerido</div>
+      <div *ngIf="f.mail.errors.email">Formato de Mail invalido</div>
     </div>
-
-
-
-    <div class="form-group col-md-6">
-      <label>
-        <span>Mensaje</span>
+    <ng-template #Separador_Mail>
+      <div>
         <br>
-        <input type="text" [(ngModel)]="detallechat.mensaje" placeholder="Mensaje" formControlName="mensaje">
-      </label>
-    </div>
-    <div class="form-group">
-      <label>
-        <span>Correo electrónico</span>
-        <br>
-        <input type="text" [(ngModel)]="detallechat.mail" placeholder="Ingrese su mail" formControlName="mail">
-        <div *ngIf="f.mail.touched && f.mail.invalid; else Separador_Mail" class="alert alert-danger">
-          <div *ngIf="f.mail.errors.required">E-Mail requerido</div>
-          <div *ngIf="f.mail.errors.email">Formato de E-Mail invalido</div>
-        </div>
-        <ng-template #Separador_Mail>
-          <div>
-            <br>
-          </div>
-        </ng-template>
-      </label>
-    </div>
+      </div>
+    </ng-template>
+  
+  </div>
 
-    <div id="botones">
-      <button class="btn btn-primary" routerLink="/">Volver al Inicio</button>
-      <button class="btn btn-primary">Enviar</button>
-    </div>
+  <div id="form-button">
+    <button class="btn btn-primary" routerLink="/">Inicio</button>
+    <button class="btn btn-primary">Enviar</button>
+  </div>
 
 
-  </form>
-</div>
-  <div *ngIf="resp.error == true" class="alert alert-danger">{{resp.reporte}}</div>
+
+</form>
+<br>
+
+
+<div *ngIf="resp.error == true" class="alert alert-danger">{{resp.reporte}}</div>
