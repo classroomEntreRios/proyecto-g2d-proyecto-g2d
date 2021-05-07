@@ -1,40 +1,15 @@
-.chatContainer {
-padding:30%;
-width: 100%;
-height: max-content;
-min-width: 100%;
-display: flex;
-flex-direction: column;
-padding-bottom: 70%;
-background-color: ghostwhite;
-}
 
-.local {
-    padding: 20%;
-    border-radius: 20%;
-    background-color: darkgreen;
-    max-width: 80%;
-    color: blanchedalmond;
-    font-size: 17%;
-    align-self: flex-start;
-}
-.remoto {
-    padding: 20%;
-    border-radius: 20%;
-    background-color: rgb(30, 0, 100);
-    max-width: 80%;
-    color: blanchedalmond;
-    font-size: 17%;
-    align-self: flex-end;
-}
-
-.inputContainer {
-    background-color: blanchedalmond;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    padding: 10%;
-}
-.input {
-    width: 100%;
-} 
+.custom-container{
+    margin-top: 10%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 10%;
+  }
+  
+  
+  .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    margin-left: 30%;
+    background-color: #f3a60c !important;
+    border-color: #f3a60c !important ;
+  }
+  

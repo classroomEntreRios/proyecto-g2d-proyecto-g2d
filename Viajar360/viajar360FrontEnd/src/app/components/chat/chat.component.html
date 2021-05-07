@@ -1,18 +1,53 @@
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <app-general-nav></app-general-nav>
-<script src="/socket.io/socket.io.js"></script>
-<script src="../../../../../Socket/index.js"></script>
-<div class="chatContainer">
-    <p [ngClass]="{'local': message.messageType === 1, 'remoto':message.messageType === 2}" class="local"
-        *ngFor="let message of chat.chats"> {{message.text}} </p>
+<h1> Escríbenos un mensaje </h1>
+<div class="container">
+  <form novalidate [formGroup]="chat" (ngSubmit)="submit()">
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label>
+          <input type="text" [(ngModel)]="detallechat.apellido" placeholder="Apellido" formControlName="apellido">
+        </label>
+      </div>
+      <div class="form-group col-md-6">
+        <label>
+          <input type="text" [(ngModel)]="detallechat.nombre" placeholder="Nombre" formControlName="nombre">
+        </label>
+      </div>
+      <br>
+    </div>
 
+
+
+    <div class="form-group col-md-6">
+      <label>
+        <span>Mensaje</span>
+        <br>
+        <input type="text" [(ngModel)]="detallechat.mensaje" placeholder="Mensaje" formControlName="mensaje">
+      </label>
+    </div>
+    <div class="form-group">
+      <label>
+        <span>Correo electrónico</span>
+        <br>
+        <input type="text" [(ngModel)]="detallechat.mail" placeholder="Ingrese su mail" formControlName="mail">
+        <div *ngIf="f.mail.touched && f.mail.invalid; else Separador_Mail" class="alert alert-danger">
+          <div *ngIf="f.mail.errors.required">E-Mail requerido</div>
+          <div *ngIf="f.mail.errors.email">Formato de E-Mail invalido</div>
+        </div>
+        <ng-template #Separador_Mail>
+          <div>
+            <br>
+          </div>
+        </ng-template>
+      </label>
+    </div>
+
+    <div id="botones">
+      <button class="btn btn-primary" routerLink="/">Volver al Inicio</button>
+      <button class="btn btn-primary">Enviar</button>
+    </div>
+
+
+  </form>
 </div>
-
-<div class="inputContainer">
-    <form (submit)="sendMessage()">
-        <input [(ngModel)]="text" [ngModelOptions]="{standalone:true}" type="text">
-    </form>
-
-</div>
-
+  <div *ngIf="resp.error == true" class="alert alert-danger">{{resp.reporte}}</div>

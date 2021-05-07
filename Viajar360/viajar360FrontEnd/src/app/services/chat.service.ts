@@ -1,27 +1,21 @@
 import { Injectable } from '@angular/core';
-import { SocketService } from './socket.service';
-
+import { HttpClient } from '@angular/common/http';
+import { Observable } from "rxjs";
+import { CookieService } from 'ngx-cookie-service';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ChatService {
-  chats=[];
-  constructor(private socket: SocketService) {
-    this.onReceiveMessage();
-   }
-
-  sendMessage(messageInfo) {
-    this.chats.push(messageInfo);
-    
-    this.socket.io.emit("sendMessage", messageInfo);
+  testToken = {
+    usuario: '',
+    sid: ''
   }
-
-  onReceiveMessage(){
-    this.socket.io.on("receiveMessage",(messageInfo)=> {
-      messageInfo.messageType = 2;
-      this.chats.push(messageInfo);
+  salida = false;
+  constructor(private http: HttpClient, private cookie: CookieService) { }
+  chateo(chat: any): Observable<any> {
+    return this.http.post("https://localhost:44389/api/chats", chat);
+  }
   
-    });
-  }
+ 
 }
