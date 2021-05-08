@@ -1,30 +1,36 @@
 <app-general-nav></app-general-nav>
 
-<div class="container">
+<div class="container espacio">
   <div class="row">
   <div class="col-md-12">
-    <img class="foro" src="..\assets\foro.png" alt="foro viajar 360">
+    <img class="img-fluid foro" src="..\assets\foro.png" alt="foro viajar 360">
   </div>
 </div>
 
-<div class="container">
-    <div class="no-data text-center" *ngIf="primera">
+<div class="container espacio">
+
+  <div class="no-data text-center" *ngIf="primera">
         <img src="/assets/carga.gif">
     </div>
+
     <div *ngIf="falla">
         <div class="alert alert-danger">
             {{resp.reporte}}
         </div>
     </div>
+
     <div class="no-data text-center" *ngIf="temas.length == 0 && !primera && !falla">
-        <button class="btn" routerLink="/foro/crear">Nuevo Tema</button>
+
+      <button class="btn" routerLink="/foro/crear" style="color:#333"> Crear Nuevo Tema</button>
         <p>¡No hay temas!</p>
     </div>
+
     <div *ngIf="temas.length !== 0">
         <button class="btn" routerLink="/foro/crear">Nuevo Tema</button>
+
         <h3 class="mb-3 text-center">Lista de Temas</h3>
         <div class="col-md-12">
-          <table class="table table-bordered">
+          <table class="table table-hover">
             <thead>
               <tr>
                 <th scope="col">Tema</th>

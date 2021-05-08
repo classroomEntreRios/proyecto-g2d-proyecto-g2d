@@ -263,7 +263,7 @@
       <DependentUpon>UsuariosDB.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Comentarios.cs">
-      <DependentUpon>UsuariosDB.tt</DependentUpon>
+      <DependentUpon>ForoDB.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\ForoDB.Context.cs">
       <AutoGen>True</AutoGen>
@@ -303,7 +303,7 @@
       <DependentUpon>UsuariosDB.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Temas.cs">
-      <DependentUpon>UsuariosDB.tt</DependentUpon>
+      <DependentUpon>ForoDB.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Token.cs">
       <DependentUpon>UsuariosDB.tt</DependentUpon>

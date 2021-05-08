@@ -3,7 +3,24 @@
   margin: auto;
 }
 
+.espacio {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
 .btn {
   background-color: orange;
   color: #333;
+}
+
+thead {
+  background-color: orange;
+}
+
+th {
+  color: white;
+}
+
+td {
+  color: orange;
 }

@@ -1,27 +1,54 @@
 <app-general-nav></app-general-nav>
-
 <div class="container">
-  <div class="row">
-  <div class="col-md-12">
-    <img class="foro" src="..\assets\foro.png" alt="foro viajar 360">
-  </div>
+<img src="..\assets\foro.png" class="img-fluid foro" alt="foro viajar 360">
+</div>
+
+<div class="container invitacion">
+  <p>
+    <b style="color: orange; text-transform: uppercase;"> ¿Vistitaste Entre Ríos? </b> <br> ¡Creá un nuevo tema y contale tu experiencia a nuevos viajeros!<br>
+    <b style="color: orange; text-transform: uppercase;"> ¿Estás por planear tus vacaciones?</b> <br> Si no encontraste información en temas anteriores, ¡creá un nuevo tema de discusión para que viajeros experimentados te respondan!
+  </p>
 </div>
 
 <div class="container">
-    <form method="POST" [formGroup]="entrada" (ngSubmit)="CrearTema()">
-        <h1>Crear Tema</h1>
-        <input type="text" formControlName="titulo" placeholder="Ingrese titulo" required="required"/>
-        <div *ngIf="f.titulo.touched && f.titulo.invalid; else espaciador" class="alert alert-danger">
+  <div class="row">
+    <div class="col-md-12">
+
+      <div class="container">
+        <form method="POST" [formGroup]="entrada" (ngSubmit)="CrearTema()">
+          <h1>Crear tema</h1>
+          <br>
+          <h3>Título</h3>
+          <input type="text"  class="form-control" id="exampleFormControlTextarea1" formControlName="titulo" placeholder="Ingrese titulo" required="required"/>
+
+          <div *ngIf="f.titulo.touched && f.titulo.invalid; else espaciador" class="alert alert-danger">
             <div *ngIf="f.titulo.errors.required">Ingrese el titulo del tema a crear</div>
             <div *ngIf="f.titulo.errors.minlength">El titulo del tema tiene que tener 8 caracteres como minimo</div>
             <div *ngIf="f.titulo.errors.maxlength">El titulo del tema tiene que tener 255 caracteres como maximo</div>
             <br>
-        </div>
-        <ng-template #espaciador>
+          </div>
+            <ng-template #espaciador>
             <br>
-        </ng-template>
-        <button type="submit" class="btn" [disabled]="!entrada.valid">CrearTema</button>
-          <button class="btn" routerLink="/">Volver al Inicio</button>
-    </form>
-    <div *ngIf="respuesta" class="alert alert-danger">{{resp.reporte}}</div>
+            </ng-template>
+
+            <h3>Comentario</h3>
+              <textarea class="form-control" id="exampleFormControlTextarea1" required="required" placeholder="Desarrollá tu tema aqui!" rows="3"></textarea>
+
+            <button type="submit" class="btn" [disabled]="!entrada.valid">CrearTema</button>
+            <button class="btn" routerLink="/foro">Cancelar</button>
+        </form>
+      <div *ngIf="respuesta" class="alert alert-danger">{{resp.reporte}}</div>
+
+    </div>
+  </div>
 </div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-12">
+      <a routerLink="/" >Volver al inicio</a>
+      </div>
+  </div>
+</div>
+
+

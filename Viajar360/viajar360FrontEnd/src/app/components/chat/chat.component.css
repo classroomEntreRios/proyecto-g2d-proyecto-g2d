@@ -9,10 +9,10 @@
 
 body {
   font-family: arial;
-  
+
 }
 input {
- 
+
   height: 80%;
   width: 190%;
   background-color: rgb(252, 252, 252);
@@ -36,7 +36,7 @@ input {
 
 }
 form button {
-  
+
   background: orange;
   width: 40%;
   border: 1;
@@ -44,7 +44,7 @@ form button {
   margin-left: 5%;
 }
 h5 {
-  
+
   color: black;
   text-align: center;
 }
