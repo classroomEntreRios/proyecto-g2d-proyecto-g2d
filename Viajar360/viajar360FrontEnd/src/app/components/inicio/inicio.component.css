@@ -54,8 +54,8 @@
 
 .logo-foro {
   width: 70%;
-  padding-left: 3px;
-  padding-right: 3px;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 p{
@@ -70,12 +70,22 @@ a img {
 }
 
 .foro {
-  height: 300px;
-  border-radius: 3px;
-  padding-top: 10px;
+  height: fit-content;
+  border-radius: 3%;
+  padding-top: 0,5%;
   text-align: center;
   background-color: orange;
   color: #666;
 
 }
+.chat {
+  height: fit-content;
+  border-radius: 3%;
+  padding-top: 0,5%;
+  text-align: center;
+  background-color: orange;
+  color: #666;
+}
+
+
 

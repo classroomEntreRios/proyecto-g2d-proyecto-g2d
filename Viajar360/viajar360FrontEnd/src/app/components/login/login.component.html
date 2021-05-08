@@ -2,7 +2,7 @@
   <div class="container">
     <div class="login">
       <form method="post" [formGroup]="Forumulario" (ngSubmit)="login()">
-        <h1>Login</h1>
+        <h1>Ingreso de usuario</h1>
         <div>
           <input type="text" formControlName="Usuario" placeholder="Usuario" required="required" />
         </div>
@@ -30,7 +30,7 @@
           </div>
         </ng-template>
         <div class="botones">
-          <button type="submit" class="btn btn-primary" [disabled]="!Forumulario.valid">Log in</button>
+          <button type="submit" class="btn btn-primary" [disabled]="!Forumulario.valid">Ingresar</button>
           <button class="btn btn-primary" routerLink="/">Volver al Inicio</button> 
         </div>
         <div *ngIf="resp.error == true" class="alert alert-danger">{{resp.reporte}}</div>

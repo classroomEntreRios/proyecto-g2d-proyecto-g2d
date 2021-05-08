@@ -1,9 +1,10 @@
 form {
   display: grid;
   background: #fceabb;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #f8b500, #fceabb);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #f8b500, #fceabb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+  background-image: url('/assets/Images/nog-registro.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   border: 1px solid #c1c1c1;
   margin: 20% auto 20% auto;
   height: 40%;
@@ -37,11 +38,12 @@ form button:hover {
 label {
   width: 95%;
   font-family: fantasy;
+ 
 }
 
 input {
   padding: 0.5em;
-  height: 40%;
+  height: 100%;
   width: 100%;
   background-color: powderblue;
 }
@@ -54,10 +56,10 @@ input:focus {
 }
 
 .fondo {
-  background-image: url('/assets/Images/nog-registro.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background: -webkit-linear-gradient(to right, #f8b500, #fceabb);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f8b500, #fceabb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+ 
   position: fixed;
   top: 0;
   left: 0;

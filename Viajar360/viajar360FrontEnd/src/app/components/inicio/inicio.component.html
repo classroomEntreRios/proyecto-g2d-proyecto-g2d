@@ -1,69 +1,82 @@
-
 <app-general-nav></app-general-nav>
 
-  <!--Carousel-->
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <app-carousel-home></app-carousel-home>
-      </div>
-    </div>
-  </div>
-
-<!--api clima-->
-  <div class="container p-4">
-
-    <div class="row">
-
-      <div class="col-md-6">
-        <div class="card card-baby">
-          <form (submit)="submitciudad(ciudad,codigo)">
-            <input type="text" class="form-control" placeholder="Ciudad" #ciudad>
-            <input type="hidden" class="form-control" placeholder="Código ciudad" value="Ar" #codigo>
-            <button class="btn btn-warning btn-block mt-2"> Buscar clima</button>
-          </form>
-        </div>
-        <!-- </div> -->
-        <!-- <div class="col-md-4" > -->
-        <div *ngIf="clima" class="card" style="border-radius: 10%;">
-          <div id="divWeatherMain" >
-            <div class="weatherWidgetRow"><img style="max-width: 20%;" [src] ="'http://openweathermap.org/img/w/'+ this.clima.weather[0].icon +'.png'"></div>
-            <div id="ContenedorInfoClima">
-              <div class="weatherWidgetRow" style="font-size: 32px;margin-top: 5px;">{{clima.main.temp}}°</div>
-              <div class="weatherWidgetRow" style="font-size: 12px;">{{clima.main.temp_min}}° / {{clima.main.temp_max}}</div>
-              <div class="weatherWidgetRow" style="font-size: 25px;margin-top: 10px;">{{clima.name}}</div>
-              <div class="weatherWidgetRow" style="font-size: 12px;">Humedad: {{clima.main.humidity}}%</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--ir al foro-->
-      <div class="col-md-6">
-        <div class="foro">
-          <a routerLink="/foro"> <img class="logo-foro" src="\assets\viajeros.png" alt="Foro viajar 360"> </a>
-          <br>
-          <p>¡Conocé la <b>experiencia de viajeros</b> <br> que <b>ya han visitado</b> nuestra provincia!</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <!--Información-->
-  <div class="container">
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <app-info-home></app-info-home>
-      </div>
-      <div class="col-md-1">
-    </div>
-
-<!--Cards-->
+<!--Carousel-->
 <div class="container">
   <div class="row">
     <div class="col-md-12">
-      <app-cards-home></app-cards-home>
+      <app-carousel-home></app-carousel-home>
     </div>
   </div>
 </div>
+
+<!--api clima-->
+<div class="container p-4">
+
+  <div class="row">
+
+    <div class="col-md-6">
+      <div class="card card-baby">
+        <form (submit)="submitciudad(ciudad,codigo)">
+          <input type="text" class="form-control" placeholder="Ciudad" #ciudad>
+          <input type="hidden" class="form-control" placeholder="Código ciudad" value="Ar" #codigo>
+          <button class="btn btn-warning btn-block mt-2"> Buscar clima</button>
+        </form>
+      </div>
+      <!-- </div> -->
+      <!-- <div class="col-md-4" > -->
+      <div *ngIf="clima" class="card" style="border-radius: 10%;">
+        <div id="divWeatherMain">
+          <div class="weatherWidgetRow"><img style="max-width: 20%;"
+              [src]="'http://openweathermap.org/img/w/'+ this.clima.weather[0].icon +'.png'"></div>
+          <div id="ContenedorInfoClima">
+            <div class="weatherWidgetRow" style="font-size: 32px;margin-top: 5px;">{{clima.main.temp}}°</div>
+            <div class="weatherWidgetRow" style="font-size: 12px;">{{clima.main.temp_min}}° / {{clima.main.temp_max}}
+            </div>
+            <div class="weatherWidgetRow" style="font-size: 25px;margin-top: 10px;">{{clima.name}}</div>
+            <div class="weatherWidgetRow" style="font-size: 12px;">Humedad: {{clima.main.humidity}}%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  <!--ir al foro-->
+  <div class="row">
+    <div class="col-md-6">
+      <div class="foro">
+        <a routerLink="/foro"> <img class="logo-foro" src="\assets\viajeros.png" alt="Foro viajar 360"> </a>
+        <br>
+        <p>¡Conocé la <b>experiencia de viajeros</b> <br> que <b>ya han visitado</b> nuestra provincia!</p>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="chat">
+        <a routerLink="/chat"> <img class="logo-foro" src="\assets\imagen_chat.png" alt="Mensajes directos Viajar 360°">
+        </a>
+        <br>
+        <p>¡Comunícate con nosotros en forma <b>directa</b> <br> y pronto te <b>responderemos!</b> </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--Información-->
+<div class="container">
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+      <app-info-home></app-info-home>
+    </div>
+    <div class="col-md-1">
+    </div>
+
+    <!--Cards-->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <app-cards-home></app-cards-home>
+        </div>
+      </div>
+    </div>
