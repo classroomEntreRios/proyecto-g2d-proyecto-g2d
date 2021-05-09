@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="ModelChat.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+      <Schema Namespace="Viajar360Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="Chat">
           <Key>
             <PropertyRef Name="id_chat" />
@@ -15,15 +15,16 @@
           <Property Name="mensaje" Type="varchar(max)" />
           <Property Name="fecha_hora" Type="datetime" />
           <Property Name="mail" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="respondido" Type="bit" />
         </EntityType>
-        <EntityContainer Name="ModelChatStoreContainer">
+        <EntityContainer Name="Viajar360ModelStoreContainer">
           <EntitySet Name="Chat" EntityType="Self.Chat" Schema="dbo" store:Type="Tables" />
         </EntityContainer>
       </Schema>
     </edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
-      <Schema Namespace="ModelChat" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+      <Schema Namespace="Viajar360Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
         <EntityType Name="Chat">
           <Key>
             <PropertyRef Name="id_chat" />
@@ -34,6 +35,7 @@
           <Property Name="mensaje" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
           <Property Name="fecha_hora" Type="DateTime" Precision="3" />
           <Property Name="mail" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="respondido" Type="Boolean" />
         </EntityType>
         <EntityContainer Name="ChatEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Chat" EntityType="Self.Chat" />
@@ -43,9 +45,9 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="ModelChatStoreContainer" CdmEntityContainer="ChatEntities">
+        <EntityContainerMapping StorageEntityContainer="Viajar360ModelStoreContainer" CdmEntityContainer="ChatEntities">
           <EntitySetMapping Name="Chat">
-            <EntityTypeMapping TypeName="ModelChat.Chat">
+            <EntityTypeMapping TypeName="Viajar360Model.Chat">
               <MappingFragment StoreEntitySet="Chat">
                 <ScalarProperty Name="id_chat" ColumnName="id_chat" />
                 <ScalarProperty Name="apellido" ColumnName="apellido" />
@@ -53,6 +55,7 @@
                 <ScalarProperty Name="mensaje" ColumnName="mensaje" />
                 <ScalarProperty Name="fecha_hora" ColumnName="fecha_hora" />
                 <ScalarProperty Name="mail" ColumnName="mail" />
+                <ScalarProperty Name="respondido" ColumnName="respondido" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
@@ -73,7 +76,7 @@
         <DesignerProperty Name="EnablePluralization" Value="false" />
         <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
         <DesignerProperty Name="UseLegacyProvider" Value="false" />
-        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
       </DesignerInfoPropertySet>
     </Options>
     <!-- Diagram content (shape and connector positions) -->

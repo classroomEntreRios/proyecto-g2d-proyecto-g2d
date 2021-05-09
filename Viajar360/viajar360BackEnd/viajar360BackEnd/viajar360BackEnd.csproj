@@ -211,6 +211,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\AtraccionesController.cs" />
     <Compile Include="Controllers\ChatsController.cs" />
     <Compile Include="Controllers\CiudadesController.cs" />
@@ -221,7 +222,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Atracciones.cs">
-      <DependentUpon>UsuariosDB.tt</DependentUpon>
+      <DependentUpon>AtraccionesDB.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\AtraccionesDB.Context.cs">
       <AutoGen>True</AutoGen>
@@ -239,10 +240,10 @@
       <DependentUpon>AtraccionesDB.edmx</DependentUpon>
     </Compile>
     <Compile Include="Models\Chat.cs">
-      <DependentUpon>UsuariosDB.tt</DependentUpon>
+      <DependentUpon>ModeloChat.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Ciudades.cs">
-      <DependentUpon>UsuariosDB.tt</DependentUpon>
+      <DependentUpon>CiudadesDB.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CiudadesDB.Context.cs">
       <AutoGen>True</AutoGen>
@@ -258,9 +259,6 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>CiudadesDB.edmx</DependentUpon>
-    </Compile>
-    <Compile Include="Models\Clima.cs">
-      <DependentUpon>UsuariosDB.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Comentarios.cs">
       <DependentUpon>ForoDB.tt</DependentUpon>
@@ -280,6 +278,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ForoDB.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Models\ModeloAdmin.cs" />
     <Compile Include="Models\ModeloAtracciones.cs" />
     <Compile Include="Models\ModeloChat.Context.cs">
       <AutoGen>True</AutoGen>
@@ -299,14 +298,11 @@
     <Compile Include="Models\ModeloCiudad.cs" />
     <Compile Include="Models\ModeloForo.cs" />
     <Compile Include="Models\ModeloUsuario.cs" />
-    <Compile Include="Models\sysdiagrams.cs">
-      <DependentUpon>UsuariosDB.tt</DependentUpon>
-    </Compile>
     <Compile Include="Models\Temas.cs">
       <DependentUpon>ForoDB.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Token.cs">
-      <DependentUpon>UsuariosDB.tt</DependentUpon>
+      <DependentUpon>TokenDB.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\TokenDB.Context.cs">
       <AutoGen>True</AutoGen>

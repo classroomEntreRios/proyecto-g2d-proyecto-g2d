@@ -29,6 +29,9 @@ import { ChatComponent } from './components/chat/chat.component';
 import { CrearAtraccionComponent } from './components/atracciones/crear-atraccion/crear-atraccion.component';
 import { EditarAtraccionComponent } from './components/atracciones/editar-atraccion/editar-atraccion.component';
 import { ListarAtraccionComponent } from './components/atracciones/listar-atraccion/listar-atraccion.component';
+import { ListarUsrComponent } from './components/admin-usr/listar-usr/listar-usr.component';
+import { ListarBUsrComponent } from './components/admin-usr/listar-busr/listar-busr.component';
+import { AdEdUsrComponent } from './components/admin-usr/ad-ed-usr/ad-ed-usr.component';
 
 
 
@@ -57,6 +60,9 @@ import { ListarAtraccionComponent } from './components/atracciones/listar-atracc
     CrearAtraccionComponent,
     EditarAtraccionComponent,
     ListarAtraccionComponent,
+    ListarUsrComponent,
+    ListarBUsrComponent,
+    AdEdUsrComponent,
   ],
   imports: [
     FormsModule,

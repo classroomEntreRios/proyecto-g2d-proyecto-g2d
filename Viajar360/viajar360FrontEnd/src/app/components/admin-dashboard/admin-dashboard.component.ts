@@ -11,7 +11,7 @@ import { LoginService } from '../../services/login.service'
 export class AdminDashboardComponent implements OnInit {
   constructor(public actRoute: ActivatedRoute, public LG: LoginService, public router:Router) { }
   tmp="";
-  dir=1;
+  dir=7;
   ngOnInit(): void {
     this.LG.ConnectToken().subscribe(data => {
       if(!data.respuesta || !data.flag){

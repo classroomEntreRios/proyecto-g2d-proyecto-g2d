@@ -1,0 +1,47 @@
+<div class="container custom-container-2">
+    <div *ngIf="!primera">
+        <h3 class="mb-3 text-center">Lista de Usuarios</h3>
+        <div class="col-md-12">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="col">Id Usuario</th>
+                        <th scope="col">Nombre de usuario</th>
+                        <th scope="col">Tipo de usuario</th>
+                        <th scope="col">Apellido</th>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">direccion</th>
+                        <th scope="col">localidad</th>
+                        <th scope="col">provincia</th>
+                        <th scope="col">telefono</th>
+                        <th scope="col">Foto</th>
+                        <th scope="col">Opciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let usuario of Usuarios">
+                        <td>{{usuario.id_usuario}}</td>
+                        <td>{{usuario.username}}</td>
+                        <td *ngIf="usuario.modificaciones == 'admin';else registrado">Admin</td>
+                        <ng-template #registrado><td>Usuario</td></ng-template>
+                        <td>{{usuario.apellido}}</td>
+                        <td>{{usuario.nombre}}</td>
+                        <td>{{usuario.direccion}}</td>
+                        <td>{{usuario.localidad}}</td>
+                        <td>{{usuario.provincia}}</td>
+                        <td>{{usuario.telefono}}</td>
+                        <td><a href={{usuario.foto}}>Foto</a></td>
+                        <td>
+                            <span class="botonera" (click)="ReiniciarUsuario(usuario)">Reestablecer</span>
+                            <span> - </span>
+                            <span class="botonera" (click)="BorrarUsuario(usuario)">Borrar</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <ng-template>
+        <img src="/assets/carga.gif" height="50%" width="50%">
+    </ng-template>
+</div>

@@ -95,38 +95,45 @@ namespace viajar360BackEnd.Controllers
             {
                 if (!db.Usuario.Any(i => i.username == entrada.usuario))
                 {
-                    var contra = hasheo(entrada.password);
-                    var nuevo = new Usuario
+                    if (!db.Usuario.Any(i => i.mail == entrada.email)) { 
+                        var contra = hasheo(entrada.password);
+                        var nuevo = new Usuario
+                        {
+                            username = entrada.usuario,
+                            mail = entrada.email,
+                            password = contra.Item2,
+                            nombre = "",
+                            apellido = "",
+                            direccion = "",
+                            telefono = "",
+                            localidad = "",
+                            provincia = "",
+                            estado = "N",
+                            motivo = "",
+                            reset_password = false,
+                            modificaciones = "0",
+                            salt = contra.Item1
+                        };
+                        db.Usuario.Add(nuevo);
+                        db.SaveChanges();
+                        var nuevoToken = new Token
+                        {
+                            token1 = Guid.NewGuid().ToString(),
+                            usuario = entrada.usuario,
+                            vencimiento = DateTime.Today.AddDays(5)
+                        };
+                        Tdb.Token.Add(nuevoToken);
+                        Tdb.SaveChanges();
+                        respuesta["estado"] = true;
+                        respuesta["token"] = nuevoToken.token1;
+                        respuesta["reporte"] = "Usuario creado con exito";
+                        return Ok(respuesta);
+                    } 
+                    else
                     {
-                        username = entrada.usuario,
-                        mail = entrada.email,
-                        password = contra.Item2,
-                        nombre = "",
-                        apellido = "",
-                        direccion = "",
-                        telefono = "",
-                        localidad = "",
-                        provincia = "",
-                        estado = "N",
-                        motivo = "",
-                        reset_password = false,
-                        modificaciones = "0",
-                        salt = contra.Item1
-                    };
-                    db.Usuario.Add(nuevo);
-                    db.SaveChanges();
-                    var nuevoToken = new Token
-                    {
-                        token1 = Guid.NewGuid().ToString(),
-                        usuario = entrada.usuario,
-                        vencimiento = DateTime.Today.AddDays(5)
-                    };
-                    Tdb.Token.Add(nuevoToken);
-                    Tdb.SaveChanges();
-                    respuesta["estado"] = true;
-                    respuesta["token"] = nuevoToken.token1;
-                    respuesta["reporte"] = "Usuario creado con exito";
-                    return Ok(respuesta);
+                        respuesta["reporte"] = "El email ya esta en uso";
+                        return Ok(respuesta);
+                    }
                 }
                 else
                 {

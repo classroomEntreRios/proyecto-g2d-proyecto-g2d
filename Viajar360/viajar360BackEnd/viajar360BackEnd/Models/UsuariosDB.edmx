@@ -4,83 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-    <Schema Namespace="UsuariosModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
-        <EntityType Name="Atracciones">
-          <Key>
-            <PropertyRef Name="id_atraccion" />
-          </Key>
-          <Property Name="id_atraccion" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="nombre" Type="varchar" MaxLength="50" Nullable="false" />
-          <Property Name="detalles" Type="varchar" MaxLength="255" Nullable="false" />
-          <Property Name="id_ciudad" Type="int" Nullable="false" />
-          <Property Name="ubicacion" Type="varchar" MaxLength="25" Nullable="false" />
-        </EntityType>
-        <EntityType Name="Chat">
-          <Key>
-            <PropertyRef Name="id_chat" />
-          </Key>
-          <Property Name="id_chat" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="apellido" Type="varchar" MaxLength="50" />
-          <Property Name="nombre" Type="varchar" MaxLength="50" />
-          <Property Name="mensaje" Type="varchar(max)" />
-          <Property Name="fecha_hora" Type="datetime" />
-          <Property Name="mail" Type="varchar" MaxLength="50" Nullable="false" />
-        </EntityType>
-        <EntityType Name="Ciudades">
-          <Key>
-            <PropertyRef Name="id_ciudad" />
-          </Key>
-          <Property Name="id_ciudad" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="nombre" Type="varchar" MaxLength="25" Nullable="false" />
-        </EntityType>
-        <EntityType Name="Clima">
-          <Key>
-            <PropertyRef Name="id_clima" />
-          </Key>
-          <Property Name="id_clima" Type="int" Nullable="false" />
-          <Property Name="id_ciudad" Type="int" Nullable="false" />
-          <Property Name="fecha" Type="date" />
-          <Property Name="temperatura" Type="decimal" Precision="5" Scale="2" />
-          <Property Name="estado_climatico" Type="varchar" MaxLength="30" />
-        </EntityType>
-        <EntityType Name="Comentarios">
-          <Key>
-            <PropertyRef Name="id_comentario" />
-          </Key>
-          <Property Name="id_comentario" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="id_tema" Type="int" Nullable="false" />
-          <Property Name="fecha_hora" Type="timestamp" StoreGeneratedPattern="Computed" Nullable="false" />
-          <Property Name="mensaje" Type="varchar" MaxLength="600" Nullable="false" />
-          <Property Name="id_usuario" Type="int" Nullable="false" />
-          <Property Name="reportes" Type="int" Nullable="false" />
-        </EntityType>
-        <EntityType Name="sysdiagrams">
-          <Key>
-            <PropertyRef Name="diagram_id" />
-          </Key>
-          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
-          <Property Name="principal_id" Type="int" Nullable="false" />
-          <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="version" Type="int" />
-          <Property Name="definition" Type="varbinary(max)" />
-        </EntityType>
-        <EntityType Name="Temas">
-          <Key>
-            <PropertyRef Name="id_tema" />
-          </Key>
-          <Property Name="id_tema" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="titulo" Type="varchar" MaxLength="255" Nullable="false" />
-          <Property Name="estado" Type="int" Nullable="false" />
-        </EntityType>
-        <EntityType Name="Token">
-          <Key>
-            <PropertyRef Name="id" />
-          </Key>
-          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="usuario" Type="varchar" MaxLength="50" Nullable="false" />
-          <Property Name="token" Type="varchar" MaxLength="50" Nullable="false" />
-          <Property Name="vencimiento" Type="datetime" Nullable="false" />
-        </EntityType>
+      <Schema Namespace="UsuariosModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="Usuario">
           <Key>
             <PropertyRef Name="id_usuario" />
@@ -104,17 +28,10 @@
           <Property Name="salt" Type="varchar" MaxLength="50" Nullable="false" />
         </EntityType>
         <EntityContainer Name="UsuariosModelStoreContainer">
-          <EntitySet Name="Atracciones" EntityType="Self.Atracciones" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="Chat" EntityType="Self.Chat" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="Ciudades" EntityType="Self.Ciudades" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="Clima" EntityType="Self.Clima" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="Comentarios" EntityType="Self.Comentarios" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="Temas" EntityType="Self.Temas" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="Token" EntityType="Self.Token" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Usuario" EntityType="Self.Usuario" Schema="dbo" store:Type="Tables" />
         </EntityContainer>
-      </Schema></edmx:StorageModels>
+      </Schema>
+    </edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="UsuariosModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -142,91 +59,7 @@
         </EntityType>
         <EntityContainer Name="UsuariosEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Usuario" EntityType="Self.Usuario" />
-          <EntitySet Name="Atracciones" EntityType="UsuariosModel.Atracciones" />
-          <EntitySet Name="Chat" EntityType="UsuariosModel.Chat" />
-          <EntitySet Name="Ciudades" EntityType="UsuariosModel.Ciudades" />
-          <EntitySet Name="Clima" EntityType="UsuariosModel.Clima" />
-          <EntitySet Name="Comentarios" EntityType="UsuariosModel.Comentarios" />
-          <EntitySet Name="sysdiagrams" EntityType="UsuariosModel.sysdiagrams" />
-          <EntitySet Name="Temas" EntityType="UsuariosModel.Temas" />
-          <EntitySet Name="Token" EntityType="UsuariosModel.Token" />
         </EntityContainer>
-        <EntityType Name="Atracciones">
-          <Key>
-            <PropertyRef Name="id_atraccion" />
-          </Key>
-          <Property Name="id_atraccion" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="nombre" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Name="detalles" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
-          <Property Name="id_ciudad" Type="Int32" Nullable="false" />
-          <Property Name="ubicacion" Type="String" Nullable="false" MaxLength="25" FixedLength="false" Unicode="false" />
-        </EntityType>
-        <EntityType Name="Chat">
-          <Key>
-            <PropertyRef Name="id_chat" />
-          </Key>
-          <Property Name="id_chat" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="apellido" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Name="mensaje" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
-          <Property Name="fecha_hora" Type="DateTime" Precision="3" />
-          <Property Name="mail" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
-        </EntityType>
-        <EntityType Name="Ciudades">
-          <Key>
-            <PropertyRef Name="id_ciudad" />
-          </Key>
-          <Property Name="id_ciudad" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="nombre" Type="String" Nullable="false" MaxLength="25" FixedLength="false" Unicode="false" />
-        </EntityType>
-        <EntityType Name="Clima">
-          <Key>
-            <PropertyRef Name="id_clima" />
-          </Key>
-          <Property Name="id_clima" Type="Int32" Nullable="false" />
-          <Property Name="id_ciudad" Type="Int32" Nullable="false" />
-          <Property Name="fecha" Type="DateTime" Precision="0" />
-          <Property Name="temperatura" Type="Decimal" Precision="5" Scale="2" />
-          <Property Name="estado_climatico" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
-        </EntityType>
-        <EntityType Name="Comentarios">
-          <Key>
-            <PropertyRef Name="id_comentario" />
-          </Key>
-          <Property Name="id_comentario" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="id_tema" Type="Int32" Nullable="false" />
-          <Property Name="fecha_hora" Type="Binary" Nullable="false" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
-          <Property Name="mensaje" Type="String" Nullable="false" MaxLength="600" FixedLength="false" Unicode="false" />
-          <Property Name="id_usuario" Type="Int32" Nullable="false" />
-          <Property Name="reportes" Type="Int32" Nullable="false" />
-        </EntityType>
-        <EntityType Name="sysdiagrams">
-          <Key>
-            <PropertyRef Name="diagram_id" />
-          </Key>
-          <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
-          <Property Name="principal_id" Type="Int32" Nullable="false" />
-          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="version" Type="Int32" />
-          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
-        </EntityType>
-        <EntityType Name="Temas">
-          <Key>
-            <PropertyRef Name="id_tema" />
-          </Key>
-          <Property Name="id_tema" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="titulo" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
-          <Property Name="estado" Type="Int32" Nullable="false" />
-        </EntityType>
-        <EntityType Name="Token">
-          <Key>
-            <PropertyRef Name="id" />
-          </Key>
-          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="usuario" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Name="token1" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Name="vencimiento" Type="DateTime" Nullable="false" Precision="3" />
-        </EntityType>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -253,90 +86,6 @@
                 <ScalarProperty Name="reset_password" ColumnName="reset_password" />
                 <ScalarProperty Name="modificaciones" ColumnName="modificaciones" />
                 <ScalarProperty Name="salt" ColumnName="salt" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
-          <EntitySetMapping Name="Atracciones">
-            <EntityTypeMapping TypeName="UsuariosModel.Atracciones">
-              <MappingFragment StoreEntitySet="Atracciones">
-                <ScalarProperty Name="ubicacion" ColumnName="ubicacion" />
-                <ScalarProperty Name="id_ciudad" ColumnName="id_ciudad" />
-                <ScalarProperty Name="detalles" ColumnName="detalles" />
-                <ScalarProperty Name="nombre" ColumnName="nombre" />
-                <ScalarProperty Name="id_atraccion" ColumnName="id_atraccion" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
-          <EntitySetMapping Name="Chat">
-            <EntityTypeMapping TypeName="UsuariosModel.Chat">
-              <MappingFragment StoreEntitySet="Chat">
-                <ScalarProperty Name="mail" ColumnName="mail" />
-                <ScalarProperty Name="fecha_hora" ColumnName="fecha_hora" />
-                <ScalarProperty Name="mensaje" ColumnName="mensaje" />
-                <ScalarProperty Name="nombre" ColumnName="nombre" />
-                <ScalarProperty Name="apellido" ColumnName="apellido" />
-                <ScalarProperty Name="id_chat" ColumnName="id_chat" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
-          <EntitySetMapping Name="Ciudades">
-            <EntityTypeMapping TypeName="UsuariosModel.Ciudades">
-              <MappingFragment StoreEntitySet="Ciudades">
-                <ScalarProperty Name="nombre" ColumnName="nombre" />
-                <ScalarProperty Name="id_ciudad" ColumnName="id_ciudad" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
-          <EntitySetMapping Name="Clima">
-            <EntityTypeMapping TypeName="UsuariosModel.Clima">
-              <MappingFragment StoreEntitySet="Clima">
-                <ScalarProperty Name="estado_climatico" ColumnName="estado_climatico" />
-                <ScalarProperty Name="temperatura" ColumnName="temperatura" />
-                <ScalarProperty Name="fecha" ColumnName="fecha" />
-                <ScalarProperty Name="id_ciudad" ColumnName="id_ciudad" />
-                <ScalarProperty Name="id_clima" ColumnName="id_clima" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
-          <EntitySetMapping Name="Comentarios">
-            <EntityTypeMapping TypeName="UsuariosModel.Comentarios">
-              <MappingFragment StoreEntitySet="Comentarios">
-                <ScalarProperty Name="reportes" ColumnName="reportes" />
-                <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
-                <ScalarProperty Name="mensaje" ColumnName="mensaje" />
-                <ScalarProperty Name="fecha_hora" ColumnName="fecha_hora" />
-                <ScalarProperty Name="id_tema" ColumnName="id_tema" />
-                <ScalarProperty Name="id_comentario" ColumnName="id_comentario" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
-          <EntitySetMapping Name="sysdiagrams">
-            <EntityTypeMapping TypeName="UsuariosModel.sysdiagrams">
-              <MappingFragment StoreEntitySet="sysdiagrams">
-                <ScalarProperty Name="definition" ColumnName="definition" />
-                <ScalarProperty Name="version" ColumnName="version" />
-                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
-                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
-                <ScalarProperty Name="name" ColumnName="name" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
-          <EntitySetMapping Name="Temas">
-            <EntityTypeMapping TypeName="UsuariosModel.Temas">
-              <MappingFragment StoreEntitySet="Temas">
-                <ScalarProperty Name="estado" ColumnName="estado" />
-                <ScalarProperty Name="titulo" ColumnName="titulo" />
-                <ScalarProperty Name="id_tema" ColumnName="id_tema" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
-          <EntitySetMapping Name="Token">
-            <EntityTypeMapping TypeName="UsuariosModel.Token">
-              <MappingFragment StoreEntitySet="Token">
-                <ScalarProperty Name="vencimiento" ColumnName="vencimiento" />
-                <ScalarProperty Name="token1" ColumnName="token" />
-                <ScalarProperty Name="usuario" ColumnName="usuario" />
-                <ScalarProperty Name="id" ColumnName="id" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

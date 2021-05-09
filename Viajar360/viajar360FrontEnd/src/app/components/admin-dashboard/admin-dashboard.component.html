@@ -26,6 +26,19 @@
     </ng-template>
   </li>
   <li [ngbNavItem]="5">
+    <a ngbNavLink>Listado-Usuarios</a>
+    <ng-template ngbNavContent>
+      <app-listar-usr></app-listar-usr>
+      <app-ad-ed-usr></app-ad-ed-usr>
+    </ng-template>
+  </li>
+  <li [ngbNavItem]="6">
+    <a ngbNavLink>Listado-Baneados</a>
+    <ng-template ngbNavContent>
+      <app-listar-busr></app-listar-busr>
+    </ng-template>
+  </li>
+  <li [ngbNavItem]="7">
     <a ngbNavLink>Volver</a>
     <ng-template ngbNavContent>
 
