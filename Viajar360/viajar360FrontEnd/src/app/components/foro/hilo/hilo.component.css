@@ -1,9 +1,9 @@
-.espacios {
-  padding-top: 50px;
-  padding-bottom: 50px;
+.foro {
+  display: block;
+  margin: auto;
 }
 
-.encabezado {
-  background-color: #E0A800;
-  height: 50px;
+.espacio {
+  padding-top: 2%;
+  padding-bottom: 2%;
 }

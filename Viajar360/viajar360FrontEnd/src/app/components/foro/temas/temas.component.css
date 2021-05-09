@@ -9,6 +9,7 @@
 }
 
 .btn {
+  margin-left: 80%;
   background-color: orange;
   color: #333;
 }
@@ -23,4 +24,9 @@ th {
 
 td {
   color: orange;
+  font-weight: 500;
+}
+
+h3{
+  color: #666;
 }
