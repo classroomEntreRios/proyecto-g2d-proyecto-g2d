@@ -24,19 +24,73 @@
       </div>
       <!-- </div> -->
       <!-- <div class="col-md-4" > -->
-      <div *ngIf="clima" class="card" style="border-radius: 10%;">
-        <div id="divWeatherMain">
-          <div class="weatherWidgetRow"><img style="max-width: 20%;"
-              [src]="'http://openweathermap.org/img/w/'+ this.clima.weather[0].icon +'.png'"></div>
-          <div id="ContenedorInfoClima">
-            <div class="weatherWidgetRow" style="font-size: 32px;margin-top: 5px;">{{clima.main.temp}}°</div>
-            <div class="weatherWidgetRow" style="font-size: 12px;">{{clima.main.temp_min}}° / {{clima.main.temp_max}}
+      <ngb-carousel [interval]="false" [showNavigationIndicators]="false" style="border-radius: 10%;">
+        <!--Clima-->
+        <ng-template ngbSlide>
+          <div *ngIf="clima" class="card" style="border-radius: 10%;">
+            <div id="divWeatherMain">
+              <div class="weatherWidgetRow" style="text-align: center; font-size: 32px;">Clima actual</div>
+              <div class="weatherWidgetRow"><img style="max-width: 20%;"
+                  [src]="'http://openweathermap.org/img/w/'+ this.clima.weather[0].icon +'.png'"></div>
+              <div id="ContenedorInfoClima">
+                <div class="weatherWidgetRow" style="font-size: 32px;margin-top: 5px;">{{clima.main.temp}}°</div>
+                <div class="weatherWidgetRow" style="font-size: 12px;">{{clima.main.temp_min}}° / {{clima.main.temp_max}}
+                </div>
+                <div class="weatherWidgetRow" style="font-size: 25px;margin-top: 10px;">{{clima.name}}</div>
+                <div class="weatherWidgetRow" style="font-size: 12px;">Humedad: {{clima.main.humidity}}%</div>
+              </div>
             </div>
-            <div class="weatherWidgetRow" style="font-size: 25px;margin-top: 10px;">{{clima.name}}</div>
-            <div class="weatherWidgetRow" style="font-size: 12px;">Humedad: {{clima.main.humidity}}%</div>
           </div>
-        </div>
-      </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div *ngIf="clima" class="card" style="border-radius: 10%;">
+            <div id="divWeatherMain">
+              <div class="weatherWidgetRow" style="text-align: center; font-size: 32px;">Pronostico día {{dias[dia1]}}</div>
+              <div class="weatherWidgetRow"><img style="max-width: 20%;"
+                  [src]="'http://openweathermap.org/img/w/'+ this.forecast.daily[1].weather[0].icon +'.png'"></div>
+              <div id="ContenedorInfoClima">
+                <div class="weatherWidgetRow" style="font-size: 32px;margin-top: 5px;">{{forecast.daily[1].temp.day}}°</div>
+                <div class="weatherWidgetRow" style="font-size: 12px;">{{forecast.daily[1].temp.min}}° / {{forecast.daily[1].temp.max}}
+                </div>
+                <div class="weatherWidgetRow" style="font-size: 25px;margin-top: 10px;">{{clima.name}}</div>
+                <div class="weatherWidgetRow" style="font-size: 12px;">Humedad: {{forecast.daily[1].humidity}}%</div>
+              </div>
+            </div>
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div *ngIf="clima" class="card" style="border-radius: 10%;">
+            <div id="divWeatherMain">
+              <div class="weatherWidgetRow" style="text-align: center; font-size: 32px;">Pronostico día {{dias[dia2]}}</div>
+              <div class="weatherWidgetRow"><img style="max-width: 20%;"
+                  [src]="'http://openweathermap.org/img/w/'+ this.forecast.daily[2].weather[0].icon +'.png'"></div>
+              <div id="ContenedorInfoClima">
+                <div class="weatherWidgetRow" style="font-size: 32px;margin-top: 5px;">{{forecast.daily[1].temp.day}}°</div>
+                <div class="weatherWidgetRow" style="font-size: 12px;">{{forecast.daily[2].temp.min}}° / {{forecast.daily[2].temp.max}}
+                </div>
+                <div class="weatherWidgetRow" style="font-size: 25px;margin-top: 10px;">{{clima.name}}</div>
+                <div class="weatherWidgetRow" style="font-size: 12px;">Humedad: {{forecast.daily[2].humidity}}%</div>
+              </div>
+            </div>
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div *ngIf="clima" class="card" style="border-radius: 10%;">
+            <div id="divWeatherMain">
+              <div class="weatherWidgetRow" style="text-align: center; font-size: 32px;">Pronostico día {{dias[dia3]}}</div>
+              <div class="weatherWidgetRow"><img style="max-width: 20%;"
+                  [src]="'http://openweathermap.org/img/w/'+ this.forecast.daily[3].weather[0].icon +'.png'"></div>
+              <div id="ContenedorInfoClima">
+                <div class="weatherWidgetRow" style="font-size: 32px;margin-top: 5px;">{{forecast.daily[1].temp.day}}°</div>
+                <div class="weatherWidgetRow" style="font-size: 12px;">{{forecast.daily[3].temp.min}}° / {{forecast.daily[3].temp.max}}
+                </div>
+                <div class="weatherWidgetRow" style="font-size: 25px;margin-top: 10px;">{{clima.name}}</div>
+                <div class="weatherWidgetRow" style="font-size: 12px;">Humedad: {{forecast.daily[3].humidity}}%</div>
+              </div>
+            </div>
+          </div>
+        </ng-template>
+      </ngb-carousel>
     </div>
   </div>
  
