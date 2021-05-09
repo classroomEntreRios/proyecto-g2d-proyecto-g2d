@@ -1,0 +1,12 @@
+.botonera{
+    transition-duration: 0.2s;
+    color: black;
+}
+.botonera:hover{
+    transition-duration: 0.2s;
+    color: blue;
+}
+.botonera:active{
+    transition-duration: 0.2s;
+    color:maroon;
+}

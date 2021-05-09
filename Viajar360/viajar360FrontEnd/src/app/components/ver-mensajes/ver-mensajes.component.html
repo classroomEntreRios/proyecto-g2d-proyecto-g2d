@@ -1,0 +1,41 @@
+<div class="container custom-container-2">
+    <div class="no-data text-center" *ngIf="primera">
+        <img src="/assets/carga.gif">
+    </div>
+    <!--Muestra mensaje si no hay mensajes-->
+    <div class="no-data text-center" *ngIf="Chat.length == 0 && !primera">
+        <p>No hay mensajes!!!</p>
+    </div>
+
+    <!--Lista de mensajes, no se muestra si no hay mensajes-->
+    <div *ngIf="Chat.length !== 0">
+        <h3 class="mb-3 text-center">Lista de Mensajes</h3>
+
+        <div class="col-md-12">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="col">Apellido</th>
+                        <th scope="col">Nombre </th>
+                        <th scope="col">Mensaje</th>
+                        <th scope="col">Correo Electrónico</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let mensaje of Chat">
+                        <td>{{mensaje.apellido}}</td>
+                        <td>{{mensaje.nombre}}</td>
+                        <td>{{mensaje.mensaje}}</td>
+                        <td>{{mensaje.mail}}</td>
+
+                        <td>
+                           <span> - </span>
+                   
+                            <button type="submit" class="btn btn-primary" (click)="darRespuesta()">Responder</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
