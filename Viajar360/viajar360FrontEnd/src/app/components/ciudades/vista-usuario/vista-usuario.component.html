@@ -1,27 +1,66 @@
-<div *ngIf="!primera; else loading">
-    <label>Ciudad: </label>
-    <select [(ngModel)]="seleccionado" (change)="getId(seleccionado)">
-        <option *ngFor="let ciudad of Ciudades" value={{ciudad.nombre}}>{{ciudad.nombre}}</option>
-    </select>
-    <br>
-    <h2>{{seleccionado}}</h2>
-    <br>
-    <label>atraccion: </label>
-    <select [(ngModel)]="sel_atracc" (change)="cambiarInfo(sel_atracc)">
-        <option *ngFor="let atraccion of Atracciones" value={{atraccion.nombre}}>{{atraccion.nombre}}</option>
-    </select>
-    <br>
-    <div *ngIf="!cargando; else cargandoAtrrac">
-        <h3>{{info.nombre}}</h3><br>
-        <label>Ubicacion: {{info.ubicacion}}</label><br>
-        <div>
-            Descripcion: {{info.detalles}}
-        </div>
+<app-general-nav></app-general-nav>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Ciudades</h1>
     </div>
-    <ng-template #cargandoAtracc>
-        <img src="/assets/carga.gif" height="20%", width="20%">
-    </ng-template>
+  </div>
 </div>
-<ng-template #loading>
-    <img src="/assets/carga.gif">
-</ng-template>
+
+<div class="container informacion">
+  <div class="row">
+    <div class="col-md-6">
+
+      <div class="container">
+
+          <div *ngIf="!primera; else loading">
+
+            <label class="item">Seleccione una ciudad: </label>
+
+            <select [(ngModel)]="seleccionado" (change)="getId(seleccionado)" class="form-control">
+                <option *ngFor="let ciudad of Ciudades" value={{ciudad.nombre}}>{{ciudad.nombre}}</option>
+            </select>
+            <br>
+            <h2>{{seleccionado}}</h2>
+            <hr>
+
+            <br>
+            <h3> Atracciónes: </h3>
+            <select [(ngModel)]="sel_atracc" (change)="cambiarInfo(sel_atracc)" class="form-control">
+                <option *ngFor="let atraccion of Atracciones" value={{atraccion.nombre}}>{{atraccion.nombre}}</option>
+            </select>
+            <br>
+
+            <div *ngIf="!cargando; else cargandoAtracc">
+                <h3>{{info.nombre}}</h3><br>
+                <label >Ubicacion: {{info.ubicacion}}</label>
+                <br>
+                <div>
+                    Descripcion: {{info.detalles}}
+                </div>
+            </div>
+            <ng-template #cargandoAtracc>
+                <img class="spinner" src="/assets/carga.gif">
+            </ng-template>
+        </div>
+        <ng-template #loading>
+            <img class="spinner" src="/assets/carga.gif">
+        </ng-template>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <figure class="figure">
+        <img src="../assets/Images/gastronomico.jpg" class="figure-img img-fluid rounded" alt="Imagen del lugar">
+      </figure>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-12">
+      <a routerLink="/" >Volver</a>
+      </div>
+  </div>
+</div>

@@ -1,15 +1,51 @@
-<div *ngIf="!primera; else cargando">
-    <label>atraccion: </label>
-    <select [(ngModel)]="sel_atracc" (change)="cambiarInfo(sel_atracc)">
-        <option *ngFor="let atraccion of atracciones" value={{atraccion.nombre}}>{{atraccion.nombre}}</option>
-    </select>
-    <br>
-    <h3>{{info.nombre}}</h3><br>
-    <label>Ubicacion: {{info.ubicacion}}</label><br>
-    <div>
-        Descripcion: {{info.detalles}}
+<app-general-nav></app-general-nav>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Lugares de interés</h1>
     </div>
+  </div>
 </div>
-<ng-template #cargando>
-    <img src="/assets/carga.gif" height="50%" width="50%">
-</ng-template>
+
+<div class="container informacion">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="container">
+      </div>
+          <div *ngIf="!primera; else cargando">
+            <label class="item"> Seleccione un lugar de su interés </label>
+            <select [(ngModel)]="sel_atracc" (change)="cambiarInfo(sel_atracc)" class="form-control">
+                <option *ngFor="let atraccion of atracciones" value={{atraccion.nombre}}>{{atraccion.nombre}}</option>
+            </select>
+            <br>
+            <h3>{{info.nombre}}</h3><br>
+            <hr>
+            <label class="item">Ubicación: {{info.ubicacion}}</label><br>
+            <div class="item">
+                Descripción: {{info.detalles}}
+            </div>
+        </div>
+        <ng-template #cargando>
+            <img class="spinner" src="/assets/carga.gif" height="50%" width="50%">
+        </ng-template>
+    </div>
+    <div class="col-md-6">
+      <figure class="figure">
+        <img src="../assets/Images/viaje.png" class="figure-img img-fluid rounded" alt="Imagen del lugar">
+      </figure>
+
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-12">
+      <a routerLink="/foro" >Volver</a>
+      </div>
+  </div>
+</div>
+
+
+
