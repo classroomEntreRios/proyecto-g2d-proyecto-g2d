@@ -18,12 +18,12 @@ export class VerMensajesComponent implements OnInit {
   }
   salida: Boolean;
   id = this.actRoute.snapshot.params['info'];
-  mensaje = {
-    id: "",
+  chat = {
+    id: 0,
     apellido: "",
     nombre: "",
     mensaje: "",
-    respondido: "",
+    respondido: true,
   }
   id_chat: any;
   primera = true;
@@ -51,7 +51,7 @@ export class VerMensajesComponent implements OnInit {
       this.resp.error = !data.estado;
       this.resp.reporte = data.reporte;
       if (data.estado) {
-        this.mensaje = data.listado;
+        this.chat = data.listado;
       }
       this.primera = false;
     });
@@ -59,7 +59,7 @@ export class VerMensajesComponent implements OnInit {
 
   darRespuesta() {
     try {
-      Number(this.mensaje.id)
+      Number(this.chat.id)
       this.salida = true;
     }
     catch
@@ -72,7 +72,7 @@ export class VerMensajesComponent implements OnInit {
         this.serviceChat.actualizarChat(this.envio).subscribe(data => {
           this.resp.error = !data.estado;
           if (!this.resp.error) {
-            this.router.navigate(['/' + this.mensaje.id]);
+            this.router.navigate(['/' + this.chat.id]);
           }
           else {
             this.resp.reporte = data.reporte;

@@ -32,6 +32,7 @@ import { ListarAtraccionComponent } from './components/atracciones/listar-atracc
 import { ListarUsrComponent } from './components/admin-usr/listar-usr/listar-usr.component';
 import { ListarBUsrComponent } from './components/admin-usr/listar-busr/listar-busr.component';
 import { AdEdUsrComponent } from './components/admin-usr/ad-ed-usr/ad-ed-usr.component';
+import {VerMensajesComponent} from './components/ver-mensajes/ver-mensajes.component'
 
 
 
@@ -63,6 +64,7 @@ import { AdEdUsrComponent } from './components/admin-usr/ad-ed-usr/ad-ed-usr.com
     ListarUsrComponent,
     ListarBUsrComponent,
     AdEdUsrComponent,
+    VerMensajesComponent,
   ],
   imports: [
     FormsModule,

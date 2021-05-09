@@ -5,7 +5,7 @@
     <!--Muestra mensaje si no hay mensajes-->
     <div class="no-data text-center" *ngIf="Chat.length == 0 && !primera">
         <p>No hay mensajes!!!</p>
-    </div>
+      </div>
 
     <!--Lista de mensajes, no se muestra si no hay mensajes-->
     <div *ngIf="Chat.length !== 0">
@@ -31,7 +31,7 @@
                         <td>
                            <span> - </span>
                    
-                            <button type="submit" class="btn btn-primary" (click)="darRespuesta()">Responder</button>
+                            <button type="submit" class="btn btn-primary" (onclick)="darRespuesta()">Responder</button>
                         </td>
                     </tr>
                 </tbody>
