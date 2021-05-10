@@ -44,6 +44,7 @@
                 <div>
                     Descripcion: {{info.detalles}}
                 </div>
+                <img [src]="info.foto" *ngIf="info.foto != ''"/>
             </div>
             <ng-template #cargandoAtracc>
                 <img class="spinner" src="/assets/carga.gif">

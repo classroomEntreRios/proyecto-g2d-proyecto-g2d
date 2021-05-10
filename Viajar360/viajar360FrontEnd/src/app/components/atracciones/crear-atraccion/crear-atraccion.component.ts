@@ -48,7 +48,8 @@ export class CrearAtraccionComponent implements OnInit {
           window.alert(data.reporte+", La pagina se redirigira a la lista cuando cierre este cartel");
           this.router.navigate(['admin-dashboard/4/']);
         }else{
-          window.alert(data.reporte)
+          window.alert(data.reporte);
+          console.log(data.error);
         }
       });
     }else{

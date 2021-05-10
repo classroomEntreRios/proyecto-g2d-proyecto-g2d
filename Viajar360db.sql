@@ -1,20 +1,6 @@
 USE [master]
 GO
-/****** Object:  Database [Viajar360]    Script Date: 08/05/2021 20:25:06 ******/
 CREATE DATABASE [Viajar360]
- CONTAINMENT = NONE
- ON  PRIMARY 
-( NAME = N'Viajar360', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL\DATA\Viajar360.mdf' , SIZE = 8192KB , MAXSIZE = UNLIMITED, FILEGROWTH = 65536KB )
- LOG ON 
-( NAME = N'Viajar360_log', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL\DATA\Viajar360_log.ldf' , SIZE = 8192KB , MAXSIZE = 2048GB , FILEGROWTH = 65536KB )
- WITH CATALOG_COLLATION = DATABASE_DEFAULT
-GO
-ALTER DATABASE [Viajar360] SET COMPATIBILITY_LEVEL = 150
-GO
-IF (1 = FULLTEXTSERVICEPROPERTY('IsFullTextInstalled'))
-begin
-EXEC [Viajar360].[dbo].[sp_fulltext_database] @action = 'enable'
-end
 GO
 ALTER DATABASE [Viajar360] SET ANSI_NULL_DEFAULT OFF 
 GO
@@ -80,7 +66,7 @@ ALTER DATABASE [Viajar360] SET QUERY_STORE = OFF
 GO
 USE [Viajar360]
 GO
-/****** Object:  Table [dbo].[Atracciones]    Script Date: 08/05/2021 20:25:06 ******/
+/****** Object:  Table [dbo].[Atracciones]    Script Date: 10/5/2021 5:22:22 a. m. ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -91,13 +77,14 @@ CREATE TABLE [dbo].[Atracciones](
 	[detalles] [varchar](255) NOT NULL,
 	[id_ciudad] [int] NOT NULL,
 	[ubicacion] [varchar](25) NOT NULL,
+	[foto] [varchar](50) NULL,
  CONSTRAINT [PK_Atracciones] PRIMARY KEY CLUSTERED 
 (
 	[id_atraccion] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Chat]    Script Date: 08/05/2021 20:25:07 ******/
+/****** Object:  Table [dbo].[Chat]    Script Date: 10/5/2021 5:22:22 a. m. ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -116,7 +103,7 @@ CREATE TABLE [dbo].[Chat](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Ciudades]    Script Date: 08/05/2021 20:25:07 ******/
+/****** Object:  Table [dbo].[Ciudades]    Script Date: 10/5/2021 5:22:22 a. m. ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -130,7 +117,7 @@ CREATE TABLE [dbo].[Ciudades](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Clima]    Script Date: 08/05/2021 20:25:07 ******/
+/****** Object:  Table [dbo].[Clima]    Script Date: 10/5/2021 5:22:22 a. m. ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -147,7 +134,7 @@ CREATE TABLE [dbo].[Clima](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Comentarios]    Script Date: 08/05/2021 20:25:07 ******/
+/****** Object:  Table [dbo].[Comentarios]    Script Date: 10/5/2021 5:22:22 a. m. ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -155,7 +142,7 @@ GO
 CREATE TABLE [dbo].[Comentarios](
 	[id_comentario] [int] IDENTITY(1,1) NOT NULL,
 	[id_tema] [int] NOT NULL,
-	[fecha_hora] [timestamp] NOT NULL,
+	[fecha_hora] [datetime] NOT NULL,
 	[mensaje] [varchar](600) NOT NULL,
 	[id_usuario] [int] NOT NULL,
 	[reportes] [int] NOT NULL,
@@ -165,7 +152,7 @@ CREATE TABLE [dbo].[Comentarios](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Temas]    Script Date: 08/05/2021 20:25:07 ******/
+/****** Object:  Table [dbo].[Temas]    Script Date: 10/5/2021 5:22:22 a. m. ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -180,7 +167,7 @@ CREATE TABLE [dbo].[Temas](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Token]    Script Date: 08/05/2021 20:25:07 ******/
+/****** Object:  Table [dbo].[Token]    Script Date: 10/5/2021 5:22:22 a. m. ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -196,7 +183,7 @@ CREATE TABLE [dbo].[Token](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Usuario]    Script Date: 08/05/2021 20:25:07 ******/
+/****** Object:  Table [dbo].[Usuario]    Script Date: 10/5/2021 5:22:22 a. m. ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -224,28 +211,6 @@ CREATE TABLE [dbo].[Usuario](
 	[id_usuario] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
-GO
-SET IDENTITY_INSERT [dbo].[Chat] ON 
-GO
-INSERT [dbo].[Chat] ([id_chat], [apellido], [nombre], [mensaje], [fecha_hora], [mail], [respondido]) VALUES (1, N'', N'', N'', CAST(N'2021-05-07T10:35:36.183' AS DateTime), N'veros@gmail.com', NULL)
-GO
-INSERT [dbo].[Chat] ([id_chat], [apellido], [nombre], [mensaje], [fecha_hora], [mail], [respondido]) VALUES (2, N'vero', N'sdetet', N'sfasfafasfsfasfasfasfsasfasasfasfasfasfasfasf', CAST(N'2021-05-07T11:55:08.227' AS DateTime), N've@gmail.com', NULL)
-GO
-INSERT [dbo].[Chat] ([id_chat], [apellido], [nombre], [mensaje], [fecha_hora], [mail], [respondido]) VALUES (3, N'sfsdfsd', N'sdfsdfsdfds', N'sdfsdfsdfsd', CAST(N'2021-05-07T11:57:35.013' AS DateTime), N'vers@gmail.com', NULL)
-GO
-SET IDENTITY_INSERT [dbo].[Chat] OFF
-GO
-SET IDENTITY_INSERT [dbo].[Token] ON 
-GO
-INSERT [dbo].[Token] ([id], [usuario], [token], [vencimiento]) VALUES (1, N'biancarojas', N'7123e554-93cc-4d8c-90ee-cbb0ed50d753', CAST(N'2021-06-07T00:00:00.000' AS DateTime))
-GO
-SET IDENTITY_INSERT [dbo].[Token] OFF
-GO
-SET IDENTITY_INSERT [dbo].[Usuario] ON 
-GO
-INSERT [dbo].[Usuario] ([id_usuario], [username], [password], [apellido], [nombre], [mail], [direccion], [telefono], [localidad], [provincia], [foto], [estado], [fecha_kick], [motivo], [reset_password], [modificaciones], [salt]) VALUES (1, N'biancarojas', N'j+pkKrPKnGfP14FY5wFwgXBxF1Db+li3q2bcQh39TLU=', N'', N'', N'veros7821@gmail.com', N'', N'', N'', N'', NULL, N'N', NULL, N'', 0, N'0', N'U5IZHyF5rtjFVYdnEuK5Gw==')
-GO
-SET IDENTITY_INSERT [dbo].[Usuario] OFF
 GO
 USE [master]
 GO

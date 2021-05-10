@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { AdminChatService } from '../../services/admin-chat.service';
-import { ActivatedRoute, Router } from '@angular/router';
+import { Router } from '@angular/router';
+import { LoginService } from '../../services/login.service';
 
 @Component({
   selector: 'app-ver-mensajes',
@@ -9,83 +10,50 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class VerMensajesComponent implements OnInit {
 
-  envio = {
-    nombre: "",
-    id_chat: 0,
-    apellido: "",
-    mensaje: "",
-    respondido: true,
-  }
-  salida: Boolean;
-  id = this.actRoute.snapshot.params['info'];
-  chat = {
-    id: 0,
-    apellido: "",
-    nombre: "",
-    mensaje: "",
-    respondido: true,
-  }
-  id_chat: any;
-  primera = true;
-  resp = {
-    error: false,
-    reporte: '',
-  };
-
   constructor(
 
     public serviceChat: AdminChatService,
-    public actRoute: ActivatedRoute,
     public router: Router,
+    public LG: LoginService,
 
   ) { }
+  Chat: any = [];  
+  primera = true;
+
+  
 
   ngOnInit(): void {
     this.cargarMensajes();
-
   }
 
-  //Cargar lista de ciudades
-  cargarMensajes() {
-    return this.serviceChat.getChat(Number(this.id_chat)).subscribe(data => {
-      this.resp.error = !data.estado;
-      this.resp.reporte = data.reporte;
-      if (data.estado) {
-        this.chat = data.listado;
+  cargarMensajes(){
+    const envio = { sid: this.LG.GetToken().sid, usuario: this.LG.GetToken().usuario};
+    this.serviceChat.getChat(envio).subscribe(data => {
+      if(data.estado){
+        this.Chat = data.listado;
+        this.primera = false;
       }
-      this.primera = false;
+      else
+      {
+        window.alert(data.reporte);
+        this.primera = false;
+      }
     });
   }
 
-  darRespuesta() {
-    try {
-      Number(this.chat.id)
-      this.salida = true;
-    }
-    catch
-    {
-      this.salida = false;
-    }
-    if (this.salida) {
-      if (window.confirm('¿Estás seguro de que contestaste este mensaje?')) {
-        this.envio.respondido = true;
-        this.serviceChat.actualizarChat(this.envio).subscribe(data => {
-          this.resp.error = !data.estado;
-          if (!this.resp.error) {
-            this.router.navigate(['/' + this.chat.id]);
-          }
-          else {
-            this.resp.reporte = data.reporte;
-            window.alert(this.resp.reporte);
-          }
-        });
+  darRespuesta(id_msg: Number){
+    const envio = { sid: this.LG.GetToken().sid, usuario: this.LG.GetToken().usuario, id_chat: id_msg};
+    this.serviceChat.actualizarChat(envio).subscribe(data => {
+      if(data.estado){
+        window.alert(data.reporte);
+        window.location.reload();
       }
-    } else {
-      window.alert("Existió un error al modificar la base de datos")
-    }
-
+      else
+      {
+        window.alert(data.reporte);
+      }
+    });
   }
-
 
 }
 

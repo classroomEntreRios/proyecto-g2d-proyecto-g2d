@@ -46,20 +46,15 @@
                     <td>Cerrado</td>
                 </ng-template>
                 <td>
-                  <span class="edit botonera" routerLink="/foro/tema/{{tema.id_tema}}">Ir al tema</span>
+                  <span class="botonera" routerLink="/foro/tema/{{tema.id_tema}}">Ir al tema</span>
+                  <span *ngIf="admin"> - </span>
+                  <span class="botonera" *ngIf="admin" (click)="borrarTema(tema.id_tema)">Borrar</span>
+                  <span *ngIf="admin"> - </span>
+                  <span class="botonera" *ngIf="admin" (click)="ioTema(tema.id_tema,tema.estado)"><a *ngIf="tema.estado==0">cerrar tema</a><a *ngIf="tema.estado==1">abrir tema</a></span>
                 </td>
               </tr>
             </tbody>
           </table>
         </div>
       </div>
-</div>
-
-
-<div class="container">
-  <div class="row">
-      <div class="col-md-12">
-      <a href="#">Volver</a>
-      </div>
-  </div>
 </div>

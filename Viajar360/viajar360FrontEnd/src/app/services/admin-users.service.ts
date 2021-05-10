@@ -10,35 +10,35 @@ export class AdminUsersService {
   constructor(private http: HttpClient) { }
 
   banUsr(entrada:any): Observable<any> {
-    return this.http.post("https://localhost:44389/api/banuser",entrada);
+    return this.http.post("https://viajar360.azurewebsites.net/api/banuser",entrada);
   }
 
   resetUsr(entrada:any): Observable<any> {
-    return this.http.post("https://localhost:44389/api/pardonuser",entrada);
+    return this.http.post("https://viajar360.azurewebsites.net/api/pardonuser",entrada);
   }
 
   listusers(entrada:any): Observable<any> {
-    return this.http.post("https://localhost:44389/api/userlist",entrada);
+    return this.http.post("https://viajar360.azurewebsites.net/api/userlist",entrada);
   }
 
   editarusuario(entrada:any): Observable<any> {
-    return this.http.post("https://localhost:44389/api/admineditar",entrada);
+    return this.http.post("https://viajar360.azurewebsites.net/api/admineditar",entrada);
   } 
 
   eliminarusuario(entrada:any): Observable<any> {
-    return this.http.post("https://localhost:44389/api/delusr",entrada);
+    return this.http.post("https://viajar360.azurewebsites.net/api/delusr",entrada);
   }
 
   listbanusers(entrada:any): Observable<any> {
-    return this.http.post("https://localhost:44389/api/listbanusers",entrada);
+    return this.http.post("https://viajar360.azurewebsites.net/api/listbanusers",entrada);
   }
 
   getuser(entrada:any): Observable<any> {
-    return this.http.post("https://localhost:44389/api/obteneruser",entrada);
+    return this.http.post("https://viajar360.azurewebsites.net/api/obteneruser",entrada);
   }
 
   mkAdmin(entrada:any): Observable<any> {
-    return this.http.post("https://localhost:44389/api/haceradmin", entrada);
+    return this.http.post("https://viajar360.azurewebsites.net/api/haceradmin", entrada);
   }
 
 }

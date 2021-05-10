@@ -14,11 +14,11 @@ export class LoginService {
   salida = false;
   constructor(private http: HttpClient, private cookie: CookieService) { }
   login(user: any): Observable<any> {
-    return this.http.post("https://localhost:44389/api/ingreso", user);
+    return this.http.post("https://viajar360.azurewebsites.net/api/ingreso", user);
   }
 
   register(info:any): Observable<any> {
-    return this.http.post("https://localhost:44389/api/registro", info);
+    return this.http.post("https://viajar360.azurewebsites.net/api/registro", info);
   }
 
   SetToken(Token: string, Nus: string) {
@@ -33,7 +33,7 @@ export class LoginService {
   ConnectToken(): Observable<any>{
     this.testToken.usuario = this.cookie.get('usuario');
     this.testToken.sid = this.cookie.get('token');
-    return this.http.post('https://localhost:44389/api/token',this.testToken);
+    return this.http.post('https://viajar360.azurewebsites.net/api/token',this.testToken);
   }
   LogOut(){
     this.cookie.delete('token');
@@ -41,22 +41,22 @@ export class LoginService {
   }
 
   getid(name: any): Observable<any>{
-    return this.http.post('https://localhost:44389/api/obtenerid/', name);
+    return this.http.post('https://viajar360.azurewebsites.net/api/obtenerid/', name);
   }
 
   getdata(id: string): Observable<any>{
-    return this.http.get('https://localhost:44389/api/getdatos/'+id);
+    return this.http.get('https://viajar360.azurewebsites.net/api/getdatos/'+id);
   }
 
   editarUser(datos: any): Observable<any>{
-    return this.http.post('https://localhost:44389/api/editarusuario', datos);
+    return this.http.post('https://viajar360.azurewebsites.net/api/editarusuario', datos);
   }
   //borrardo de cuentas
   getRemoveKey(datos: any): Observable<any>{
-    return this.http.post('https://localhost:44389/api/getremovekey',datos);
+    return this.http.post('https://viajar360.azurewebsites.net/api/getremovekey',datos);
   }
   
   borrarCuenta(datos: any): Observable<any>{
-    return this.http.post('https://localhost:44389/api/borrarcuenta',datos);
+    return this.http.post('https://viajar360.azurewebsites.net/api/borrarcuenta',datos);
   }
 }

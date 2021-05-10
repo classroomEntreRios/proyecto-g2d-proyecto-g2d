@@ -14,7 +14,7 @@ export class ChatService {
   salida = false;
   constructor(private http: HttpClient, private cookie: CookieService) { }
   chateo(chat: any): Observable<any> {
-    return this.http.post("https://localhost:44389/api/chats", chat);
+    return this.http.post("https://viajar360.azurewebsites.net/api/chats", chat);
   }
   
  

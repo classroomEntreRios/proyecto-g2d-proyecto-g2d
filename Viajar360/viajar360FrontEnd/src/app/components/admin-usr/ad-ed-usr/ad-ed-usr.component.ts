@@ -74,7 +74,7 @@ export class AdEdUsrComponent implements OnInit {
     this.AD.getuser(envio).subscribe(data =>{
       if(data.estado){
         if(data.objeto.foto != ""){
-          this.datos.foto = "https://localhost:44389"+data.objeto.foto;
+          this.datos.foto = data.objeto.foto;
         }
         this.datos.apellido = data.objeto.apellido;
         this.datos.nombre = data.objeto.nombre;

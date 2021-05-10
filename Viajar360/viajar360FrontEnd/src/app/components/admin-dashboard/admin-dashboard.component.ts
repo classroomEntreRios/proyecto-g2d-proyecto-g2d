@@ -11,7 +11,7 @@ import { LoginService } from '../../services/login.service'
 export class AdminDashboardComponent implements OnInit {
   constructor(public actRoute: ActivatedRoute, public LG: LoginService, public router:Router) { }
   tmp="";
-  dir=7;
+  dir=0;
   ngOnInit(): void {
     this.LG.ConnectToken().subscribe(data => {
       if(!data.respuesta || !data.flag){
@@ -25,12 +25,8 @@ export class AdminDashboardComponent implements OnInit {
     if(this.tmp!="" && this.EsNumero(this.tmp)){
       this.dir = Number(this.tmp);
     }
-    console.log(this.dir);
   }
 
-  // switchNgBTab(id: string) {
-  //  this.Tabs.activeId(id);
-  // }
   EsNumero(variable: string) {
     if(isNaN(Number(variable))){
       return false;

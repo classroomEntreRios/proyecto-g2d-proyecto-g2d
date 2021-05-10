@@ -8,7 +8,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarouselHomeComponent } from './components/carousel-home/carousel-home.component';
 import { FooterHomeComponent } from './components/footer-home/footer-home.component';
-import { GeneralNavComponent } from './components/general-nav/general-nav.component';
 import { InfoHomeComponent } from './components/info-home/info-home.component';
 import { InicioComponent } from './components/inicio/inicio.component';
 import { UserDashboardComponent } from './components/user-dashboard/user-dashboard.component';
@@ -32,7 +31,10 @@ import { ListarAtraccionComponent } from './components/atracciones/listar-atracc
 import { ListarUsrComponent } from './components/admin-usr/listar-usr/listar-usr.component';
 import { ListarBUsrComponent } from './components/admin-usr/listar-busr/listar-busr.component';
 import { AdEdUsrComponent } from './components/admin-usr/ad-ed-usr/ad-ed-usr.component';
-import {VerMensajesComponent} from './components/ver-mensajes/ver-mensajes.component'
+import { ComentarComponent } from './components/foro/comentar/comentar.component';
+import { GeneralNavComponent } from './components/general-nav/general-nav.component'
+import { VerMensajesComponent } from './components/ver-mensajes/ver-mensajes.component';
+import { ListareportesComponent } from './components/foro/listareportes/listareportes.component'
 
 
 
@@ -64,7 +66,9 @@ import {VerMensajesComponent} from './components/ver-mensajes/ver-mensajes.compo
     ListarUsrComponent,
     ListarBUsrComponent,
     AdEdUsrComponent,
+    ComentarComponent,
     VerMensajesComponent,
+    ListareportesComponent,
   ],
   imports: [
     FormsModule,

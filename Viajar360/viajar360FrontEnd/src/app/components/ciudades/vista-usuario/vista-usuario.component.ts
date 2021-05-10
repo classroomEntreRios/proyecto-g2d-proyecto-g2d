@@ -22,6 +22,7 @@ export class VistaUsuarioComponent implements OnInit {
     nombre:"",
     detalles:"",
     ubicacion:"",
+    foto:"",
   }
   primera = true;
   constructor(public serviceCiudades: AdminCiudadesService, public serviceAtracciones: AtraccionesService) { }
@@ -44,12 +45,19 @@ export class VistaUsuarioComponent implements OnInit {
   }
   cargarAtracciones(info){
     this.cargando=true;
-    this.serviceAtracciones.obtenerAtracciones(info).subscribe(data =>{
+    this.serviceAtracciones.ciudadAtracciones(info).subscribe(data =>{
       this.Atracciones = data;
       this.sel_atracc = this.Atracciones[0].nombre;
       this.info.detalles = this.Atracciones[0].detalles;
       this.info.ubicacion = this.Atracciones[0].ubicacion;
       this.info.nombre = this.Atracciones[0].nombre
+      if(this.Atracciones[0].foto != null){
+        this.info.foto = this.Atracciones[0].foto
+      }
+      else
+      {
+        this.info.foto = "";
+      }
       this.cargando = false;
     });
   }

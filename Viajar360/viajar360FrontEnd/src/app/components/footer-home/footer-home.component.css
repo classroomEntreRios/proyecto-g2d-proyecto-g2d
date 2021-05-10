@@ -1,7 +1,9 @@
+  
 .footer{
   width: 100%;
+  
   bottom: 0%;
-  left:0%;
+  left:0%;   
   bottom:0%;
   height:6%;
   background: rgb(255,179,0);
@@ -13,7 +15,3 @@
 p{
   padding-top: 1%;
 }
-
-
-
-

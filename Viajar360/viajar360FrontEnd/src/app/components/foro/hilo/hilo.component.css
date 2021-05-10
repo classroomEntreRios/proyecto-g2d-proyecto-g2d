@@ -1,9 +1,44 @@
 .foro {
-  display: block;
-  margin: auto;
-}
+    display: block;
+    margin: auto;
+  }
+  
+  .espacio {
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  
+  .btn {
+    margin-left: 80%;
+    background-color: orange;
+    color: #333;
+  }
+  
+  thead {
+    background-color: orange;
+  }
+  
+  th {
+    color: white;
+  }
+  
+  td {
+    color: black;
+    font-weight: 500;
+  }
 
-.espacio {
-  padding-top: 2%;
-  padding-bottom: 2%;
-}
+  .opc{
+    color: orange
+  }
+
+  .opc:hover{
+    color: brown;
+  }
+  .opc:active{
+    color: blue;
+  }
+  
+  h3{
+    color: #666;
+  }
+  

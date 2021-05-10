@@ -14,7 +14,7 @@ export class GuidService {
   }
 
   GenerarGuid() : Observable<any>{
-    return this.http.get('https://localhost:44389/api/getguid');
+    return this.http.get('https://viajar360.azurewebsites.net/api/getguid');
   }
   SetGUID(guid:string){
     this.cookie.set('identificador', guid);

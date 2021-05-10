@@ -1,0 +1,39 @@
+<div class="container custom-container-2">
+    <div *ngIf="!primera">
+        <h3 class="mb-3 text-center">Lista de Comentarios Reportados</h3>
+        <div class="col-md-12">
+            <table class="table table-bordered" *ngIf="Comentarios.lenght != 0; else vacio">
+                <thead>
+                    <tr>
+                        <th scope="col">Id Comentario</th>
+                        <th scope="col">Nombre de usuario</th>
+                        <th scope="col">Mensaje</th>
+                        <th scope="col">reportes</th>
+                        <th scope="col">Opciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let comentario of Comentarios">
+                        <td>{{comentario.id_comentario}}</td>
+                        <td>{{comentario.id_tema}}</td>
+                        <td>{{comentario.mensaje}}</td>
+                        <td>{{comentario.id_usuario}}</td>
+                        <td>
+                            <span class="botonera" (click)="BorrarComentario(comentario.id_comentario)">Borrar</span>
+                            <span> - </span>
+                            <span class="botonera" routerLink="/foro/tema/{{comentario.id_tema}}">Ir al tema</span>
+                            <span> - </span>
+                            <span class="botonera" (click)="PerdonarComentario(comentario.id_comentario)">Perdonar Reportes</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <ng-template #vacio>
+                No hay comentarios reportados
+            </ng-template>
+        </div>
+    </div>
+    <ng-template>
+        <img src="/assets/carga.gif" height="50%" width="50%">
+    </ng-template>
+</div>

@@ -26,6 +26,9 @@
             <div class="item">
                 Descripción: {{info.detalles}}
             </div>
+            <div class="item">
+                <img [src]="info.foto" *ngIf="info.foto != ''"/>
+            </div>
         </div>
         <ng-template #cargando>
             <img class="spinner" src="/assets/carga.gif" height="50%" width="50%">

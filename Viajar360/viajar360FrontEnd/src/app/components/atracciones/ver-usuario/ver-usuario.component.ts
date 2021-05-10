@@ -14,6 +14,7 @@ export class VerUsuarioComponent implements OnInit {
     nombre:"",
     detalles:"",
     ubicacion:"",
+    foto:"",
   }
   constructor(public AtrSrv: AtraccionesService) { }
 
@@ -34,6 +35,13 @@ export class VerUsuarioComponent implements OnInit {
         this.info.detalles = data.detalles;
         this.info.ubicacion = data.ubicacion;
         this.info.nombre = data.nombre
+        if(data.foto != null){
+          this.info.foto = data.foto;
+        }
+        else
+        {
+          this.info.foto = "";
+        }
       }
     });
   }

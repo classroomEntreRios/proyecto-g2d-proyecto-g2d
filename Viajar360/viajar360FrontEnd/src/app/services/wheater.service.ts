@@ -20,7 +20,7 @@ URI: string="";
   }
 
   GetLocation(ciudad:string){
-    return this.http.get("http://api.openweathermap.org/geo/1.0/direct?q="+ciudad+",ar&limit=1&appid="+this.apiKey);
+    return this.http.get("https://api.openweathermap.org/geo/1.0/direct?q="+ciudad+",ar&limit=1&appid="+this.apiKey);
   }
 
   GetForecast(entrada: any){

@@ -3,7 +3,7 @@
     <div *ngIf="carga_completa; else cargando">
         <div class="cartel">
             <h2>Perfil de: {{usuario.user}}</h2>
-            <div *ngIf="usuario.foto!=''"><img [src]="'https://localhost:44389/'+usuario.foto" class="foto_perfil"/><br></div>
+            <div *ngIf="usuario.foto!=''"><img [src]="usuario.foto" class="foto_perfil"/><br></div>
             <div *ngIf="usuario.nombre!=''"><label>Nombre: {{usuario.nombre}}</label><br></div>
             <div *ngIf="usuario.apellido!=''"><label>apellido: {{usuario.apellido}}</label><br></div>
             <div *ngIf="usuario.direccion!=''"><label>direccion: {{usuario.direccion}}</label><br></div>

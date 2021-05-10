@@ -1,18 +1,56 @@
+<app-general-nav></app-general-nav>
 <div class="container espacio">
   <div class="row">
-  <div class="col-md-12">
-    <img class="img-fluid foro" src="..\assets\foro.png" alt="foro viajar 360">
+    <div class="col-md-12">
+      <img class="img-fluid foro" src="..\assets\foro.png" alt="foro viajar 360">
+    </div>
   </div>
 </div>
 
-<div>
-    Este es el Hilo N°{{id}}, de aca en adelante es tu trabajo guille ----> ¡perdóóóname chavoo!
+<div *ngIf="!primera; else cargando">
+  <div *ngIf="comentarios.length !== 0; else vacio">
+    <table class="table table-bordered">
+      <thead>
+        <tr> 
+            <th scope="col" style="max-width: 10vh; max-height: 10vh;">Usuario</th>
+            <th scope="col">Comentario</th>
+            <th scope="col" *ngIf="iniciosesion">Opciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let comentario of comentarios">
+            <td style="max-width: 10vh; max-height: 10vh;">
+              <label class="opc" routerLink="/verperfil/{{comentario.id_usuario}}">{{ObtenerUsuario(comentario.id_usuario).m_Item2}}</label><br>
+              <img [src]="ObtenerUsuario(comentario.id_usuario).m_Item3" height="50px" width="50px" *ngIf="ObtenerUsuario(comentario.id_usuario).m_Item3!=''">
+            </td>
+            <td>
+              <label>{{comentario.mensaje}}</label><br>
+              <label>{{comentario.fecha}}</label>
+            </td>
+            <td *ngIf="iniciosesion">
+              <span class="botonera opc" (click)="reportarComentario(comentario.id_comentario)">reportar</span>
+              <span> - </span>
+              <span class="botonera opc" *ngIf="valido(comentario.id_usuario)||administrador" (click)="borrarComentario(comentario.id_comentario)">Borrar</span>
+            </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <ng-template #vacio>
+    <h3>No hay comentarios, se el primero en comentar</h3>
+  </ng-template>
+
 </div>
+
+<ng-template #cargando>
+  <img src="/assets/carga.gif" height="50%" width="50%">
+</ng-template>
 
 <div class="container">
   <div class="row">
       <div class="col-md-12">
-      <a routerLink="/temas">Volver a la lista de temas</a>
+        <button class="btn" routerLink="/foro" style="color:#333">Volver a la lista de temas</button>
       </div>
   </div>
 </div>
+<app-comentar></app-comentar>
