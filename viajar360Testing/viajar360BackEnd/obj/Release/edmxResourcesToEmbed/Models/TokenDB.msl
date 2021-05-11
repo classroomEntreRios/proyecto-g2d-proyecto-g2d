@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TokenModelStoreContainer" CdmEntityContainer="TokenEntities">
+    <EntitySetMapping Name="Token">
+      <EntityTypeMapping TypeName="TokenModel.Token">
+        <MappingFragment StoreEntitySet="Token">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="usuario" ColumnName="usuario" />
+          <ScalarProperty Name="token1" ColumnName="token" />
+          <ScalarProperty Name="vencimiento" ColumnName="vencimiento" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

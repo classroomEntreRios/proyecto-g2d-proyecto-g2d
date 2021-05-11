@@ -16,25 +16,25 @@ export class AdminCiudadesService {
   // Traer ciudad desde el back
 
   getCiudad(id): Observable<any> {
-    return this.http.get("https://viajar360.azurewebsites.net/api/obtenerciudad/"+id);
+    return this.http.get("https://localhost:44389/api/obtenerciudad/"+id);
   }
 
 //Traer lista de ciudades
 
   getCiudades(): Observable<any> {
-    return this.http.get("https://viajar360.azurewebsites.net/api/listarciudades");
+    return this.http.get("https://localhost:44389/api/listarciudades");
   }
 
   createCiudad(info:any): Observable<any> {
-    return this.http.post("https://viajar360.azurewebsites.net/api/crearciudad", info);
+    return this.http.post("https://localhost:44389/api/crearciudad", info);
   }
 
   actualizarCiudad(info:any): Observable<any> {
-    return this.http.post("https://viajar360.azurewebsites.net/api/editarciudad", info);
+    return this.http.post("https://localhost:44389/api/editarciudad", info);
   }
 
   deleteCiudad(datos:any): Observable<any>{
-    return this.http.post("https://viajar360.azurewebsites.net/api/borrarciudad",datos);
+    return this.http.post("https://localhost:44389/api/borrarciudad",datos);
   }
 
 }

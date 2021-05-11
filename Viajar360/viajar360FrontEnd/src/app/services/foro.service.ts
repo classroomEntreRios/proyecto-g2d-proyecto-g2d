@@ -9,51 +9,51 @@ export class ForoService {
 
   constructor(private http: HttpClient) { }
   getTemas(): Observable<any> {
-    return this.http.get("https://viajar360.azurewebsites.net/api/temas");
+    return this.http.get("https://localhost:44389/api/temas");
   }
 
   crearTema(tema: any): Observable<any> {
-    return this.http.post("https://viajar360.azurewebsites.net/api/creartemas", tema);
+    return this.http.post("https://localhost:44389/api/creartemas", tema);
   }
   
   getComentarios(id: string): Observable<any> {
-    return this.http.get("https://viajar360.azurewebsites.net/api/listarcomentarios/"+id);
+    return this.http.get("https://localhost:44389/api/listarcomentarios/"+id);
   }
 
   Comentar(envio: any): Observable<any> {
-    return this.http.post("https://viajar360.azurewebsites.net/api/crearcomentario", envio);
+    return this.http.post("https://localhost:44389/api/crearcomentario", envio);
   }
 
   BorrarComentario(envio: any): Observable<any> {
-    return this.http.post("https://viajar360.azurewebsites.net/api/borrarcomentario",envio);
+    return this.http.post("https://localhost:44389/api/borrarcomentario",envio);
   }
 
   perdonarComentario(envio: any): Observable<any> {
-    return this.http.post("https://viajar360.azurewebsites.net/api/perdonarcomentario",envio);
+    return this.http.post("https://localhost:44389/api/perdonarcomentario",envio);
   }
 
   BorrarTema(envio: any): Observable<any> {
-    return this.http.post("https://viajar360.azurewebsites.net/api/borrarhilo",envio)
+    return this.http.post("https://localhost:44389/api/borrarhilo",envio)
   }
 
   CerrarTema(envio: any): Observable<any> {
-    return this.http.post("https://viajar360.azurewebsites.net/api/cerrarhilo",envio);
+    return this.http.post("https://localhost:44389/api/cerrarhilo",envio);
   }
 
   AbrirTema(envio: any): Observable<any> {
-    return this.http.post("https://viajar360.azurewebsites.net/api/reabrirhilo",envio);
+    return this.http.post("https://localhost:44389/api/reabrirhilo",envio);
   }
 
   reportarComentario(envio: any): Observable<any> {
-    return this.http.post("https://viajar360.azurewebsites.net/api/reportarcomentario", envio);
+    return this.http.post("https://localhost:44389/api/reportarcomentario", envio);
   }
 
   listarReportados(): Observable<any> {
-    return this.http.get("https://viajar360.azurewebsites.net/api/lscomreport");
+    return this.http.get("https://localhost:44389/api/lscomreport");
   }
 
   obtenerUserid(envio: any): Observable<any> {
-    return this.http.post("https://viajar360.azurewebsites.net/api/getuid",envio);
+    return this.http.post("https://localhost:44389/api/getuid",envio);
   }
 
 }

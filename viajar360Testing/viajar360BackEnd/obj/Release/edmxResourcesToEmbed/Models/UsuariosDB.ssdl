@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="UsuariosModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012.Azure" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="id_usuario" />
+    </Key>
+    <Property Name="id_usuario" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="username" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="password" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="apellido" Type="varchar" MaxLength="20" />
+    <Property Name="nombre" Type="varchar" MaxLength="20" />
+    <Property Name="mail" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="direccion" Type="varchar" MaxLength="30" />
+    <Property Name="telefono" Type="varchar" MaxLength="20" />
+    <Property Name="localidad" Type="varchar" MaxLength="25" />
+    <Property Name="provincia" Type="varchar" MaxLength="25" />
+    <Property Name="foto" Type="varchar" MaxLength="50" />
+    <Property Name="estado" Type="varchar" MaxLength="1" Nullable="false" />
+    <Property Name="fecha_kick" Type="datetime" />
+    <Property Name="motivo" Type="varchar" MaxLength="200" />
+    <Property Name="reset_password" Type="bit" Nullable="false" />
+    <Property Name="modificaciones" Type="varchar" MaxLength="17" Nullable="false" />
+    <Property Name="salt" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="UsuariosModelStoreContainer">
+    <EntitySet Name="Usuario" EntityType="Self.Usuario" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "AtraccionesEntities"
+    },
+    "mssql2": {
+      "type": "mssql",
+      "connectionId": "ChatEntities"
+    },
+    "mssql3": {
+      "type": "mssql",
+      "connectionId": "CiudadesEntities"
+    },
+    "mssql4": {
+      "type": "mssql",
+      "connectionId": "ForoEntities"
+    },
+    "mssql5": {
+      "type": "mssql",
+      "connectionId": "TokenEntities"
+    },
+    "mssql6": {
+      "type": "mssql",
+      "connectionId": "UsuariosEntities"
+    }
+  }
+}

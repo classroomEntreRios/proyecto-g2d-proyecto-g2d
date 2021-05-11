@@ -13,10 +13,10 @@ export class AdminChatService {
   //Traer lista de ciudades
 
   getChat(entrada: any): Observable<any> {
-    return this.http.post("https://viajar360.azurewebsites.net/api/contestar",entrada);
+    return this.http.post("https://localhost:44389/api/contestar",entrada);
   }
  
   actualizarChat(info:any): Observable<any> {
-    return this.http.post("https://viajar360.azurewebsites.net/api/responder", info);
+    return this.http.post("https://localhost:44389/api/responder", info);
   }
 }

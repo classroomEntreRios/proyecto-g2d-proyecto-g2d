@@ -1,0 +1,250 @@
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\viajar360BackEnd.dll.config
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\viajar360BackEnd.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\viajar360BackEnd.pdb
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\csc.exe
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\csc.exe.config
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\csc.rsp
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\csi.exe
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\csi.exe.config
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\csi.rsp
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\Microsoft.Managed.Core.targets
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\System.AppContext.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\System.Collections.Immutable.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\System.Console.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\System.Globalization.Calendars.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\System.IO.Compression.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\System.IO.FileSystem.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\System.Net.Http.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\System.Net.Sockets.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\System.Reflection.Metadata.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\System.ValueTuple.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\System.Xml.XmlDocument.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\System.Xml.XPath.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\vbc.exe
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\vbc.exe.config
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\vbc.rsp
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\VBCSCompiler.exe
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\roslyn\VBCSCompiler.exe.config
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\Antlr3.Runtime.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\EntityFramework.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\EntityFramework.SqlServer.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\Microsoft.AspNetCore.Cors.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\Microsoft.AspNetCore.Http.Extensions.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\Microsoft.Extensions.Options.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\Microsoft.Extensions.Primitives.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\Microsoft.Net.Http.Headers.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\Microsoft.Web.Infrastructure.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\Newtonsoft.Json.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\System.Buffers.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\System.ComponentModel.Annotations.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\System.Memory.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\System.Net.Http.Formatting.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\System.Numerics.Vectors.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\System.Text.Encodings.Web.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\System.Web.Cors.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\System.Web.Helpers.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\System.Web.Http.Cors.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\System.Web.Http.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\System.Web.Http.WebHost.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\System.Web.Mvc.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\System.Web.Optimization.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\System.Web.Razor.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\System.Web.WebPages.Deployment.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\System.Web.WebPages.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\System.Web.WebPages.Razor.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\WebGrease.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\EntityFramework.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\EntityFramework.SqlServer.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\Microsoft.AspNetCore.Cors.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\Microsoft.AspNetCore.Http.Extensions.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\Microsoft.Extensions.Options.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\Microsoft.Extensions.Primitives.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\Microsoft.Net.Http.Headers.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\System.Buffers.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\System.Memory.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\System.Numerics.Vectors.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\System.Text.Encodings.Web.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\System.Web.Http.Cors.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\System.Web.Helpers.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\System.Web.Mvc.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\System.Web.Optimization.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\System.Web.Razor.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\System.Web.WebPages.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\System.Web.WebPages.Deployment.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\System.Web.WebPages.Razor.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\Newtonsoft.Json.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\Antlr3.Runtime.pdb
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\System.Net.Http.Formatting.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\System.Web.Http.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\System.Web.Http.WebHost.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\obj\Release\viajar360BackEnd.csprojAssemblyReference.cache
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\obj\Release\viajar360BackEnd.csproj.CoreCompileInputs.cache
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\obj\Release\viajar360BackEnd.csproj.CopyComplete
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\obj\Release\viajar360BackEnd.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\obj\Release\viajar360BackEnd.pdb
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\viajar360BackEnd.dll.config
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\viajar360BackEnd.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\viajar360BackEnd.pdb
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\csc.exe
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\csc.exe.config
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\csc.rsp
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\csi.exe
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\csi.exe.config
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\csi.rsp
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\Microsoft.Managed.Core.targets
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\System.AppContext.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\System.Collections.Immutable.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\System.Console.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\System.Globalization.Calendars.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\System.IO.Compression.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\System.IO.FileSystem.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\System.Net.Http.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\System.Net.Sockets.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\System.Reflection.Metadata.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\System.ValueTuple.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\System.Xml.XmlDocument.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\System.Xml.XPath.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\vbc.exe
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\vbc.exe.config
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\vbc.rsp
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\VBCSCompiler.exe
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\roslyn\VBCSCompiler.exe.config
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\Antlr3.Runtime.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\EntityFramework.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\EntityFramework.SqlServer.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\Microsoft.AspNetCore.Cors.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\Microsoft.AspNetCore.Http.Extensions.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\Microsoft.Extensions.Options.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\Microsoft.Extensions.Primitives.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\Microsoft.Net.Http.Headers.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\Microsoft.Web.Infrastructure.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\Newtonsoft.Json.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\System.Buffers.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\System.ComponentModel.Annotations.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\System.Memory.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\System.Net.Http.Formatting.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\System.Numerics.Vectors.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\System.Text.Encodings.Web.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\System.Web.Cors.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\System.Web.Helpers.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\System.Web.Http.Cors.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\System.Web.Http.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\System.Web.Http.WebHost.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\System.Web.Mvc.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\System.Web.Optimization.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\System.Web.Razor.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\System.Web.WebPages.Deployment.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\System.Web.WebPages.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\System.Web.WebPages.Razor.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\WebGrease.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\EntityFramework.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\EntityFramework.SqlServer.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\Microsoft.AspNetCore.Cors.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\Microsoft.AspNetCore.Http.Extensions.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\Microsoft.Extensions.Options.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\Microsoft.Extensions.Primitives.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\Microsoft.Net.Http.Headers.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\System.Buffers.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\System.Memory.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\System.Numerics.Vectors.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\System.Text.Encodings.Web.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\System.Web.Http.Cors.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\System.Web.Helpers.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\System.Web.Mvc.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\System.Web.Optimization.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\System.Web.Razor.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\System.Web.WebPages.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\System.Web.WebPages.Deployment.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\System.Web.WebPages.Razor.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\Newtonsoft.Json.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\Antlr3.Runtime.pdb
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\System.Net.Http.Formatting.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\System.Web.Http.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\System.Web.Http.WebHost.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\obj\Release\viajar360BackEnd.csprojAssemblyReference.cache
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\obj\Release\viajar360BackEnd.csproj.CoreCompileInputs.cache
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\obj\Release\viajar360BackEnd.csproj.CopyComplete
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\obj\Release\viajar360BackEnd.dll
+D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd - copia\viajar360BackEnd\obj\Release\viajar360BackEnd.pdb

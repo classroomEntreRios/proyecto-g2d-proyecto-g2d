@@ -1,0 +1,90 @@
+{
+  "dependencies": {
+    "mssql4": {
+      "restored": true,
+      "restoreTime": "2021-05-10T19:35:42.0955173Z"
+    },
+    "mssql3": {
+      "restored": true,
+      "restoreTime": "2021-05-10T19:35:03.8709984Z"
+    },
+    "mssql2": {
+      "restored": true,
+      "restoreTime": "2021-05-10T19:34:21.243021Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2021-05-10T19:33:41.9805141Z"
+    },
+    "mssql6": {
+      "restored": true,
+      "restoreTime": "2021-05-10T19:36:58.3370706Z"
+    },
+    "mssql5": {
+      "restored": true,
+      "restoreTime": "2021-05-10T19:36:18.5370587Z"
+    }
+  },
+  "parameters": {
+    "mssql6.subscriptionId": {
+      "Name": "mssql6.subscriptionId",
+      "Type": "subscription",
+      "Value": "eea16d4f-07fc-4a6e-942c-59edd58fec5e"
+    },
+    "mssql3.subscriptionId": {
+      "Name": "mssql3.subscriptionId",
+      "Type": "subscription",
+      "Value": "eea16d4f-07fc-4a6e-942c-59edd58fec5e"
+    },
+    "mssql2.subscriptionId": {
+      "Name": "mssql2.subscriptionId",
+      "Type": "subscription",
+      "Value": "eea16d4f-07fc-4a6e-942c-59edd58fec5e"
+    },
+    "mssql5.resourceGroupName": {
+      "Name": "mssql5.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "DefaultResourceGroup-EUS"
+    },
+    "mssql4.resourceGroupName": {
+      "Name": "mssql4.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "DefaultResourceGroup-EUS"
+    },
+    "mssql5.subscriptionId": {
+      "Name": "mssql5.subscriptionId",
+      "Type": "subscription",
+      "Value": "eea16d4f-07fc-4a6e-942c-59edd58fec5e"
+    },
+    "mssql4.subscriptionId": {
+      "Name": "mssql4.subscriptionId",
+      "Type": "subscription",
+      "Value": "eea16d4f-07fc-4a6e-942c-59edd58fec5e"
+    },
+    "mssql2.resourceGroupName": {
+      "Name": "mssql2.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "DefaultResourceGroup-EUS"
+    },
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "eea16d4f-07fc-4a6e-942c-59edd58fec5e"
+    },
+    "mssql6.resourceGroupName": {
+      "Name": "mssql6.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "DefaultResourceGroup-EUS"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "DefaultResourceGroup-EUS"
+    },
+    "mssql3.resourceGroupName": {
+      "Name": "mssql3.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "DefaultResourceGroup-EUS"
+    }
+  }
+}

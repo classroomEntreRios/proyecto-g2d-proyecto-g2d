@@ -57,7 +57,7 @@ export class PerfilUsuarioComponent implements OnInit {
         })
         if(data2.objeto.foto!=null){
           this.defecto = data2.objeto.foto
-          this.imageUrl = "https://localhost:44389"+this.defecto;
+          this.imageUrl = this.defecto;
         }
         this.carga_completa = true
       });

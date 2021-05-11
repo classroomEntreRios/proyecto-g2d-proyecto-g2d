@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\obj\Release\Package\PackageTmp" />
+  <setAcl path="D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="D:\CHICOS\matias\Documentos\Documentos Facultad\Curso de Fullstack ispc\Git Grupo 2D\viajar360BackEnd\viajar360BackEnd\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+</sitemanifest>

@@ -1,0 +1,40 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/viajar360/databases/Viajar360",
+      "type": "mssql.azure",
+      "connectionId": "AtraccionesEntities",
+      "secretStore": "AzureAppSettings"
+    },
+    "mssql2": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/viajar360/databases/Viajar360",
+      "type": "mssql.azure",
+      "connectionId": "ChatEntities",
+      "secretStore": "AzureAppSettings"
+    },
+    "mssql3": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/viajar360/databases/Viajar360",
+      "type": "mssql.azure",
+      "connectionId": "CiudadesEntities",
+      "secretStore": "AzureAppSettings"
+    },
+    "mssql4": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/viajar360/databases/Viajar360",
+      "type": "mssql.azure",
+      "connectionId": "ForoEntities",
+      "secretStore": "AzureAppSettings"
+    },
+    "mssql5": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/viajar360/databases/Viajar360",
+      "type": "mssql.azure",
+      "connectionId": "TokenEntities",
+      "secretStore": "AzureAppSettings"
+    },
+    "mssql6": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/viajar360/databases/Viajar360",
+      "type": "mssql.azure",
+      "connectionId": "UsuariosEntities",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
